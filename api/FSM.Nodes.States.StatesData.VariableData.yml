@@ -21,7 +21,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: VariableData
-    path: Assets/FSM/Nodes/States/StatesData/VariableData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/VariableData.cs
     startLine: 2
   assemblies:
   - FSM
@@ -56,7 +56,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedVariable
-    path: Assets/FSM/Nodes/States/StatesData/VariableData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/VariableData.cs
     startLine: 4
   assemblies:
   - FSM
@@ -83,7 +83,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: value
-    path: Assets/FSM/Nodes/States/StatesData/VariableData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/VariableData.cs
     startLine: 5
   assemblies:
   - FSM
@@ -110,7 +110,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StatesData/VariableData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/VariableData.cs
     startLine: 7
   assemblies:
   - FSM

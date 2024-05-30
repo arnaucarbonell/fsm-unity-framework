@@ -22,7 +22,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SearchStateScript
-    path: Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
     startLine: 5
   assemblies:
   - FSM
@@ -65,7 +65,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: exploreRadius
-    path: Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
     startLine: 7
   assemblies:
   - FSM
@@ -92,7 +92,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
     startLine: 12
   assemblies:
   - FSM
@@ -121,7 +121,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Execute
-    path: Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
     startLine: 19
   assemblies:
   - FSM
@@ -151,7 +151,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: HasReachedDestination
-    path: Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SearchStateScript.cs
     startLine: 50
   assemblies:
   - FSM

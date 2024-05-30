@@ -21,7 +21,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmSearchWindow
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
     startLine: 11
   assemblies:
   - EditorWindow
@@ -52,7 +52,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
     startLine: 19
   assemblies:
   - EditorWindow
@@ -84,7 +84,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CreateSearchTree
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
     startLine: 31
   assemblies:
   - EditorWindow
@@ -119,7 +119,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: OnSelectEntry
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
     startLine: 144
   assemblies:
   - EditorWindow

@@ -18,7 +18,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: MouseLook
-    path: Assets/FSM/Player/MouseLook.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Player/MouseLook.cs
     startLine: 6
   assemblies:
   - FSM

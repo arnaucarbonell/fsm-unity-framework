@@ -26,7 +26,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: StateScript
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 11
   assemblies:
   - FSM
@@ -84,7 +84,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Player
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 18
   assemblies:
   - FSM
@@ -113,7 +113,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Agent
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 22
   assemblies:
   - FSM
@@ -142,7 +142,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: InspectVariables
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 40
   assemblies:
   - FSM
@@ -173,7 +173,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetVariables
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 85
   assemblies:
   - FSM
@@ -204,7 +204,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SetVariableValue
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 104
   assemblies:
   - FSM
@@ -242,7 +242,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SetStateName
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 147
   assemblies:
   - FSM
@@ -277,7 +277,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetStateName
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 156
   assemblies:
   - FSM
@@ -308,7 +308,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: HideFlagsInspector
-    path: Assets/FSM/Nodes/States/StateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScript.cs
     startLine: 164
   assemblies:
   - FSM

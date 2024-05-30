@@ -22,7 +22,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SerializableKeyValuePair
-    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/SerializableDictionary.cs
     startLine: 24
   assemblies:
   - FSM
@@ -60,7 +60,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Key
-    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/SerializableDictionary.cs
     startLine: 27
   assemblies:
   - FSM
@@ -89,7 +89,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Value
-    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/SerializableDictionary.cs
     startLine: 28
   assemblies:
   - FSM
@@ -118,7 +118,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/SerializableDictionary.cs
     startLine: 30
   assemblies:
   - FSM
@@ -152,7 +152,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SetValue
-    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/SerializableDictionary.cs
     startLine: 36
   assemblies:
   - FSM

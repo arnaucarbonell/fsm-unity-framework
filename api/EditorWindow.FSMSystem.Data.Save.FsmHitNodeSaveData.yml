@@ -23,7 +23,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmHitNodeSaveData
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
     startLine: 7
   assemblies:
   - EditorWindow
@@ -62,7 +62,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: HasHitOverride
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
     startLine: 13
   assemblies:
   - EditorWindow
@@ -93,7 +93,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CanGetHit
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
     startLine: 17
   assemblies:
   - EditorWindow
@@ -124,7 +124,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: TimeToWait
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
     startLine: 21
   assemblies:
   - EditorWindow
@@ -155,7 +155,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CanDie
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
     startLine: 25
   assemblies:
   - EditorWindow
@@ -186,7 +186,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmHitNodeSaveData.cs
     startLine: 33
   assemblies:
   - EditorWindow

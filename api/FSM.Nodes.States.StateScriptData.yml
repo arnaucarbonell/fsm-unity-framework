@@ -24,7 +24,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: StateScriptData
-    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScriptData.cs
     startLine: 9
   assemblies:
   - FSM
@@ -68,7 +68,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: InspectVariables
-    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScriptData.cs
     startLine: 16
   assemblies:
   - FSM
@@ -99,7 +99,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetVariables
-    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScriptData.cs
     startLine: 62
   assemblies:
   - FSM
@@ -130,7 +130,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SetVariableValue
-    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScriptData.cs
     startLine: 81
   assemblies:
   - FSM
@@ -168,7 +168,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: RemoveVariable
-    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScriptData.cs
     startLine: 118
   assemblies:
   - FSM
@@ -206,7 +206,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SetStateName
-    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScriptData.cs
     startLine: 147
   assemblies:
   - FSM
@@ -241,7 +241,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetStateName
-    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScriptData.cs
     startLine: 156
   assemblies:
   - FSM

@@ -20,7 +20,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmHoverPopupWindow
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
     startLine: 9
   assemblies:
   - EditorWindow
@@ -50,7 +50,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: OnGUI
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
     startLine: 15
   assemblies:
   - EditorWindow
@@ -83,7 +83,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetWindowSize
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
     startLine: 28
   assemblies:
   - EditorWindow

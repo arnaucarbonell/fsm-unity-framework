@@ -22,7 +22,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmNodesContainerSo
-    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
     startLine: 4
   assemblies:
   - FSM
@@ -51,7 +51,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FileName
-    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
     startLine: 6
   assemblies:
   - FSM
@@ -80,7 +80,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: UngroupedNodes
-    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
     startLine: 7
   assemblies:
   - FSM
@@ -109,7 +109,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
     startLine: 9
   assemblies:
   - FSM
@@ -141,7 +141,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetUngroupedStateNames
-    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
     startLine: 15
   assemblies:
   - FSM

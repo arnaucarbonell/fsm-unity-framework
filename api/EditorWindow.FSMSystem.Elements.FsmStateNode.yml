@@ -21,7 +21,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmStateNode
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
     startLine: 22
   assemblies:
   - EditorWindow
@@ -85,7 +85,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
     startLine: 32
   assemblies:
   - EditorWindow
@@ -127,7 +127,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Draw
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
     startLine: 53
   assemblies:
   - EditorWindow
@@ -156,7 +156,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: UpdateHitEnable
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmStateNode.cs
     startLine: 340
   assemblies:
   - EditorWindow

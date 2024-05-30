@@ -23,7 +23,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CustomConditionScript
-    path: Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
     startLine: 5
   assemblies:
   - FSM
@@ -66,7 +66,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedGameObject
-    path: Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
     startLine: 8
   assemblies:
   - FSM
@@ -93,7 +93,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedComponent
-    path: Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
     startLine: 9
   assemblies:
   - FSM
@@ -120,7 +120,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedFunction
-    path: Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
     startLine: 10
   assemblies:
   - FSM
@@ -147,7 +147,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
     startLine: 12
   assemblies:
   - FSM
@@ -176,7 +176,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Condition
-    path: Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomConditionScript.cs
     startLine: 19
   assemblies:
   - FSM

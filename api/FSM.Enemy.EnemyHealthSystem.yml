@@ -25,7 +25,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: EnemyHealthSystem
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 7
   assemblies:
   - FSM
@@ -58,7 +58,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: maxHealth
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 9
   assemblies:
   - FSM
@@ -85,7 +85,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: TakeDamage
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 30
   assemblies:
   - FSM
@@ -120,7 +120,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Die
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 40
   assemblies:
   - FSM
@@ -148,7 +148,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetCurrentHealth
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 48
   assemblies:
   - FSM
@@ -178,7 +178,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetPreviousHealth
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 56
   assemblies:
   - FSM
@@ -208,7 +208,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SetPreviousHealth
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 65
   assemblies:
   - FSM
@@ -243,7 +243,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetMaxHealth
-    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enemy/EnemyHealthSystem.cs
     startLine: 73
   assemblies:
   - FSM

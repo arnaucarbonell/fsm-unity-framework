@@ -19,7 +19,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmInspector
-    path: Assets/EditorWindow/FSMSystem/Inspectors/FsmInspector.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Inspectors/FsmInspector.cs
     startLine: 16
   assemblies:
   - EditorWindow
@@ -63,7 +63,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: OnInspectorGUI
-    path: Assets/EditorWindow/FSMSystem/Inspectors/FsmInspector.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Inspectors/FsmInspector.cs
     startLine: 29
   assemblies:
   - EditorWindow

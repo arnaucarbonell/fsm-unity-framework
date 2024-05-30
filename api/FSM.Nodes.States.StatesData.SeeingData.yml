@@ -20,7 +20,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SeeingData
-    path: Assets/FSM/Nodes/States/StatesData/SeeingData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/SeeingData.cs
     startLine: 2
   assemblies:
   - FSM
@@ -55,7 +55,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: distance
-    path: Assets/FSM/Nodes/States/StatesData/SeeingData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/SeeingData.cs
     startLine: 4
   assemblies:
   - FSM
@@ -82,7 +82,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StatesData/SeeingData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/SeeingData.cs
     startLine: 6
   assemblies:
   - FSM

@@ -24,7 +24,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmHitStatePopup
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
     startLine: 10
   assemblies:
   - EditorWindow
@@ -54,7 +54,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
     startLine: 22
   assemblies:
   - EditorWindow
@@ -86,7 +86,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetWindowSize
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
     startLine: 33
   assemblies:
   - EditorWindow
@@ -118,7 +118,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: OnGUI
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
     startLine: 42
   assemblies:
   - EditorWindow
@@ -151,7 +151,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: IsHitStateEnabled
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
     startLine: 62
   assemblies:
   - EditorWindow
@@ -182,7 +182,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetTimeToWait
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
     startLine: 71
   assemblies:
   - EditorWindow
@@ -213,7 +213,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CanDie
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
     startLine: 80
   assemblies:
   - EditorWindow

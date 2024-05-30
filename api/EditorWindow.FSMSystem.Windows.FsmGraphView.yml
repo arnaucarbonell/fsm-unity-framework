@@ -25,7 +25,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmGraphView
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 19
   assemblies:
   - EditorWindow
@@ -61,7 +61,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 46
   assemblies:
   - EditorWindow
@@ -96,7 +96,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetCompatiblePorts
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 133
   assemblies:
   - EditorWindow
@@ -135,7 +135,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CreateNode
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 158
   assemblies:
   - EditorWindow
@@ -185,7 +185,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetLocalMousePosition
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 855
   assemblies:
   - EditorWindow
@@ -221,7 +221,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: ClearGraph
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 866
   assemblies:
   - EditorWindow
@@ -247,7 +247,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: ToggleMiniMap
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 873
   assemblies:
   - EditorWindow
@@ -273,7 +273,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetWindow
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
     startLine: 877
   assemblies:
   - EditorWindow

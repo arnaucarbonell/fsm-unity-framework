@@ -20,7 +20,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmStyleUtility
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
     startLine: 9
   assemblies:
   - EditorWindow
@@ -50,7 +50,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: AddClasses
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
     startLine: 17
   assemblies:
   - EditorWindow
@@ -92,7 +92,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: AddStyleSheets
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
     startLine: 33
   assemblies:
   - EditorWindow

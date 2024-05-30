@@ -26,7 +26,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmIOUtility
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 23
   assemblies:
   - EditorWindow
@@ -55,7 +55,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 43
   assemblies:
   - EditorWindow
@@ -99,7 +99,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Save
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 62
   assemblies:
   - EditorWindow
@@ -130,7 +130,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Load
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 193
   assemblies:
   - EditorWindow
@@ -158,7 +158,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: LoadNode
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 240
   assemblies:
   - EditorWindow
@@ -199,7 +199,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CreateJson
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 491
   assemblies:
   - EditorWindow
@@ -237,7 +237,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CreateFolder
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 529
   assemblies:
   - EditorWindow
@@ -275,7 +275,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FindGameObjectWithId
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 619
   assemblies:
   - EditorWindow
@@ -316,7 +316,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: UpdateHitEnableOverrides
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
     startLine: 633
   assemblies:
   - EditorWindow

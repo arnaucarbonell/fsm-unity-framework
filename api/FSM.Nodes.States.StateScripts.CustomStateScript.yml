@@ -23,7 +23,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CustomStateScript
-    path: Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
     startLine: 3
   assemblies:
   - FSM
@@ -66,7 +66,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedGameObject
-    path: Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
     startLine: 6
   assemblies:
   - FSM
@@ -93,7 +93,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedComponent
-    path: Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
     startLine: 7
   assemblies:
   - FSM
@@ -120,7 +120,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedFunction
-    path: Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
     startLine: 8
   assemblies:
   - FSM
@@ -147,7 +147,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
     startLine: 10
   assemblies:
   - FSM
@@ -176,7 +176,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Execute
-    path: Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/CustomStateScript.cs
     startLine: 17
   assemblies:
   - FSM

@@ -19,7 +19,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CustomObjectField
-    path: Assets/FSM/Utilities/CustomObjectField.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/CustomObjectField.cs
     startLine: 10
   assemblies:
   - FSM
@@ -57,7 +57,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Utilities/CustomObjectField.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/CustomObjectField.cs
     startLine: 17
   assemblies:
   - FSM

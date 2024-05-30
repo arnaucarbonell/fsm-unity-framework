@@ -22,7 +22,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmOperands
-    path: Assets/FSM/Enumerations/FsmOperands.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmOperands.cs
     startLine: 5
   assemblies:
   - FSM
@@ -49,7 +49,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GreaterThan
-    path: Assets/FSM/Enumerations/FsmOperands.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmOperands.cs
     startLine: 7
   assemblies:
   - FSM
@@ -75,7 +75,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: LessThan
-    path: Assets/FSM/Enumerations/FsmOperands.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmOperands.cs
     startLine: 8
   assemblies:
   - FSM
@@ -101,7 +101,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: EqualTo
-    path: Assets/FSM/Enumerations/FsmOperands.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmOperands.cs
     startLine: 9
   assemblies:
   - FSM
@@ -127,7 +127,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: NotEqualTo
-    path: Assets/FSM/Enumerations/FsmOperands.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmOperands.cs
     startLine: 10
   assemblies:
   - FSM

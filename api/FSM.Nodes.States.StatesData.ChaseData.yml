@@ -21,7 +21,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: ChaseData
-    path: Assets/FSM/Nodes/States/StatesData/ChaseData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/ChaseData.cs
     startLine: 2
   assemblies:
   - FSM
@@ -56,7 +56,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: chaseSpeed
-    path: Assets/FSM/Nodes/States/StatesData/ChaseData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/ChaseData.cs
     startLine: 4
   assemblies:
   - FSM
@@ -83,7 +83,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: chaseRange
-    path: Assets/FSM/Nodes/States/StatesData/ChaseData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/ChaseData.cs
     startLine: 5
   assemblies:
   - FSM
@@ -110,7 +110,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StatesData/ChaseData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/ChaseData.cs
     startLine: 7
   assemblies:
   - FSM

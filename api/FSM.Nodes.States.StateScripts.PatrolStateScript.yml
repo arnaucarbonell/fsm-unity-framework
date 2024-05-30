@@ -23,7 +23,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: PatrolStateScript
-    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
     startLine: 6
   assemblies:
   - FSM
@@ -66,7 +66,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: patrolPoints
-    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
     startLine: 9
   assemblies:
   - FSM
@@ -93,7 +93,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
     startLine: 12
   assemblies:
   - FSM
@@ -122,7 +122,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Execute
-    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
     startLine: 21
   assemblies:
   - FSM
@@ -152,7 +152,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: RemovePatrolPoint
-    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
     startLine: 55
   assemblies:
   - FSM
@@ -184,7 +184,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FindGameObjectWithId
-    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
     startLine: 60
   assemblies:
   - FSM

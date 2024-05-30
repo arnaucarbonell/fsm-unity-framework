@@ -20,7 +20,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmNodeErrorData
-    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
     startLine: 9
   assemblies:
   - EditorWindow
@@ -49,7 +49,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: ErrorData
-    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
     startLine: 14
   assemblies:
   - EditorWindow
@@ -80,7 +80,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Nodes
-    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
     startLine: 19
   assemblies:
   - EditorWindow

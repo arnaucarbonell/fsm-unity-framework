@@ -19,7 +19,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmEnemyStateMachineEditor
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
     startLine: 13
   assemblies:
   - EditorWindow
@@ -48,7 +48,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GenerateScript
-    path: Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
     startLine: 21
   assemblies:
   - EditorWindow

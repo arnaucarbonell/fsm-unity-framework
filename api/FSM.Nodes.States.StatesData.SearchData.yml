@@ -20,7 +20,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SearchData
-    path: Assets/FSM/Nodes/States/StatesData/SearchData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/SearchData.cs
     startLine: 2
   assemblies:
   - FSM
@@ -55,7 +55,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: exploreRadius
-    path: Assets/FSM/Nodes/States/StatesData/SearchData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/SearchData.cs
     startLine: 4
   assemblies:
   - FSM
@@ -82,7 +82,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StatesData/SearchData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/SearchData.cs
     startLine: 6
   assemblies:
   - FSM

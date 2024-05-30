@@ -22,7 +22,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CustomData
-    path: Assets/FSM/Nodes/States/StatesData/CustomData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/CustomData.cs
     startLine: 2
   assemblies:
   - FSM
@@ -57,7 +57,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedGameObject
-    path: Assets/FSM/Nodes/States/StatesData/CustomData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/CustomData.cs
     startLine: 4
   assemblies:
   - FSM
@@ -84,7 +84,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedComponent
-    path: Assets/FSM/Nodes/States/StatesData/CustomData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/CustomData.cs
     startLine: 5
   assemblies:
   - FSM
@@ -111,7 +111,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: selectedFunction
-    path: Assets/FSM/Nodes/States/StatesData/CustomData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/CustomData.cs
     startLine: 6
   assemblies:
   - FSM
@@ -138,7 +138,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StatesData/CustomData.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StatesData/CustomData.cs
     startLine: 8
   assemblies:
   - FSM

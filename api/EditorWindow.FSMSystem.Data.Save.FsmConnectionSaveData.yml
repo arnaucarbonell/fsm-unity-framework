@@ -20,7 +20,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmConnectionSaveData
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
     startLine: 7
   assemblies:
   - EditorWindow
@@ -59,7 +59,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Text
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
     startLine: 13
   assemblies:
   - EditorWindow
@@ -90,7 +90,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: NodeId
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
     startLine: 17
   assemblies:
   - EditorWindow

@@ -21,7 +21,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SeeingConditionScript
-    path: Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
     startLine: 5
   assemblies:
   - FSM
@@ -64,7 +64,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: distance
-    path: Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
     startLine: 8
   assemblies:
   - FSM
@@ -91,7 +91,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: .ctor
-    path: Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
     startLine: 10
   assemblies:
   - FSM
@@ -120,7 +120,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Condition
-    path: Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/StateScripts/SeeingConditionScript.cs
     startLine: 17
   assemblies:
   - FSM

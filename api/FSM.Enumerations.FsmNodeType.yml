@@ -26,7 +26,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmNodeType
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 5
   assemblies:
   - FSM
@@ -53,7 +53,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: State
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 7
   assemblies:
   - FSM
@@ -79,7 +79,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Transition
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 8
   assemblies:
   - FSM
@@ -105,7 +105,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initial
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 9
   assemblies:
   - FSM
@@ -131,7 +131,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: DualTransition
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 10
   assemblies:
   - FSM
@@ -157,7 +157,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Extension
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 11
   assemblies:
   - FSM
@@ -183,7 +183,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CustomState
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 12
   assemblies:
   - FSM
@@ -209,7 +209,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: CustomCondition
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 13
   assemblies:
   - FSM
@@ -235,7 +235,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Variable
-    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Enumerations/FsmNodeType.cs
     startLine: 14
   assemblies:
   - FSM

@@ -18,7 +18,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SerializableDictionary
-    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/SerializableDictionary.cs
     startLine: 10
   assemblies:
   - FSM

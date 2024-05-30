@@ -20,7 +20,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmInitialNode
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmInitialNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmInitialNode.cs
     startLine: 13
   assemblies:
   - EditorWindow
@@ -85,7 +85,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmInitialNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmInitialNode.cs
     startLine: 21
   assemblies:
   - EditorWindow
@@ -127,7 +127,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Draw
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmInitialNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmInitialNode.cs
     startLine: 40
   assemblies:
   - EditorWindow

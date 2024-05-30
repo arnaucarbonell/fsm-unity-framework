@@ -23,7 +23,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmAnimatorSaveData
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
     startLine: 8
   assemblies:
   - EditorWindow
@@ -62,7 +62,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: AnimationTrigger
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
     startLine: 14
   assemblies:
   - EditorWindow
@@ -93,7 +93,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: ParameterName
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
     startLine: 18
   assemblies:
   - EditorWindow
@@ -124,7 +124,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: ParameterType
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
     startLine: 22
   assemblies:
   - EditorWindow
@@ -155,7 +155,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Value
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
     startLine: 26
   assemblies:
   - EditorWindow
@@ -186,7 +186,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmAnimatorSaveData.cs
     startLine: 34
   assemblies:
   - EditorWindow

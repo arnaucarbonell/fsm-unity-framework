@@ -18,7 +18,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: HierarchyChecker
-    path: Assets/FSM/Utilities/HierarchyChecker.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/HierarchyChecker.cs
     startLine: 9
   assemblies:
   - FSM

@@ -25,7 +25,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmGraphSaveData
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 7
   assemblies:
   - EditorWindow
@@ -56,7 +56,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FileName
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 12
   assemblies:
   - EditorWindow
@@ -87,7 +87,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: InitialState
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 16
   assemblies:
   - EditorWindow
@@ -118,7 +118,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Nodes
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 20
   assemblies:
   - EditorWindow
@@ -149,7 +149,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: OldNodeNames
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 24
   assemblies:
   - EditorWindow
@@ -180,7 +180,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GameObject
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 28
   assemblies:
   - EditorWindow
@@ -211,7 +211,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: HitData
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 32
   assemblies:
   - EditorWindow
@@ -242,7 +242,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
     startLine: 39
   assemblies:
   - EditorWindow

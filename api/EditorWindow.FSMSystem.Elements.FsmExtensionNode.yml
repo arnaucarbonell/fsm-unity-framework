@@ -21,7 +21,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmExtensionNode
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
     startLine: 13
   assemblies:
   - EditorWindow
@@ -85,7 +85,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Initialize
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
     startLine: 21
   assemblies:
   - EditorWindow
@@ -127,7 +127,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Draw
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
     startLine: 40
   assemblies:
   - EditorWindow
@@ -156,7 +156,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: SetStateName
-    path: Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Elements/FsmExtensionNode.cs
     startLine: 70
   assemblies:
   - EditorWindow

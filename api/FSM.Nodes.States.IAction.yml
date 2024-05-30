@@ -19,7 +19,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: IAction
-    path: Assets/FSM/Nodes/States/IAction.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/IAction.cs
     startLine: 5
   assemblies:
   - FSM
@@ -46,7 +46,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Execute
-    path: Assets/FSM/Nodes/States/IAction.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Nodes/States/IAction.cs
     startLine: 10
   assemblies:
   - FSM

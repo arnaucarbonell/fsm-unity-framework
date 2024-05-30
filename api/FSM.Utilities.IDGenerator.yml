@@ -21,7 +21,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: IDGenerator
-    path: Assets/FSM/Utilities/IDGenerator.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/IDGenerator.cs
     startLine: 7
   assemblies:
   - FSM
@@ -54,7 +54,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: uniqueID
-    path: Assets/FSM/Utilities/IDGenerator.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/IDGenerator.cs
     startLine: 9
   assemblies:
   - FSM
@@ -81,7 +81,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetUniqueID
-    path: Assets/FSM/Utilities/IDGenerator.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/IDGenerator.cs
     startLine: 15
   assemblies:
   - FSM
@@ -112,7 +112,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GenerateNewID
-    path: Assets/FSM/Utilities/IDGenerator.cs
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/IDGenerator.cs
     startLine: 28
   assemblies:
   - FSM

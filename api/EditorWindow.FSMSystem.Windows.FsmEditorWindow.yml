@@ -24,7 +24,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: FsmEditorWindow
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
     startLine: 15
   assemblies:
   - EditorWindow
@@ -56,7 +56,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: initialState
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
     startLine: 26
   assemblies:
   - EditorWindow
@@ -83,7 +83,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: OpenWithSaveData
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
     startLine: 34
   assemblies:
   - EditorWindow
@@ -115,7 +115,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: EnableSaving
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
     startLine: 203
   assemblies:
   - EditorWindow
@@ -141,7 +141,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: DisableSaving
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
     startLine: 207
   assemblies:
   - EditorWindow
@@ -167,7 +167,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetHitStatePopup
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
     startLine: 211
   assemblies:
   - EditorWindow
@@ -195,7 +195,7 @@ items:
       branch: main
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetWindow
-    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    path: ../Unity_FSM_ToolKit/Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
     startLine: 215
   assemblies:
   - EditorWindow
