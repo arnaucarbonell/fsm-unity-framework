@@ -1,0 +1,534 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.States.StateScriptData
+  commentId: T:FSM.Nodes.States.StateScriptData
+  id: StateScriptData
+  parent: FSM.Nodes.States
+  children:
+  - FSM.Nodes.States.StateScriptData.GetStateName
+  - FSM.Nodes.States.StateScriptData.GetVariables
+  - FSM.Nodes.States.StateScriptData.InspectVariables
+  - FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  - FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  - FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: StateScriptData
+  nameWithType: StateScriptData
+  fullName: FSM.Nodes.States.StateScriptData
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScriptData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: StateScriptData
+    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Data class for storing state script variables and metadata.
+  example: []
+  syntax:
+    content: public class StateScriptData
+    content.vb: Public Class StateScriptData
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - FSM.Nodes.States.StatesData.AttackData
+  - FSM.Nodes.States.StatesData.ChaseData
+  - FSM.Nodes.States.StatesData.CustomConditionData
+  - FSM.Nodes.States.StatesData.CustomData
+  - FSM.Nodes.States.StatesData.DistanceData
+  - FSM.Nodes.States.StatesData.FleeData
+  - FSM.Nodes.States.StatesData.HealthData
+  - FSM.Nodes.States.StatesData.HearingData
+  - FSM.Nodes.States.StatesData.IdleData
+  - FSM.Nodes.States.StatesData.NextStateData
+  - FSM.Nodes.States.StatesData.PatrolData
+  - FSM.Nodes.States.StatesData.SearchData
+  - FSM.Nodes.States.StatesData.SeeingData
+  - FSM.Nodes.States.StatesData.VariableData
+- uid: FSM.Nodes.States.StateScriptData.InspectVariables
+  commentId: M:FSM.Nodes.States.StateScriptData.InspectVariables
+  id: InspectVariables
+  parent: FSM.Nodes.States.StateScriptData
+  langs:
+  - csharp
+  - vb
+  name: InspectVariables()
+  nameWithType: StateScriptData.InspectVariables()
+  fullName: FSM.Nodes.States.StateScriptData.InspectVariables()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScriptData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: InspectVariables
+    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    startLine: 16
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Inspects public variables of the StateScriptData and returns their values.
+  example: []
+  syntax:
+    content: public List<string> InspectVariables()
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: A list of strings representing the inspected variables.
+    content.vb: Public Function InspectVariables() As List(Of String)
+  overload: FSM.Nodes.States.StateScriptData.InspectVariables*
+- uid: FSM.Nodes.States.StateScriptData.GetVariables
+  commentId: M:FSM.Nodes.States.StateScriptData.GetVariables
+  id: GetVariables
+  parent: FSM.Nodes.States.StateScriptData
+  langs:
+  - csharp
+  - vb
+  name: GetVariables()
+  nameWithType: StateScriptData.GetVariables()
+  fullName: FSM.Nodes.States.StateScriptData.GetVariables()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScriptData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetVariables
+    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    startLine: 62
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Retrieves public variables of the StateScriptData and returns them in a dictionary.
+  example: []
+  syntax:
+    content: public Dictionary<string, object> GetVariables()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: A dictionary containing variable names and their values.
+    content.vb: Public Function GetVariables() As Dictionary(Of String, Object)
+  overload: FSM.Nodes.States.StateScriptData.GetVariables*
+- uid: FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  commentId: M:FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  id: SetVariableValue(System.String,System.Object)
+  parent: FSM.Nodes.States.StateScriptData
+  langs:
+  - csharp
+  - vb
+  name: SetVariableValue(string, object)
+  nameWithType: StateScriptData.SetVariableValue(string, object)
+  fullName: FSM.Nodes.States.StateScriptData.SetVariableValue(string, object)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScriptData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetVariableValue
+    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    startLine: 81
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Sets the value of a public variable in the StateScriptData.
+  example: []
+  syntax:
+    content: public void SetVariableValue(string variableName, object newValue)
+    parameters:
+    - id: variableName
+      type: System.String
+      description: The name of the variable to set.
+    - id: newValue
+      type: System.Object
+      description: The new value to assign to the variable.
+    content.vb: Public Sub SetVariableValue(variableName As String, newValue As Object)
+  overload: FSM.Nodes.States.StateScriptData.SetVariableValue*
+  nameWithType.vb: StateScriptData.SetVariableValue(String, Object)
+  fullName.vb: FSM.Nodes.States.StateScriptData.SetVariableValue(String, Object)
+  name.vb: SetVariableValue(String, Object)
+- uid: FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  commentId: M:FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  id: RemoveVariable(System.String,System.Object)
+  parent: FSM.Nodes.States.StateScriptData
+  langs:
+  - csharp
+  - vb
+  name: RemoveVariable(string, object)
+  nameWithType: StateScriptData.RemoveVariable(string, object)
+  fullName: FSM.Nodes.States.StateScriptData.RemoveVariable(string, object)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScriptData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: RemoveVariable
+    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    startLine: 118
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Removes a variable from the StateScriptData.
+  example: []
+  syntax:
+    content: public void RemoveVariable(string variableName, object pastValue)
+    parameters:
+    - id: variableName
+      type: System.String
+      description: The name of the variable to remove.
+    - id: pastValue
+      type: System.Object
+      description: The value of the variable to remove.
+    content.vb: Public Sub RemoveVariable(variableName As String, pastValue As Object)
+  overload: FSM.Nodes.States.StateScriptData.RemoveVariable*
+  nameWithType.vb: StateScriptData.RemoveVariable(String, Object)
+  fullName.vb: FSM.Nodes.States.StateScriptData.RemoveVariable(String, Object)
+  name.vb: RemoveVariable(String, Object)
+- uid: FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  commentId: M:FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  id: SetStateName(System.String)
+  parent: FSM.Nodes.States.StateScriptData
+  langs:
+  - csharp
+  - vb
+  name: SetStateName(string)
+  nameWithType: StateScriptData.SetStateName(string)
+  fullName: FSM.Nodes.States.StateScriptData.SetStateName(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScriptData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetStateName
+    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    startLine: 147
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Sets the name of the state.
+  example: []
+  syntax:
+    content: protected void SetStateName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The new name of the state.
+    content.vb: Protected Sub SetStateName(name As String)
+  overload: FSM.Nodes.States.StateScriptData.SetStateName*
+  nameWithType.vb: StateScriptData.SetStateName(String)
+  fullName.vb: FSM.Nodes.States.StateScriptData.SetStateName(String)
+  name.vb: SetStateName(String)
+- uid: FSM.Nodes.States.StateScriptData.GetStateName
+  commentId: M:FSM.Nodes.States.StateScriptData.GetStateName
+  id: GetStateName
+  parent: FSM.Nodes.States.StateScriptData
+  langs:
+  - csharp
+  - vb
+  name: GetStateName()
+  nameWithType: StateScriptData.GetStateName()
+  fullName: FSM.Nodes.States.StateScriptData.GetStateName()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScriptData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetStateName
+    path: Assets/FSM/Nodes/States/StateScriptData.cs
+    startLine: 156
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Gets the name of the state.
+  example: []
+  syntax:
+    content: public string GetStateName()
+    return:
+      type: System.String
+      description: The name of the state.
+    content.vb: Public Function GetStateName() As String
+  overload: FSM.Nodes.States.StateScriptData.GetStateName*
+references:
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FSM.Nodes.States.StateScriptData.InspectVariables*
+  commentId: Overload:FSM.Nodes.States.StateScriptData.InspectVariables
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_InspectVariables
+  name: InspectVariables
+  nameWithType: StateScriptData.InspectVariables
+  fullName: FSM.Nodes.States.StateScriptData.InspectVariables
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: FSM.Nodes.States.StateScriptData.GetVariables*
+  commentId: Overload:FSM.Nodes.States.StateScriptData.GetVariables
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetVariables
+  name: GetVariables
+  nameWithType: StateScriptData.GetVariables
+  fullName: FSM.Nodes.States.StateScriptData.GetVariables
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.SetVariableValue*
+  commentId: Overload:FSM.Nodes.States.StateScriptData.SetVariableValue
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetVariableValue_System_String_System_Object_
+  name: SetVariableValue
+  nameWithType: StateScriptData.SetVariableValue
+  fullName: FSM.Nodes.States.StateScriptData.SetVariableValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FSM.Nodes.States.StateScriptData.RemoveVariable*
+  commentId: Overload:FSM.Nodes.States.StateScriptData.RemoveVariable
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_RemoveVariable_System_String_System_Object_
+  name: RemoveVariable
+  nameWithType: StateScriptData.RemoveVariable
+  fullName: FSM.Nodes.States.StateScriptData.RemoveVariable
+- uid: FSM.Nodes.States.StateScriptData.SetStateName*
+  commentId: Overload:FSM.Nodes.States.StateScriptData.SetStateName
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetStateName_System_String_
+  name: SetStateName
+  nameWithType: StateScriptData.SetStateName
+  fullName: FSM.Nodes.States.StateScriptData.SetStateName
+- uid: FSM.Nodes.States.StateScriptData.GetStateName*
+  commentId: Overload:FSM.Nodes.States.StateScriptData.GetStateName
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetStateName
+  name: GetStateName
+  nameWithType: StateScriptData.GetStateName
+  fullName: FSM.Nodes.States.StateScriptData.GetStateName

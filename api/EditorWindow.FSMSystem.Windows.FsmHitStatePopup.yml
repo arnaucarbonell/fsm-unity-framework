@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  id: FsmHitStatePopup
+  parent: EditorWindow.FSMSystem.Windows
+  children:
+  - EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie
+  - EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait
+  - EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize
+  - EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize(EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  - EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled
+  - EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI(UnityEngine.Rect)
+  langs:
+  - csharp
+  - vb
+  name: FsmHitStatePopup
+  nameWithType: FsmHitStatePopup
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmHitStatePopup
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    startLine: 10
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Popup window content for configuring hit state settings.
+  example: []
+  syntax:
+    content: 'public class FsmHitStatePopup : PopupWindowContent'
+    content.vb: Public Class FsmHitStatePopup Inherits PopupWindowContent
+  inheritance:
+  - System.Object
+  - UnityEditor.PopupWindowContent
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize(EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize(EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  id: Initialize(EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  parent: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  langs:
+  - csharp
+  - vb
+  name: Initialize(FsmHitSaveData)
+  nameWithType: FsmHitStatePopup.Initialize(FsmHitSaveData)
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize(EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Initialize
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    startLine: 22
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Initializes the hit state popup with the specified hit data.
+  example: []
+  syntax:
+    content: public void Initialize(FsmHitSaveData hitData)
+    parameters:
+    - id: hitData
+      type: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+      description: The hit data to initialize the popup with.
+    content.vb: Public Sub Initialize(hitData As FsmHitSaveData)
+  overload: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize*
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize
+  id: GetWindowSize
+  parent: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  langs:
+  - csharp
+  - vb
+  name: GetWindowSize()
+  nameWithType: FsmHitStatePopup.GetWindowSize()
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetWindowSize
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    startLine: 33
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Gets the size of the popup window.
+  example: []
+  syntax:
+    content: public override Vector2 GetWindowSize()
+    return:
+      type: UnityEngine.Vector2
+      description: The size of the popup window.
+    content.vb: Public Overrides Function GetWindowSize() As Vector2
+  overridden: UnityEditor.PopupWindowContent.GetWindowSize
+  overload: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize*
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI(UnityEngine.Rect)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI(UnityEngine.Rect)
+  id: OnGUI(UnityEngine.Rect)
+  parent: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect)
+  nameWithType: FsmHitStatePopup.OnGUI(Rect)
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI(UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OnGUI
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    startLine: 42
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Renders the GUI for the popup window.
+  example: []
+  syntax:
+    content: public override void OnGUI(Rect rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: The position and size of the popup window.
+    content.vb: Public Overrides Sub OnGUI(rect As Rect)
+  overridden: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  overload: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI*
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled
+  id: IsHitStateEnabled
+  parent: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  langs:
+  - csharp
+  - vb
+  name: IsHitStateEnabled()
+  nameWithType: FsmHitStatePopup.IsHitStateEnabled()
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: IsHitStateEnabled
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    startLine: 62
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Checks if hit state is enabled.
+  example: []
+  syntax:
+    content: public bool IsHitStateEnabled()
+    return:
+      type: System.Boolean
+      description: True if hit state is enabled, otherwise false.
+    content.vb: Public Function IsHitStateEnabled() As Boolean
+  overload: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled*
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait
+  id: GetTimeToWait
+  parent: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  langs:
+  - csharp
+  - vb
+  name: GetTimeToWait()
+  nameWithType: FsmHitStatePopup.GetTimeToWait()
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetTimeToWait
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    startLine: 71
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Gets the time to wait for hit state.
+  example: []
+  syntax:
+    content: public float GetTimeToWait()
+    return:
+      type: System.Single
+      description: The time to wait for hit state.
+    content.vb: Public Function GetTimeToWait() As Single
+  overload: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait*
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie
+  id: CanDie
+  parent: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  langs:
+  - csharp
+  - vb
+  name: CanDie()
+  nameWithType: FsmHitStatePopup.CanDie()
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CanDie
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHitStatePopup.cs
+    startLine: 80
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Checks if the entity can die from hit state.
+  example: []
+  syntax:
+    content: public bool CanDie()
+    return:
+      type: System.Boolean
+      description: True if the entity can die, otherwise false.
+    content.vb: Public Function CanDie() As Boolean
+  overload: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie*
+references:
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEditor.PopupWindowContent
+  commentId: T:UnityEditor.PopupWindowContent
+  parent: UnityEditor
+  isExternal: true
+  name: PopupWindowContent
+  nameWithType: PopupWindowContent
+  fullName: UnityEditor.PopupWindowContent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize
+  href: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.html#EditorWindow_FSMSystem_Windows_FsmHitStatePopup_Initialize_EditorWindow_FSMSystem_Data_Save_FsmHitSaveData_
+  name: Initialize
+  nameWithType: FsmHitStatePopup.Initialize
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.Initialize
+- uid: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData.html
+  name: FsmHitSaveData
+  nameWithType: FsmHitSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+- uid: UnityEditor.PopupWindowContent.GetWindowSize
+  commentId: M:UnityEditor.PopupWindowContent.GetWindowSize
+  parent: UnityEditor.PopupWindowContent
+  isExternal: true
+  name: GetWindowSize()
+  nameWithType: PopupWindowContent.GetWindowSize()
+  fullName: UnityEditor.PopupWindowContent.GetWindowSize()
+  spec.csharp:
+  - uid: UnityEditor.PopupWindowContent.GetWindowSize
+    name: GetWindowSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PopupWindowContent.GetWindowSize
+    name: GetWindowSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize
+  href: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.html#EditorWindow_FSMSystem_Windows_FsmHitStatePopup_GetWindowSize
+  name: GetWindowSize
+  nameWithType: FsmHitStatePopup.GetWindowSize
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetWindowSize
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  commentId: M:UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  parent: UnityEditor.PopupWindowContent
+  isExternal: true
+  name: OnGUI(Rect)
+  nameWithType: PopupWindowContent.OnGUI(Rect)
+  fullName: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  spec.csharp:
+  - uid: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+    name: OnGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+    name: OnGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    isExternal: true
+  - name: )
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI
+  href: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.html#EditorWindow_FSMSystem_Windows_FsmHitStatePopup_OnGUI_UnityEngine_Rect_
+  name: OnGUI
+  nameWithType: FsmHitStatePopup.OnGUI
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.OnGUI
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled
+  href: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.html#EditorWindow_FSMSystem_Windows_FsmHitStatePopup_IsHitStateEnabled
+  name: IsHitStateEnabled
+  nameWithType: FsmHitStatePopup.IsHitStateEnabled
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.IsHitStateEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait
+  href: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.html#EditorWindow_FSMSystem_Windows_FsmHitStatePopup_GetTimeToWait
+  name: GetTimeToWait
+  nameWithType: FsmHitStatePopup.GetTimeToWait
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.GetTimeToWait
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie
+  href: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.html#EditorWindow_FSMSystem_Windows_FsmHitStatePopup_CanDie
+  name: CanDie
+  nameWithType: FsmHitStatePopup.CanDie
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.CanDie

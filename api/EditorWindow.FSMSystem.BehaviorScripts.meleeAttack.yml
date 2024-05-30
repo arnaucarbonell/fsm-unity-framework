@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  commentId: T:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  id: meleeAttack
+  parent: EditorWindow.FSMSystem.BehaviorScripts
+  children:
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.attack
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.chase
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance0
+  - EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance1
+  langs:
+  - csharp
+  - vb
+  name: meleeAttack
+  nameWithType: meleeAttack
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: meleeAttack
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class meleeAttack : BehaviorScript
+    content.vb: >-
+      <Serializable>
+
+      Public Class meleeAttack Inherits BehaviorScript
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  inheritedMembers:
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance0
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance0
+  id: distance0
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: distance0
+  nameWithType: meleeAttack.distance0
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance0
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: distance0
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Distance 0")]
+
+      [SerializeField]
+
+      public DistanceConditionScript distance0
+    return:
+      type: FSM.Nodes.States.StateScripts.DistanceConditionScript
+    content.vb: >-
+      <Header("Distance 0")>
+
+      <SerializeField>
+
+      Public distance0 As DistanceConditionScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Distance 0
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.attack
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.attack
+  id: attack
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: attack
+  nameWithType: meleeAttack.attack
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.attack
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: attack
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Attack")]
+
+      [SerializeField]
+
+      public AttackStateScript attack
+    return:
+      type: FSM.Nodes.States.StateScripts.AttackStateScript
+    content.vb: >-
+      <Header("Attack")>
+
+      <SerializeField>
+
+      Public attack As AttackStateScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Attack
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance1
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance1
+  id: distance1
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: distance1
+  nameWithType: meleeAttack.distance1
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.distance1
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: distance1
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Distance 1")]
+
+      [SerializeField]
+
+      public DistanceConditionScript distance1
+    return:
+      type: FSM.Nodes.States.StateScripts.DistanceConditionScript
+    content.vb: >-
+      <Header("Distance 1")>
+
+      <SerializeField>
+
+      Public distance1 As DistanceConditionScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Distance 1
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.chase
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.chase
+  id: chase
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: chase
+  nameWithType: meleeAttack.chase
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.chase
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: chase
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Chase")]
+
+      [SerializeField]
+
+      public ChaseStateScript chase
+    return:
+      type: FSM.Nodes.States.StateScripts.ChaseStateScript
+    content.vb: >-
+      <Header("Chase")>
+
+      <SerializeField>
+
+      Public chase As ChaseStateScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Chase
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState
+  id: UpdateAttackState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: UpdateAttackState()
+  nameWithType: meleeAttack.UpdateAttackState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateAttackState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 68
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateAttackState()
+    content.vb: Public Sub UpdateAttackState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState*
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState
+  id: UpdateChaseState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: UpdateChaseState()
+  nameWithType: meleeAttack.UpdateChaseState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateChaseState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 77
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateChaseState()
+    content.vb: Public Sub UpdateChaseState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState*
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState
+  id: UpdateHitState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: UpdateHitState()
+  nameWithType: meleeAttack.UpdateHitState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateHitState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 86
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateHitState()
+    content.vb: Public Sub UpdateHitState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState*
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState
+  id: UpdateDieState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+  langs:
+  - csharp
+  - vb
+  name: UpdateDieState()
+  nameWithType: meleeAttack.UpdateDieState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateDieState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/meleeAttack.cs
+    startLine: 96
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateDieState()
+    content.vb: Public Sub UpdateDieState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState*
+references:
+- uid: EditorWindow.FSMSystem.BehaviorScripts
+  commentId: N:EditorWindow.FSMSystem.BehaviorScripts
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.BehaviorScripts
+  nameWithType: EditorWindow.FSMSystem.BehaviorScripts
+  fullName: EditorWindow.FSMSystem.BehaviorScripts
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.BehaviorScripts
+    name: BehaviorScripts
+    href: EditorWindow.FSMSystem.BehaviorScripts.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.BehaviorScripts
+    name: BehaviorScripts
+    href: EditorWindow.FSMSystem.BehaviorScripts.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  commentId: T:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  parent: EditorWindow.FSMSystem.BehaviorScripts
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html
+  name: BehaviorScript
+  nameWithType: BehaviorScript
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_options
+  name: options
+  nameWithType: BehaviorScript.options
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_selectedOptionIndex
+  name: selectedOptionIndex
+  nameWithType: BehaviorScript.selectedOptionIndex
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_CurrentState
+  name: CurrentState
+  nameWithType: BehaviorScript.CurrentState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_GetVariables
+  name: GetVariables()
+  nameWithType: BehaviorScript.GetVariables()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables()
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+    name: GetVariables
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_GetVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+    name: GetVariables
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_GetVariables
+  - name: (
+  - name: )
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  isExternal: true
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_SetVariableValue_System_String_System_Object_
+  name: SetVariableValue(string, object)
+  nameWithType: BehaviorScript.SetVariableValue(string, object)
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(string, object)
+  nameWithType.vb: BehaviorScript.SetVariableValue(String, Object)
+  fullName.vb: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(String, Object)
+  name.vb: SetVariableValue(String, Object)
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: FSM.Nodes.States.StateScripts.DistanceConditionScript
+  commentId: T:FSM.Nodes.States.StateScripts.DistanceConditionScript
+  parent: FSM.Nodes.States.StateScripts
+  href: FSM.Nodes.States.StateScripts.DistanceConditionScript.html
+  name: DistanceConditionScript
+  nameWithType: DistanceConditionScript
+  fullName: FSM.Nodes.States.StateScripts.DistanceConditionScript
+- uid: FSM.Nodes.States.StateScripts
+  commentId: N:FSM.Nodes.States.StateScripts
+  href: FSM.html
+  name: FSM.Nodes.States.StateScripts
+  nameWithType: FSM.Nodes.States.StateScripts
+  fullName: FSM.Nodes.States.StateScripts
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StateScripts
+    name: StateScripts
+    href: FSM.Nodes.States.StateScripts.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StateScripts
+    name: StateScripts
+    href: FSM.Nodes.States.StateScripts.html
+- uid: FSM.Nodes.States.StateScripts.AttackStateScript
+  commentId: T:FSM.Nodes.States.StateScripts.AttackStateScript
+  parent: FSM.Nodes.States.StateScripts
+  href: FSM.Nodes.States.StateScripts.AttackStateScript.html
+  name: AttackStateScript
+  nameWithType: AttackStateScript
+  fullName: FSM.Nodes.States.StateScripts.AttackStateScript
+- uid: FSM.Nodes.States.StateScripts.ChaseStateScript
+  commentId: T:FSM.Nodes.States.StateScripts.ChaseStateScript
+  parent: FSM.Nodes.States.StateScripts
+  href: FSM.Nodes.States.StateScripts.ChaseStateScript.html
+  name: ChaseStateScript
+  nameWithType: ChaseStateScript
+  fullName: FSM.Nodes.States.StateScripts.ChaseStateScript
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState
+  href: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.html#EditorWindow_FSMSystem_BehaviorScripts_meleeAttack_UpdateAttackState
+  name: UpdateAttackState
+  nameWithType: meleeAttack.UpdateAttackState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateAttackState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState
+  href: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.html#EditorWindow_FSMSystem_BehaviorScripts_meleeAttack_UpdateChaseState
+  name: UpdateChaseState
+  nameWithType: meleeAttack.UpdateChaseState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateChaseState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState
+  href: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.html#EditorWindow_FSMSystem_BehaviorScripts_meleeAttack_UpdateHitState
+  name: UpdateHitState
+  nameWithType: meleeAttack.UpdateHitState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateHitState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState
+  href: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.html#EditorWindow_FSMSystem_BehaviorScripts_meleeAttack_UpdateDieState
+  name: UpdateDieState
+  nameWithType: meleeAttack.UpdateDieState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack.UpdateDieState

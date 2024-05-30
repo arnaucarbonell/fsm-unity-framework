@@ -1,0 +1,1979 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Elements.FsmNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmNode
+  id: FsmNode
+  parent: EditorWindow.FSMSystem.Elements
+  children:
+  - EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  - EditorWindow.FSMSystem.Elements.FsmNode.Connections
+  - EditorWindow.FSMSystem.Elements.FsmNode.DataObjects
+  - EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts
+  - EditorWindow.FSMSystem.Elements.FsmNode.Draw
+  - EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData
+  - EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData
+  - EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject
+  - EditorWindow.FSMSystem.Elements.FsmNode.HasAnimatorTrigger
+  - EditorWindow.FSMSystem.Elements.FsmNode.HasHitStateOverride
+  - EditorWindow.FSMSystem.Elements.FsmNode.Id
+  - EditorWindow.FSMSystem.Elements.FsmNode.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,UnityEngine.Vector2)
+  - EditorWindow.FSMSystem.Elements.FsmNode.InputPort
+  - EditorWindow.FSMSystem.Elements.FsmNode.NodeType
+  - EditorWindow.FSMSystem.Elements.FsmNode.OutputPort
+  - EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle
+  - EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData(EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData)
+  - EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle(UnityEngine.Color)
+  - EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData(EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData)
+  - EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor(UnityEngine.Color,UnityEditor.Experimental.GraphView.Direction,System.String)
+  - EditorWindow.FSMSystem.Elements.FsmNode.SetStateName(System.String)
+  - EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown(UnityEngine.UIElements.Toggle)
+  - EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle(UnityEngine.UIElements.Toggle)
+  - EditorWindow.FSMSystem.Elements.FsmNode.StateName
+  - EditorWindow.FSMSystem.Elements.FsmNode.StateScript
+  - EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable(System.Boolean)
+  - EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FsmNode
+  nameWithType: FsmNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmNode
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 19
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Represents the base class for all FSM node elements.
+  example: []
+  syntax:
+    content: 'public class FsmNode : Node'
+    content.vb: Public Class FsmNode Inherits Node
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  - UnityEditor.Experimental.GraphView.GraphElement
+  - UnityEditor.Experimental.GraphView.Node
+  derivedClasses:
+  - EditorWindow.FSMSystem.Elements.FsmCustomConditionNode
+  - EditorWindow.FSMSystem.Elements.FsmCustomStateNode
+  - EditorWindow.FSMSystem.Elements.FsmDualTransitionNode
+  - EditorWindow.FSMSystem.Elements.FsmExtensionNode
+  - EditorWindow.FSMSystem.Elements.FsmInitialNode
+  - EditorWindow.FSMSystem.Elements.FsmStateNode
+  - EditorWindow.FSMSystem.Elements.FsmTransitionNode
+  - EditorWindow.FSMSystem.Elements.FsmVariableNode
+  extensionMethods:
+  - EditorWindow.FSMSystem.Elements.FsmNode.EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  - UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(System.String[])
+  - UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(System.String[])
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Id
+  commentId: P:EditorWindow.FSMSystem.Elements.FsmNode.Id
+  id: Id
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: FsmNode.Id
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Id
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 24
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Gets or sets the unique identifier of the FSM node.
+  example: []
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.Id*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.StateName
+  commentId: P:EditorWindow.FSMSystem.Elements.FsmNode.StateName
+  id: StateName
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: StateName
+  nameWithType: FsmNode.StateName
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.StateName
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: StateName
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 28
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Gets or sets the name of the state associated with the FSM node.
+  example: []
+  syntax:
+    content: public string StateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StateName As String
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.StateName*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Connections
+  commentId: P:EditorWindow.FSMSystem.Elements.FsmNode.Connections
+  id: Connections
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: Connections
+  nameWithType: FsmNode.Connections
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Connections
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Connections
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 32
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Gets or sets the list of connections associated with the FSM node.
+  example: []
+  syntax:
+    content: public List<FsmConnectionSaveData> Connections { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData}
+    content.vb: Public Property Connections As List(Of FsmConnectionSaveData)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.Connections*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.NodeType
+  commentId: P:EditorWindow.FSMSystem.Elements.FsmNode.NodeType
+  id: NodeType
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: NodeType
+  nameWithType: FsmNode.NodeType
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.NodeType
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: NodeType
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 36
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Gets or sets the type of the FSM node.
+  example: []
+  syntax:
+    content: public FsmNodeType NodeType { get; set; }
+    parameters: []
+    return:
+      type: FSM.Enumerations.FsmNodeType
+    content.vb: Public Property NodeType As FsmNodeType
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.NodeType*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.StateScript
+  commentId: P:EditorWindow.FSMSystem.Elements.FsmNode.StateScript
+  id: StateScript
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: StateScript
+  nameWithType: FsmNode.StateScript
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.StateScript
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: StateScript
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 40
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Gets or sets the script data associated with the behaviour of the FSM node.
+  example: []
+  syntax:
+    content: public StateScriptData StateScript { get; set; }
+    parameters: []
+    return:
+      type: FSM.Nodes.States.StateScriptData
+    content.vb: Public Property StateScript As StateScriptData
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.StateScript*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.DataObjects
+  commentId: F:EditorWindow.FSMSystem.Elements.FsmNode.DataObjects
+  id: DataObjects
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: DataObjects
+  nameWithType: FsmNode.DataObjects
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.DataObjects
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DataObjects
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 42
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  syntax:
+    content: protected List<StateScriptData> DataObjects
+    return:
+      type: System.Collections.Generic.List{FSM.Nodes.States.StateScriptData}
+    content.vb: Protected DataObjects As List(Of StateScriptData)
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.InputPort
+  commentId: F:EditorWindow.FSMSystem.Elements.FsmNode.InputPort
+  id: InputPort
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: InputPort
+  nameWithType: FsmNode.InputPort
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.InputPort
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: InputPort
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 43
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  syntax:
+    content: protected Port InputPort
+    return:
+      type: UnityEditor.Experimental.GraphView.Port
+    content.vb: Protected InputPort As Port
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.OutputPort
+  commentId: F:EditorWindow.FSMSystem.Elements.FsmNode.OutputPort
+  id: OutputPort
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: OutputPort
+  nameWithType: FsmNode.OutputPort
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.OutputPort
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OutputPort
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 44
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  syntax:
+    content: protected List<Port> OutputPort
+    return:
+      type: System.Collections.Generic.List{UnityEditor.Experimental.GraphView.Port}
+    content.vb: Protected OutputPort As List(Of Port)
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.HasAnimatorTrigger
+  commentId: F:EditorWindow.FSMSystem.Elements.FsmNode.HasAnimatorTrigger
+  id: HasAnimatorTrigger
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: HasAnimatorTrigger
+  nameWithType: FsmNode.HasAnimatorTrigger
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.HasAnimatorTrigger
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: HasAnimatorTrigger
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 50
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  syntax:
+    content: protected bool HasAnimatorTrigger
+    return:
+      type: System.Boolean
+    content.vb: Protected HasAnimatorTrigger As Boolean
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.HasHitStateOverride
+  commentId: F:EditorWindow.FSMSystem.Elements.FsmNode.HasHitStateOverride
+  id: HasHitStateOverride
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: HasHitStateOverride
+  nameWithType: FsmNode.HasHitStateOverride
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.HasHitStateOverride
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: HasHitStateOverride
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 56
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  syntax:
+    content: protected bool HasHitStateOverride
+    return:
+      type: System.Boolean
+    content.vb: Protected HasHitStateOverride As Boolean
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,UnityEngine.Vector2)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,UnityEngine.Vector2)
+  id: Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,UnityEngine.Vector2)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: Initialize(string, FsmGraphView, Vector2)
+  nameWithType: FsmNode.Initialize(string, FsmGraphView, Vector2)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Initialize(string, EditorWindow.FSMSystem.Windows.FsmGraphView, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Initialize
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 66
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Initializes the FSM node with the provided name, FSM graph view, and position.
+  example: []
+  syntax:
+    content: public virtual void Initialize(string nodeName, FsmGraphView graphView, Vector2 vectorPos)
+    parameters:
+    - id: nodeName
+      type: System.String
+      description: The name of the FSM node.
+    - id: graphView
+      type: EditorWindow.FSMSystem.Windows.FsmGraphView
+      description: The FSM graph view where the node will be placed.
+    - id: vectorPos
+      type: UnityEngine.Vector2
+      description: The position of the node within the FSM graph view.
+    content.vb: Public Overridable Sub Initialize(nodeName As String, graphView As FsmGraphView, vectorPos As Vector2)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.Initialize*
+  nameWithType.vb: FsmNode.Initialize(String, FsmGraphView, Vector2)
+  fullName.vb: EditorWindow.FSMSystem.Elements.FsmNode.Initialize(String, EditorWindow.FSMSystem.Windows.FsmGraphView, UnityEngine.Vector2)
+  name.vb: Initialize(String, FsmGraphView, Vector2)
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Draw
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.Draw
+  id: Draw
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: Draw()
+  nameWithType: FsmNode.Draw()
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Draw()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Draw
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 82
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Virtual method to draw the FSM node. This method will be overridden by the derived classes. Acts as a base node and the derived classes will implement their own logic.
+  example: []
+  syntax:
+    content: public virtual void Draw()
+    content.vb: Public Overridable Sub Draw()
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.Draw*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  id: BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: BuildContextualMenu(ContextualMenuPopulateEvent)
+  nameWithType: FsmNode.BuildContextualMenu(ContextualMenuPopulateEvent)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: BuildContextualMenu
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 100
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Overrides the method to build a contextual menu for the FSM node. In this case, the menu will contain options to disconnect input and output ports.
+  example: []
+  syntax:
+    content: public override void BuildContextualMenu(ContextualMenuPopulateEvent evt)
+    parameters:
+    - id: evt
+      type: UnityEngine.UIElements.ContextualMenuPopulateEvent
+    content.vb: Public Overrides Sub BuildContextualMenu(evt As ContextualMenuPopulateEvent)
+  overridden: UnityEditor.Experimental.GraphView.Node.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts
+  id: DisconnectAllPorts
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: DisconnectAllPorts()
+  nameWithType: FsmNode.DisconnectAllPorts()
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DisconnectAllPorts
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 110
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  syntax:
+    content: public void DisconnectAllPorts()
+    content.vb: Public Sub DisconnectAllPorts()
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle(UnityEngine.Color)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle(UnityEngine.Color)
+  id: SetErrorStyle(UnityEngine.Color)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: SetErrorStyle(Color)
+  nameWithType: FsmNode.SetErrorStyle(Color)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetErrorStyle
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 133
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Sets the error style of the main container.
+  example: []
+  syntax:
+    content: public void SetErrorStyle(Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: The color to set as the background color.
+    content.vb: Public Sub SetErrorStyle(color As Color)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle
+  id: ResetStyle
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: ResetStyle()
+  nameWithType: FsmNode.ResetStyle()
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ResetStyle
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 140
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Resets the style of the main container to its default color.
+  example: []
+  syntax:
+    content: public void ResetStyle()
+    content.vb: Public Sub ResetStyle()
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetStateName(System.String)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.SetStateName(System.String)
+  id: SetStateName(System.String)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: SetStateName(string)
+  nameWithType: FsmNode.SetStateName(string)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetStateName(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetStateName
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 165
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Sets the name of the state and updates the displayed state name field.
+  example: []
+  syntax:
+    content: public virtual void SetStateName(string stateName)
+    parameters:
+    - id: stateName
+      type: System.String
+      description: The new name of the state.
+    content.vb: Public Overridable Sub SetStateName(stateName As String)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.SetStateName*
+  nameWithType.vb: FsmNode.SetStateName(String)
+  fullName.vb: EditorWindow.FSMSystem.Elements.FsmNode.SetStateName(String)
+  name.vb: SetStateName(String)
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject
+  id: GetScriptableObject
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: GetScriptableObject()
+  nameWithType: FsmNode.GetScriptableObject()
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetScriptableObject
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 173
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Retrieves the StateScriptData object associated with the current state.
+  example: []
+  syntax:
+    content: protected void GetScriptableObject()
+    content.vb: Protected Sub GetScriptableObject()
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle(System.String)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle(System.String)
+  id: UpdateNameStyle(System.String)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: UpdateNameStyle(string)
+  nameWithType: FsmNode.UpdateNameStyle(string)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateNameStyle
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 195
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Updates the naming style of a string from camel case to a readable format with spaces between words.
+  example: []
+  syntax:
+    content: protected string UpdateNameStyle(string newName)
+    parameters:
+    - id: newName
+      type: System.String
+      description: The string to be formatted.
+    return:
+      type: System.String
+      description: The formatted string.
+    content.vb: Protected Function UpdateNameStyle(newName As String) As String
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle*
+  nameWithType.vb: FsmNode.UpdateNameStyle(String)
+  fullName.vb: EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle(String)
+  name.vb: UpdateNameStyle(String)
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor(UnityEngine.Color,UnityEditor.Experimental.GraphView.Direction,System.String)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor(UnityEngine.Color,UnityEditor.Experimental.GraphView.Direction,System.String)
+  id: SetPortColor(UnityEngine.Color,UnityEditor.Experimental.GraphView.Direction,System.String)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: SetPortColor(Color, Direction, string)
+  nameWithType: FsmNode.SetPortColor(Color, Direction, string)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor(UnityEngine.Color, UnityEditor.Experimental.GraphView.Direction, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetPortColor
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 220
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Sets the color of a port based on its direction (input or output).
+  example: []
+  syntax:
+    content: public void SetPortColor(Color color, Direction direction, string portName = "")
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: The color to set.
+    - id: direction
+      type: UnityEditor.Experimental.GraphView.Direction
+      description: The direction of the port (input or output).
+    - id: portName
+      type: System.String
+      description: The name of the port.
+    content.vb: Public Sub SetPortColor(color As Color, direction As Direction, portName As String = "")
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor*
+  nameWithType.vb: FsmNode.SetPortColor(Color, Direction, String)
+  fullName.vb: EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor(UnityEngine.Color, UnityEditor.Experimental.GraphView.Direction, String)
+  name.vb: SetPortColor(Color, Direction, String)
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown(UnityEngine.UIElements.Toggle)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown(UnityEngine.UIElements.Toggle)
+  id: ShowAnimatorParameterDropdown(UnityEngine.UIElements.Toggle)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: ShowAnimatorParameterDropdown(Toggle)
+  nameWithType: FsmNode.ShowAnimatorParameterDropdown(Toggle)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown(UnityEngine.UIElements.Toggle)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ShowAnimatorParameterDropdown
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 241
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Shows a dropdown menu for selecting an animator parameter and provides fields for configuring its value based on the parameter type.
+  example: []
+  syntax:
+    content: protected void ShowAnimatorParameterDropdown(Toggle toggle)
+    parameters:
+    - id: toggle
+      type: UnityEngine.UIElements.Toggle
+      description: The toggle representing the state of showing the dropdown.
+    content.vb: Protected Sub ShowAnimatorParameterDropdown(toggle As Toggle)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData
+  id: GetAnimatorSaveData
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: GetAnimatorSaveData()
+  nameWithType: FsmNode.GetAnimatorSaveData()
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetAnimatorSaveData
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 405
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Retrieves the saved animator data.
+  example: []
+  syntax:
+    content: public FsmAnimatorSaveData GetAnimatorSaveData()
+    return:
+      type: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+      description: The saved animator data.
+    content.vb: Public Function GetAnimatorSaveData() As FsmAnimatorSaveData
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData(EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData(EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData)
+  id: SetAnimatorSaveData(EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: SetAnimatorSaveData(FsmAnimatorSaveData)
+  nameWithType: FsmNode.SetAnimatorSaveData(FsmAnimatorSaveData)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData(EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetAnimatorSaveData
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 415
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Sets the animator save data.
+  example: []
+  syntax:
+    content: public void SetAnimatorSaveData(FsmAnimatorSaveData animatorSaveData)
+    parameters:
+    - id: animatorSaveData
+      type: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+      description: The animator save data to set.
+    content.vb: Public Sub SetAnimatorSaveData(animatorSaveData As FsmAnimatorSaveData)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle(UnityEngine.UIElements.Toggle)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle(UnityEngine.UIElements.Toggle)
+  id: ShowHitStateOverrideToggle(UnityEngine.UIElements.Toggle)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: ShowHitStateOverrideToggle(Toggle)
+  nameWithType: FsmNode.ShowHitStateOverrideToggle(Toggle)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle(UnityEngine.UIElements.Toggle)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ShowHitStateOverrideToggle
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 430
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: If enabled adds the parameters to be able to override the hit values.
+  example: []
+  syntax:
+    content: protected void ShowHitStateOverrideToggle(Toggle toggle)
+    parameters:
+    - id: toggle
+      type: UnityEngine.UIElements.Toggle
+      description: The toggle to show override hit parameters.
+    content.vb: Protected Sub ShowHitStateOverrideToggle(toggle As Toggle)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData
+  id: GetHitNodeSaveData
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: GetHitNodeSaveData()
+  nameWithType: FsmNode.GetHitNodeSaveData()
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetHitNodeSaveData
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 512
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Gets the save data from the hit information.
+  example: []
+  syntax:
+    content: public FsmHitNodeSaveData GetHitNodeSaveData()
+    return:
+      type: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+      description: The hit node save data.
+    content.vb: Public Function GetHitNodeSaveData() As FsmHitNodeSaveData
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData(EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData(EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData)
+  id: SetHitNodeSaveData(EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: SetHitNodeSaveData(FsmHitNodeSaveData)
+  nameWithType: FsmNode.SetHitNodeSaveData(FsmHitNodeSaveData)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData(EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetHitNodeSaveData
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 522
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  summary: Sets the hit node save data.
+  example: []
+  syntax:
+    content: public void SetHitNodeSaveData(FsmHitNodeSaveData animatorSaveData)
+    parameters:
+    - id: animatorSaveData
+      type: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+      description: The hit node save data to set.
+    content.vb: Public Sub SetHitNodeSaveData(animatorSaveData As FsmHitNodeSaveData)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData*
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable(System.Boolean)
+  commentId: M:EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable(System.Boolean)
+  id: UpdateHitEnable(System.Boolean)
+  parent: EditorWindow.FSMSystem.Elements.FsmNode
+  langs:
+  - csharp
+  - vb
+  name: UpdateHitEnable(bool)
+  nameWithType: FsmNode.UpdateHitEnable(bool)
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable(bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateHitEnable
+    path: Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs
+    startLine: 529
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Elements
+  syntax:
+    content: public virtual void UpdateHitEnable(bool canGetHit)
+    parameters:
+    - id: canGetHit
+      type: System.Boolean
+    content.vb: Public Overridable Sub UpdateHitEnable(canGetHit As Boolean)
+  overload: EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable*
+  nameWithType.vb: FsmNode.UpdateHitEnable(Boolean)
+  fullName.vb: EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable(Boolean)
+  name.vb: UpdateHitEnable(Boolean)
+references:
+- uid: EditorWindow.FSMSystem.Elements
+  commentId: N:EditorWindow.FSMSystem.Elements
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Elements
+  nameWithType: EditorWindow.FSMSystem.Elements
+  fullName: EditorWindow.FSMSystem.Elements
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEditor.Experimental.GraphView.GraphElement
+  commentId: T:UnityEditor.Experimental.GraphView.GraphElement
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: GraphElement
+  nameWithType: GraphElement
+  fullName: UnityEditor.Experimental.GraphView.GraphElement
+- uid: UnityEditor.Experimental.GraphView.Node
+  commentId: T:UnityEditor.Experimental.GraphView.Node
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Node
+  nameWithType: Node
+  fullName: UnityEditor.Experimental.GraphView.Node
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  definition: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_
+  name: CreatePort(FsmNode, string, Orientation, Direction, Capacity)
+  nameWithType: FsmElementUtility.CreatePort(FsmNode, string, Orientation, Direction, Port.Capacity)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode, string, UnityEditor.Experimental.GraphView.Orientation, UnityEditor.Experimental.GraphView.Direction, UnityEditor.Experimental.GraphView.Port.Capacity)
+  nameWithType.vb: FsmElementUtility.CreatePort(FsmNode, String, Orientation, Direction, Port.Capacity)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode, String, UnityEditor.Experimental.GraphView.Orientation, UnityEditor.Experimental.GraphView.Direction, UnityEditor.Experimental.GraphView.Port.Capacity)
+  name.vb: CreatePort(FsmNode, String, Orientation, Direction, Capacity)
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+    name: CreatePort
+    href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_
+  - name: (
+  - uid: EditorWindow.FSMSystem.Elements.FsmNode
+    name: FsmNode
+    href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Orientation
+    name: Orientation
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Direction
+    name: Direction
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Port.Capacity
+    name: Capacity
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+    name: CreatePort
+    href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_
+  - name: (
+  - uid: EditorWindow.FSMSystem.Elements.FsmNode
+    name: FsmNode
+    href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Orientation
+    name: Orientation
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Direction
+    name: Direction
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Port.Capacity
+    name: Capacity
+    isExternal: true
+  - name: )
+- uid: UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  definition: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  definition: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEditor.Experimental.GraphView
+  commentId: N:UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: UnityEditor.Experimental.GraphView
+  nameWithType: UnityEditor.Experimental.GraphView
+  fullName: UnityEditor.Experimental.GraphView
+  spec.csharp:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  isExternal: true
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_
+  name: CreatePort(FsmNode, string, Orientation, Direction, Capacity)
+  nameWithType: FsmElementUtility.CreatePort(FsmNode, string, Orientation, Direction, Port.Capacity)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode, string, UnityEditor.Experimental.GraphView.Orientation, UnityEditor.Experimental.GraphView.Direction, UnityEditor.Experimental.GraphView.Port.Capacity)
+  nameWithType.vb: FsmElementUtility.CreatePort(FsmNode, String, Orientation, Direction, Port.Capacity)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode, String, UnityEditor.Experimental.GraphView.Orientation, UnityEditor.Experimental.GraphView.Direction, UnityEditor.Experimental.GraphView.Port.Capacity)
+  name.vb: CreatePort(FsmNode, String, Orientation, Direction, Capacity)
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+    name: CreatePort
+    href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_
+  - name: (
+  - uid: EditorWindow.FSMSystem.Elements.FsmNode
+    name: FsmNode
+    href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Orientation
+    name: Orientation
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Direction
+    name: Direction
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Port.Capacity
+    name: Capacity
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+    name: CreatePort
+    href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_
+  - name: (
+  - uid: EditorWindow.FSMSystem.Elements.FsmNode
+    name: FsmNode
+    href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Orientation
+    name: Orientation
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Direction
+    name: Direction
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Port.Capacity
+    name: Capacity
+    isExternal: true
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html
+  name: FsmElementUtility
+  nameWithType: FsmElementUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  isExternal: true
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html
+  name: FsmStyleUtility
+  nameWithType: FsmStyleUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  isExternal: true
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Id*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.Id
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_Id
+  name: Id
+  nameWithType: FsmNode.Id
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.StateName*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.StateName
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_StateName
+  name: StateName
+  nameWithType: FsmNode.StateName
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.StateName
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Connections*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.Connections
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_Connections
+  name: Connections
+  nameWithType: FsmNode.Connections
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Connections
+- uid: System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData}
+  commentId: T:System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FsmConnectionSaveData>
+  nameWithType: List<FsmConnectionSaveData>
+  fullName: System.Collections.Generic.List<EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData>
+  nameWithType.vb: List(Of FsmConnectionSaveData)
+  fullName.vb: System.Collections.Generic.List(Of EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData)
+  name.vb: List(Of FsmConnectionSaveData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+    name: FsmConnectionSaveData
+    href: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+    name: FsmConnectionSaveData
+    href: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.NodeType*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.NodeType
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_NodeType
+  name: NodeType
+  nameWithType: FsmNode.NodeType
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.NodeType
+- uid: FSM.Enumerations.FsmNodeType
+  commentId: T:FSM.Enumerations.FsmNodeType
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmNodeType.html
+  name: FsmNodeType
+  nameWithType: FsmNodeType
+  fullName: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.StateScript*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.StateScript
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_StateScript
+  name: StateScript
+  nameWithType: FsmNode.StateScript
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.StateScript
+- uid: FSM.Nodes.States.StateScriptData
+  commentId: T:FSM.Nodes.States.StateScriptData
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.StateScriptData.html
+  name: StateScriptData
+  nameWithType: StateScriptData
+  fullName: FSM.Nodes.States.StateScriptData
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: System.Collections.Generic.List{FSM.Nodes.States.StateScriptData}
+  commentId: T:System.Collections.Generic.List{FSM.Nodes.States.StateScriptData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<StateScriptData>
+  nameWithType: List<StateScriptData>
+  fullName: System.Collections.Generic.List<FSM.Nodes.States.StateScriptData>
+  nameWithType.vb: List(Of StateScriptData)
+  fullName.vb: System.Collections.Generic.List(Of FSM.Nodes.States.StateScriptData)
+  name.vb: List(Of StateScriptData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: FSM.Nodes.States.StateScriptData
+    name: StateScriptData
+    href: FSM.Nodes.States.StateScriptData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: FSM.Nodes.States.StateScriptData
+    name: StateScriptData
+    href: FSM.Nodes.States.StateScriptData.html
+  - name: )
+- uid: UnityEditor.Experimental.GraphView.Port
+  commentId: T:UnityEditor.Experimental.GraphView.Port
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Port
+  nameWithType: Port
+  fullName: UnityEditor.Experimental.GraphView.Port
+- uid: System.Collections.Generic.List{UnityEditor.Experimental.GraphView.Port}
+  commentId: T:System.Collections.Generic.List{UnityEditor.Experimental.GraphView.Port}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Port>
+  nameWithType: List<Port>
+  fullName: System.Collections.Generic.List<UnityEditor.Experimental.GraphView.Port>
+  nameWithType.vb: List(Of Port)
+  fullName.vb: System.Collections.Generic.List(Of UnityEditor.Experimental.GraphView.Port)
+  name.vb: List(Of Port)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Initialize*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.Initialize
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_Initialize_System_String_EditorWindow_FSMSystem_Windows_FsmGraphView_UnityEngine_Vector2_
+  name: Initialize
+  nameWithType: FsmNode.Initialize
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Initialize
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmGraphView
+  parent: EditorWindow.FSMSystem.Windows
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html
+  name: FsmGraphView
+  nameWithType: FsmGraphView
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.Draw*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.Draw
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_Draw
+  name: Draw
+  nameWithType: FsmNode.Draw
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.Draw
+- uid: UnityEditor.Experimental.GraphView.Node.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  commentId: M:UnityEditor.Experimental.GraphView.Node.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  parent: UnityEditor.Experimental.GraphView.Node
+  isExternal: true
+  name: BuildContextualMenu(ContextualMenuPopulateEvent)
+  nameWithType: Node.BuildContextualMenu(ContextualMenuPopulateEvent)
+  fullName: UnityEditor.Experimental.GraphView.Node.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+  spec.csharp:
+  - uid: UnityEditor.Experimental.GraphView.Node.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+    name: BuildContextualMenu
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.UIElements.ContextualMenuPopulateEvent
+    name: ContextualMenuPopulateEvent
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Experimental.GraphView.Node.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
+    name: BuildContextualMenu
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.UIElements.ContextualMenuPopulateEvent
+    name: ContextualMenuPopulateEvent
+    isExternal: true
+  - name: )
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_BuildContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_
+  name: BuildContextualMenu
+  nameWithType: FsmNode.BuildContextualMenu
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu
+- uid: UnityEngine.UIElements.ContextualMenuPopulateEvent
+  commentId: T:UnityEngine.UIElements.ContextualMenuPopulateEvent
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: ContextualMenuPopulateEvent
+  nameWithType: ContextualMenuPopulateEvent
+  fullName: UnityEngine.UIElements.ContextualMenuPopulateEvent
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_DisconnectAllPorts
+  name: DisconnectAllPorts
+  nameWithType: FsmNode.DisconnectAllPorts
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_SetErrorStyle_UnityEngine_Color_
+  name: SetErrorStyle
+  nameWithType: FsmNode.SetErrorStyle
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_ResetStyle
+  name: ResetStyle
+  nameWithType: FsmNode.ResetStyle
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetStateName*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.SetStateName
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_SetStateName_System_String_
+  name: SetStateName
+  nameWithType: FsmNode.SetStateName
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetStateName
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_GetScriptableObject
+  name: GetScriptableObject
+  nameWithType: FsmNode.GetScriptableObject
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_UpdateNameStyle_System_String_
+  name: UpdateNameStyle
+  nameWithType: FsmNode.UpdateNameStyle
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_SetPortColor_UnityEngine_Color_UnityEditor_Experimental_GraphView_Direction_System_String_
+  name: SetPortColor
+  nameWithType: FsmNode.SetPortColor
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor
+- uid: UnityEditor.Experimental.GraphView.Direction
+  commentId: T:UnityEditor.Experimental.GraphView.Direction
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Direction
+  nameWithType: Direction
+  fullName: UnityEditor.Experimental.GraphView.Direction
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_ShowAnimatorParameterDropdown_UnityEngine_UIElements_Toggle_
+  name: ShowAnimatorParameterDropdown
+  nameWithType: FsmNode.ShowAnimatorParameterDropdown
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown
+- uid: UnityEngine.UIElements.Toggle
+  commentId: T:UnityEngine.UIElements.Toggle
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: UnityEngine.UIElements.Toggle
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_GetAnimatorSaveData
+  name: GetAnimatorSaveData
+  nameWithType: FsmNode.GetAnimatorSaveData
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData.html
+  name: FsmAnimatorSaveData
+  nameWithType: FsmAnimatorSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_SetAnimatorSaveData_EditorWindow_FSMSystem_Data_Save_FsmAnimatorSaveData_
+  name: SetAnimatorSaveData
+  nameWithType: FsmNode.SetAnimatorSaveData
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_ShowHitStateOverrideToggle_UnityEngine_UIElements_Toggle_
+  name: ShowHitStateOverrideToggle
+  nameWithType: FsmNode.ShowHitStateOverrideToggle
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_GetHitNodeSaveData
+  name: GetHitNodeSaveData
+  nameWithType: FsmNode.GetHitNodeSaveData
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData.html
+  name: FsmHitNodeSaveData
+  nameWithType: FsmHitNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_SetHitNodeSaveData_EditorWindow_FSMSystem_Data_Save_FsmHitNodeSaveData_
+  name: SetHitNodeSaveData
+  nameWithType: FsmNode.SetHitNodeSaveData
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData
+- uid: EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable*
+  commentId: Overload:EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html#EditorWindow_FSMSystem_Elements_FsmNode_UpdateHitEnable_System_Boolean_
+  name: UpdateHitEnable
+  nameWithType: FsmNode.UpdateHitEnable
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable

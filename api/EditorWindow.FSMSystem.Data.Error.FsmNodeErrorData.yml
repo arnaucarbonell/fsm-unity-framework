@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  commentId: T:EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  id: FsmNodeErrorData
+  parent: EditorWindow.FSMSystem.Data.Error
+  children:
+  - EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData
+  - EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes
+  langs:
+  - csharp
+  - vb
+  name: FsmNodeErrorData
+  nameWithType: FsmNodeErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmNodeErrorData
+    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+    startLine: 9
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Error
+  summary: Represents error data associated with FSM nodes.
+  example: []
+  syntax:
+    content: public class FsmNodeErrorData
+    content.vb: Public Class FsmNodeErrorData
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData
+  commentId: P:EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData
+  id: ErrorData
+  parent: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  langs:
+  - csharp
+  - vb
+  name: ErrorData
+  nameWithType: FsmNodeErrorData.ErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ErrorData
+    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+    startLine: 14
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Error
+  summary: Gets the error data associated with the FSM node error.
+  example: []
+  syntax:
+    content: public FsmErrorData ErrorData { get; }
+    parameters: []
+    return:
+      type: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+    content.vb: Public ReadOnly Property ErrorData As FsmErrorData
+  overload: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData*
+- uid: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes
+  commentId: P:EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes
+  id: Nodes
+  parent: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  langs:
+  - csharp
+  - vb
+  name: Nodes
+  nameWithType: FsmNodeErrorData.Nodes
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Nodes
+    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmNodeErrorData.cs
+    startLine: 19
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Error
+  summary: Gets the list of FSM nodes associated with the error.
+  example: []
+  syntax:
+    content: public List<FsmNode> Nodes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{EditorWindow.FSMSystem.Elements.FsmNode}
+    content.vb: Public ReadOnly Property Nodes As List(Of FsmNode)
+  overload: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes*
+references:
+- uid: EditorWindow.FSMSystem.Data.Error
+  commentId: N:EditorWindow.FSMSystem.Data.Error
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Error
+  nameWithType: EditorWindow.FSMSystem.Data.Error
+  fullName: EditorWindow.FSMSystem.Data.Error
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Error
+    name: Error
+    href: EditorWindow.FSMSystem.Data.Error.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Error
+    name: Error
+    href: EditorWindow.FSMSystem.Data.Error.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData
+  href: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.html#EditorWindow_FSMSystem_Data_Error_FsmNodeErrorData_ErrorData
+  name: ErrorData
+  nameWithType: FsmNodeErrorData.ErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.ErrorData
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  commentId: T:EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  parent: EditorWindow.FSMSystem.Data.Error
+  href: EditorWindow.FSMSystem.Data.Error.FsmErrorData.html
+  name: FsmErrorData
+  nameWithType: FsmErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+- uid: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes
+  href: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.html#EditorWindow_FSMSystem_Data_Error_FsmNodeErrorData_Nodes
+  name: Nodes
+  nameWithType: FsmNodeErrorData.Nodes
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.Nodes
+- uid: System.Collections.Generic.List{EditorWindow.FSMSystem.Elements.FsmNode}
+  commentId: T:System.Collections.Generic.List{EditorWindow.FSMSystem.Elements.FsmNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FsmNode>
+  nameWithType: List<FsmNode>
+  fullName: System.Collections.Generic.List<EditorWindow.FSMSystem.Elements.FsmNode>
+  nameWithType.vb: List(Of FsmNode)
+  fullName.vb: System.Collections.Generic.List(Of EditorWindow.FSMSystem.Elements.FsmNode)
+  name.vb: List(Of FsmNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: EditorWindow.FSMSystem.Elements.FsmNode
+    name: FsmNode
+    href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: EditorWindow.FSMSystem.Elements.FsmNode
+    name: FsmNode
+    href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

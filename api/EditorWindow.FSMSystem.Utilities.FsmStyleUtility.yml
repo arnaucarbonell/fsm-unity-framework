@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  id: FsmStyleUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  children:
+  - EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  - EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: FsmStyleUtility
+  nameWithType: FsmStyleUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmStyleUtility
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+    startLine: 9
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Utility class for adding classes and style sheets to VisualElements in Unity's UI Toolkit.
+  example: []
+  syntax:
+    content: public static class FsmStyleUtility
+    content.vb: Public Module FsmStyleUtility
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  id: AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  isExtensionMethod: true
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  langs:
+  - csharp
+  - vb
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: AddClasses
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+    startLine: 17
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Adds one or more classes to a VisualElement.
+  example: []
+  syntax:
+    content: public static VisualElement AddClasses(this VisualElement element, params string[] classNames)
+    parameters:
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+      description: The VisualElement to which classes will be added.
+    - id: classNames
+      type: System.String[]
+      description: The names of the classes to add.
+    return:
+      type: UnityEngine.UIElements.VisualElement
+      description: The modified VisualElement.
+    content.vb: Public Shared Function AddClasses(element As VisualElement, ParamArray classNames As String()) As VisualElement
+  overload: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses*
+  nameWithType.vb: FsmStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  id: AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  isExtensionMethod: true
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  langs:
+  - csharp
+  - vb
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: AddStyleSheets
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmStyleUtility.cs
+    startLine: 33
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Adds one or more style sheets to a VisualElement.
+  example: []
+  syntax:
+    content: public static VisualElement AddStyleSheets(this VisualElement element, params string[] styleSheetNames)
+    parameters:
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+      description: The VisualElement to which style sheets will be added.
+    - id: styleSheetNames
+      type: System.String[]
+      description: The names of the style sheets to add.
+    return:
+      type: UnityEngine.UIElements.VisualElement
+      description: The modified VisualElement.
+    content.vb: Public Shared Function AddStyleSheets(element As VisualElement, ParamArray styleSheetNames As String()) As VisualElement
+  overload: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets*
+  nameWithType.vb: FsmStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+references:
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddClasses
+  nameWithType: FsmStyleUtility.AddClasses
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddStyleSheets
+  nameWithType: FsmStyleUtility.AddStyleSheets
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets

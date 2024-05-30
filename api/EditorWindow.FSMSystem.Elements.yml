@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Elements
+  commentId: N:EditorWindow.FSMSystem.Elements
+  id: EditorWindow.FSMSystem.Elements
+  children:
+  - EditorWindow.FSMSystem.Elements.FsmCustomConditionNode
+  - EditorWindow.FSMSystem.Elements.FsmCustomStateNode
+  - EditorWindow.FSMSystem.Elements.FsmDualTransitionNode
+  - EditorWindow.FSMSystem.Elements.FsmExtensionNode
+  - EditorWindow.FSMSystem.Elements.FsmInitialNode
+  - EditorWindow.FSMSystem.Elements.FsmNode
+  - EditorWindow.FSMSystem.Elements.FsmStateNode
+  - EditorWindow.FSMSystem.Elements.FsmTransitionNode
+  - EditorWindow.FSMSystem.Elements.FsmVariableNode
+  langs:
+  - csharp
+  - vb
+  name: EditorWindow.FSMSystem.Elements
+  nameWithType: EditorWindow.FSMSystem.Elements
+  fullName: EditorWindow.FSMSystem.Elements
+  type: Namespace
+  assemblies:
+  - EditorWindow
+references:
+- uid: EditorWindow.FSMSystem.Elements.FsmVariableNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmVariableNode
+  href: EditorWindow.FSMSystem.Elements.FsmVariableNode.html
+  name: FsmVariableNode
+  nameWithType: FsmVariableNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmVariableNode
+- uid: EditorWindow.FSMSystem.Elements.FsmTransitionNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmTransitionNode
+  href: EditorWindow.FSMSystem.Elements.FsmTransitionNode.html
+  name: FsmTransitionNode
+  nameWithType: FsmTransitionNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmTransitionNode
+- uid: EditorWindow.FSMSystem.Elements.FsmCustomConditionNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmCustomConditionNode
+  href: EditorWindow.FSMSystem.Elements.FsmCustomConditionNode.html
+  name: FsmCustomConditionNode
+  nameWithType: FsmCustomConditionNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmCustomConditionNode
+- uid: EditorWindow.FSMSystem.Elements.FsmDualTransitionNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmDualTransitionNode
+  href: EditorWindow.FSMSystem.Elements.FsmDualTransitionNode.html
+  name: FsmDualTransitionNode
+  nameWithType: FsmDualTransitionNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmDualTransitionNode
+- uid: EditorWindow.FSMSystem.Elements.FsmNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmNode
+  parent: EditorWindow.FSMSystem.Elements
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  name: FsmNode
+  nameWithType: FsmNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode
+- uid: EditorWindow.FSMSystem.Elements.FsmExtensionNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmExtensionNode
+  href: EditorWindow.FSMSystem.Elements.FsmExtensionNode.html
+  name: FsmExtensionNode
+  nameWithType: FsmExtensionNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmExtensionNode
+- uid: EditorWindow.FSMSystem.Elements.FsmStateNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmStateNode
+  href: EditorWindow.FSMSystem.Elements.FsmStateNode.html
+  name: FsmStateNode
+  nameWithType: FsmStateNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmStateNode
+- uid: EditorWindow.FSMSystem.Elements.FsmInitialNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmInitialNode
+  href: EditorWindow.FSMSystem.Elements.FsmInitialNode.html
+  name: FsmInitialNode
+  nameWithType: FsmInitialNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmInitialNode
+- uid: EditorWindow.FSMSystem.Elements.FsmCustomStateNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmCustomStateNode
+  href: EditorWindow.FSMSystem.Elements.FsmCustomStateNode.html
+  name: FsmCustomStateNode
+  nameWithType: FsmCustomStateNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmCustomStateNode
+- uid: EditorWindow.FSMSystem.Elements
+  commentId: N:EditorWindow.FSMSystem.Elements
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Elements
+  nameWithType: EditorWindow.FSMSystem.Elements
+  fullName: EditorWindow.FSMSystem.Elements
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html

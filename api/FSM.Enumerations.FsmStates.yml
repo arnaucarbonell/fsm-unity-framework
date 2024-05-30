@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Enumerations.FsmStates
+  commentId: T:FSM.Enumerations.FsmStates
+  id: FsmStates
+  parent: FSM.Enumerations
+  children:
+  - FSM.Enumerations.FsmStates.Alert
+  - FSM.Enumerations.FsmStates.Attack
+  - FSM.Enumerations.FsmStates.Chase
+  - FSM.Enumerations.FsmStates.Custom
+  - FSM.Enumerations.FsmStates.Die
+  - FSM.Enumerations.FsmStates.Flee
+  - FSM.Enumerations.FsmStates.Hit
+  - FSM.Enumerations.FsmStates.Idle
+  - FSM.Enumerations.FsmStates.Patrol
+  - FSM.Enumerations.FsmStates.Search
+  - FSM.Enumerations.FsmStates.Variable
+  langs:
+  - csharp
+  - vb
+  name: FsmStates
+  nameWithType: FsmStates
+  fullName: FSM.Enumerations.FsmStates
+  type: Enum
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmStates
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 5
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  summary: Enumeration representing different states in a Finite State Machine.
+  example: []
+  syntax:
+    content: public enum FsmStates
+    content.vb: Public Enum FsmStates
+- uid: FSM.Enumerations.FsmStates.Idle
+  commentId: F:FSM.Enumerations.FsmStates.Idle
+  id: Idle
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: FsmStates.Idle
+  fullName: FSM.Enumerations.FsmStates.Idle
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Idle
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 7
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Idle = 0
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Patrol
+  commentId: F:FSM.Enumerations.FsmStates.Patrol
+  id: Patrol
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Patrol
+  nameWithType: FsmStates.Patrol
+  fullName: FSM.Enumerations.FsmStates.Patrol
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Patrol
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 8
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Patrol = 1
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Chase
+  commentId: F:FSM.Enumerations.FsmStates.Chase
+  id: Chase
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Chase
+  nameWithType: FsmStates.Chase
+  fullName: FSM.Enumerations.FsmStates.Chase
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Chase
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Chase = 2
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Attack
+  commentId: F:FSM.Enumerations.FsmStates.Attack
+  id: Attack
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Attack
+  nameWithType: FsmStates.Attack
+  fullName: FSM.Enumerations.FsmStates.Attack
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Attack
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 10
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Attack = 3
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Hit
+  commentId: F:FSM.Enumerations.FsmStates.Hit
+  id: Hit
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Hit
+  nameWithType: FsmStates.Hit
+  fullName: FSM.Enumerations.FsmStates.Hit
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Hit
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 11
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Hit = 4
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Die
+  commentId: F:FSM.Enumerations.FsmStates.Die
+  id: Die
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Die
+  nameWithType: FsmStates.Die
+  fullName: FSM.Enumerations.FsmStates.Die
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Die
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 12
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Die = 5
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Search
+  commentId: F:FSM.Enumerations.FsmStates.Search
+  id: Search
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Search
+  nameWithType: FsmStates.Search
+  fullName: FSM.Enumerations.FsmStates.Search
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Search
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 13
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Search = 6
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Flee
+  commentId: F:FSM.Enumerations.FsmStates.Flee
+  id: Flee
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Flee
+  nameWithType: FsmStates.Flee
+  fullName: FSM.Enumerations.FsmStates.Flee
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Flee
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 14
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Flee = 7
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Variable
+  commentId: F:FSM.Enumerations.FsmStates.Variable
+  id: Variable
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Variable
+  nameWithType: FsmStates.Variable
+  fullName: FSM.Enumerations.FsmStates.Variable
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Variable
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 15
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Variable = 8
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Custom
+  commentId: F:FSM.Enumerations.FsmStates.Custom
+  id: Custom
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: FsmStates.Custom
+  fullName: FSM.Enumerations.FsmStates.Custom
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Custom
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 16
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Custom = 9
+    return:
+      type: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmStates.Alert
+  commentId: F:FSM.Enumerations.FsmStates.Alert
+  id: Alert
+  parent: FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: Alert
+  nameWithType: FsmStates.Alert
+  fullName: FSM.Enumerations.FsmStates.Alert
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmStates.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Alert
+    path: Assets/FSM/Enumerations/FsmStates.cs
+    startLine: 17
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Alert = 10
+    return:
+      type: FSM.Enumerations.FsmStates
+references:
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+- uid: FSM.Enumerations.FsmStates
+  commentId: T:FSM.Enumerations.FsmStates
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmStates.html
+  name: FsmStates
+  nameWithType: FsmStates
+  fullName: FSM.Enumerations.FsmStates

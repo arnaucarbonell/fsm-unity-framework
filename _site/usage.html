@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Usage Guide | FSM Unity Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Usage Guide | FSM Unity Framework ">
+      
+      
+      <link rel="icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/usage.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="usage-guide">Usage Guide</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>Welcome to the Unity Finite State Machine (FSM) Tool usage guide. This document provides detailed information on the various types of nodes available in the FSM tool and outlines the features of the tool to help you get started with creating and managing FSMs in your Unity projects.</p>
+<h2 id="types-of-nodes">Types of Nodes</h2>
+<p>The FSM tool includes several types of nodes, each serving a specific purpose within the state machine. Understanding these nodes is crucial for effectively using the tool.</p>
+<h3 id="fsmstatenode">FsmStateNode</h3>
+<p><strong>Description:</strong><br>
+The FsmStateNode represents a state within the FSM. It initializes the node with a name and position and sets the type of node as a state.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Predefined States:</strong> Includes states such as Idle, Patrol, Chase, Flee, Attack, and Search.</li>
+<li><strong>Custom Variables:</strong> Displays variables specific to the state for customization.</li>
+<li><strong>Animation Override:</strong> Allows overriding an animation to run while the state is active.</li>
+<li><strong>Hit State Override:</strong> Modifies global enemy values during this state.</li>
+<li><strong>Unique Instance:</strong> Only one instance of a state behavior can exist simultaneously.</li>
+<li><strong>Connections:</strong> Can receive multiple connections from non-action nodes and can only connect to condition nodes.</li>
+</ul>
+<h3 id="fsmcustomstatenode">FsmCustomStateNode</h3>
+<p><strong>Description:</strong><br>
+The FsmCustomStateNode allows for custom behavior by attaching any scene component and selecting its functions to execute during the state.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Component Selection:</strong> Add any component from the scene and choose a function to execute.</li>
+<li><strong>Animation and Hit State Override:</strong> Similar to FsmStateNode.</li>
+<li><strong>Unique Instance:</strong> Only one instance of a state behavior can exist simultaneously.</li>
+<li><strong>Connections:</strong> Can receive multiple connections from non-action nodes and can only connect to condition nodes.</li>
+</ul>
+<h3 id="fsmvariablenode">FsmVariableNode</h3>
+<p><strong>Description:</strong><br>
+The FsmVariableNode is used to override the value of a variable when connected to another state.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Variable Override:</strong> Change the value of a variable for connected states.</li>
+<li><strong>Connections:</strong> Can only connect to other states.</li>
+</ul>
+<h3 id="fsmtransitionnode">FsmTransitionNode</h3>
+<p><strong>Description:</strong><br>
+The FsmTransitionNode manages transitions between states based on specified conditions.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Conditions:</strong> Includes conditions based on distance, direct vision, health, noise, and a default forward execution condition.</li>
+<li><strong>Connections:</strong> Can connect to both states and conditions.</li>
+<li><strong>Repeatable:</strong> Can be used multiple times with different values.</li>
+</ul>
+<h3 id="fsmdualtransitionnode">FsmDualTransitionNode</h3>
+<p><strong>Description:</strong><br>
+The FsmDualTransitionNode is similar to FsmTransitionNode but has two output ports for true and false conditions.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Dual Conditions:</strong> Allows different behaviors based on whether the condition is true or false.</li>
+<li><strong>Connections:</strong> Can connect to both states and conditions.</li>
+<li><strong>Repeatable:</strong> Can be used multiple times with different values.</li>
+</ul>
+<h3 id="fsmcustomtransitionnode">FsmCustomTransitionNode</h3>
+<p><strong>Description:</strong><br>
+The FsmCustomTransitionNode allows for custom transitions by selecting functions from scene components to execute during the transition.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Component Selection:</strong> Add any component from the scene and choose a function to execute.</li>
+<li><strong>Custom Conditions:</strong> Similar to FsmDualTransitionNode but with custom component functions.</li>
+</ul>
+<h3 id="fsminitialnode">FsmInitialNode</h3>
+<p><strong>Description:</strong><br>
+The FsmInitialNode marks the starting point of the FSM.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Initial State:</strong> Defines the initial state when the FSM is initialized.</li>
+<li><strong>Unique Instance:</strong> Only one initial node can exist in each FSM graph.</li>
+<li><strong>Automatic Creation:</strong> Created automatically and cannot be deleted.</li>
+</ul>
+<h3 id="fsmextensionnode">FsmExtensionNode</h3>
+<p><strong>Description:</strong><br>
+The FsmExtensionNode is used for organizing the graph visually.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Visual Organization:</strong> Helps in arranging the graph and its connections for better clarity.</li>
+<li><strong>Creation:</strong> Created by clicking the middle mouse button on a connection line.</li>
+</ul>
+<h2 id="features-of-the-unity-fsm-tool">Features of the Unity FSM Tool</h2>
+<p>The Unity FSM Tool provides several features designed to streamline the creation and management of finite state machines within Unity.</p>
+<h3 id="visual-editor">Visual Editor</h3>
+<p><strong>Description:</strong><br>
+The visual editor offers a user-friendly interface for designing FSMs. It allows users to create, connect, and configure nodes using a drag-and-drop system.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Node Creation:</strong> Easily create and place nodes on the canvas.</li>
+<li><strong>Connections:</strong> Draw connections between nodes to define transitions.</li>
+<li><strong>Configuration:</strong> Configure node properties and conditions directly within the editor.</li>
+</ul>
+<h3 id="serialization-and-deserialization">Serialization and Deserialization</h3>
+<p><strong>Description:</strong><br>
+The tool supports saving and loading FSM configurations, allowing for persistent FSMs across sessions.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Save FSM:</strong> Save the current FSM configuration to a file.</li>
+<li><strong>Load FSM:</strong> Load an FSM configuration from a file.</li>
+</ul>
+<h3 id="inspector-integration">Inspector Integration</h3>
+<p><strong>Description:</strong><br>
+The tool integrates with the Unity Inspector, allowing for seamless editing of FSM properties.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Property Fields:</strong> Edit FSM properties directly in the Inspector.</li>
+<li><strong>Live Updates:</strong> See real-time updates to FSM configurations within the Inspector.</li>
+</ul>
+<h3 id="debugging-tools">Debugging Tools</h3>
+<p><strong>Description:</strong><br>
+Debugging tools help identify and fix issues within the FSM.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>State Tracking:</strong> Monitor the current state and transitions during runtime.</li>
+<li><strong>Condition Evaluation:</strong> Evaluate and display condition results to ensure they work as expected.</li>
+</ul>
+<h3 id="scripting-api">Scripting API</h3>
+<p><strong>Description:</strong><br>
+The FSM tool provides a scripting API for advanced users who prefer to configure FSMs programmatically.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><strong>Create States and Transitions:</strong> Programmatically create and connect states and transitions.</li>
+<li><strong>Access FSM Properties:</strong> Access and modify FSM properties through code.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/usage.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

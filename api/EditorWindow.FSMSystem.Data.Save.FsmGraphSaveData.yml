@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  id: FsmGraphSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  children:
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize(System.String,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames
+  langs:
+  - csharp
+  - vb
+  name: FsmGraphSaveData
+  nameWithType: FsmGraphSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmGraphSaveData
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 7
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Represents save data for FSM graphs.
+  example: []
+  syntax:
+    content: 'public class FsmGraphSaveData : ScriptableObject'
+    content.vb: Public Class FsmGraphSaveData Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName
+  id: FileName
+  parent: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: FsmGraphSaveData.FileName
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FileName
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 12
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the name of the file associated with the graph.
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState
+  id: InitialState
+  parent: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  langs:
+  - csharp
+  - vb
+  name: InitialState
+  nameWithType: FsmGraphSaveData.InitialState
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: InitialState
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 16
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the initial state of the graph.
+  example: []
+  syntax:
+    content: public string InitialState { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InitialState As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes
+  id: Nodes
+  parent: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  langs:
+  - csharp
+  - vb
+  name: Nodes
+  nameWithType: FsmGraphSaveData.Nodes
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Nodes
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 20
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the list of nodes in the graph.
+  example: []
+  syntax:
+    content: public List<FsmNodeSaveData> Nodes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData}
+    content.vb: Public Property Nodes As List(Of FsmNodeSaveData)
+  overload: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames
+  id: OldNodeNames
+  parent: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  langs:
+  - csharp
+  - vb
+  name: OldNodeNames
+  nameWithType: FsmGraphSaveData.OldNodeNames
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OldNodeNames
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 24
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the list of old node names in the graph.
+  example: []
+  syntax:
+    content: public List<string> OldNodeNames { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property OldNodeNames As List(Of String)
+  overload: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject
+  id: GameObject
+  parent: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  langs:
+  - csharp
+  - vb
+  name: GameObject
+  nameWithType: FsmGraphSaveData.GameObject
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GameObject
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 28
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the name of the GameObject associated with the graph.
+  example: []
+  syntax:
+    content: public string GameObject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GameObject As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData
+  id: HitData
+  parent: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  langs:
+  - csharp
+  - vb
+  name: HitData
+  nameWithType: FsmGraphSaveData.HitData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: HitData
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 32
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the save data for hit events in the graph.
+  example: []
+  syntax:
+    content: public FsmHitSaveData HitData { get; set; }
+    parameters: []
+    return:
+      type: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+    content.vb: Public Property HitData As FsmHitSaveData
+  overload: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize(System.String,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  commentId: M:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize(System.String,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  id: Initialize(System.String,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  parent: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  langs:
+  - csharp
+  - vb
+  name: Initialize(string, string, FsmHitSaveData)
+  nameWithType: FsmGraphSaveData.Initialize(string, string, FsmHitSaveData)
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize(string, string, EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Initialize
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmGraphSaveData.cs
+    startLine: 39
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Initializes the save data with specified parameters.
+  example: []
+  syntax:
+    content: public void Initialize(string fileName, string initialState, FsmHitSaveData hitSaveData)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: The name of the file associated with the graph.
+    - id: initialState
+      type: System.String
+      description: The initial state of the graph.
+    - id: hitSaveData
+      type: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+      description: The save data for hit events in the graph.
+    content.vb: Public Sub Initialize(fileName As String, initialState As String, hitSaveData As FsmHitSaveData)
+  overload: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize*
+  nameWithType.vb: FsmGraphSaveData.Initialize(String, String, FsmHitSaveData)
+  fullName.vb: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize(String, String, EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  name.vb: Initialize(String, String, FsmHitSaveData)
+references:
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_FileName
+  name: FileName
+  nameWithType: FsmGraphSaveData.FileName
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_InitialState
+  name: InitialState
+  nameWithType: FsmGraphSaveData.InitialState
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.InitialState
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_Nodes
+  name: Nodes
+  nameWithType: FsmGraphSaveData.Nodes
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Nodes
+- uid: System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData}
+  commentId: T:System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FsmNodeSaveData>
+  nameWithType: List<FsmNodeSaveData>
+  fullName: System.Collections.Generic.List<EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData>
+  nameWithType.vb: List(Of FsmNodeSaveData)
+  fullName.vb: System.Collections.Generic.List(Of EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData)
+  name.vb: List(Of FsmNodeSaveData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+    name: FsmNodeSaveData
+    href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+    name: FsmNodeSaveData
+    href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_OldNodeNames
+  name: OldNodeNames
+  nameWithType: FsmGraphSaveData.OldNodeNames
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.OldNodeNames
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_GameObject
+  name: GameObject
+  nameWithType: FsmGraphSaveData.GameObject
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.GameObject
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_HitData
+  name: HitData
+  nameWithType: FsmGraphSaveData.HitData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.HitData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData.html
+  name: FsmHitSaveData
+  nameWithType: FsmHitSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_Initialize_System_String_System_String_EditorWindow_FSMSystem_Data_Save_FsmHitSaveData_
+  name: Initialize
+  nameWithType: FsmGraphSaveData.Initialize
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.Initialize

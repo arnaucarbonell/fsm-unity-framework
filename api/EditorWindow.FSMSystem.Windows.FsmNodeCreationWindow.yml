@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow
+  id: FsmNodeCreationWindow
+  parent: EditorWindow.FSMSystem.Windows
+  children:
+  - EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow
+  langs:
+  - csharp
+  - vb
+  name: FsmNodeCreationWindow
+  nameWithType: FsmNodeCreationWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmNodeCreationWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmNodeCreationWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmNodeCreationWindow.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: 'public class FsmNodeCreationWindow : EditorWindow'
+    content.vb: Public Class FsmNodeCreationWindow Inherits EditorWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+- uid: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow
+  id: ShowWindow
+  parent: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: FsmNodeCreationWindow.ShowWindow()
+  fullName: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmNodeCreationWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ShowWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmNodeCreationWindow.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: >-
+      [MenuItem("Window/FSM/Create State or Condition")]
+
+      public static void ShowWindow()
+    content.vb: >-
+      <MenuItem("Window/FSM/Create State or Condition")>
+
+      Public Shared Sub ShowWindow()
+  overload: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Window/FSM/Create State or Condition
+references:
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow
+  href: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.html#EditorWindow_FSMSystem_Windows_FsmNodeCreationWindow_ShowWindow
+  name: ShowWindow
+  nameWithType: FsmNodeCreationWindow.ShowWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmNodeCreationWindow.ShowWindow

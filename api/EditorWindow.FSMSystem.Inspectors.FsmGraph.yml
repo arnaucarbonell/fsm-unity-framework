@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Inspectors.FsmGraph
+  commentId: T:EditorWindow.FSMSystem.Inspectors.FsmGraph
+  id: FsmGraph
+  parent: EditorWindow.FSMSystem.Inspectors
+  children:
+  - EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject
+  langs:
+  - csharp
+  - vb
+  name: FsmGraph
+  nameWithType: FsmGraph
+  fullName: EditorWindow.FSMSystem.Inspectors.FsmGraph
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Inspectors/FsmGraph.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmGraph
+    path: Assets/EditorWindow/FSMSystem/Inspectors/FsmGraph.cs
+    startLine: 17
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Inspectors
+  summary: Represents the finite state machine graph attached to a GameObject.
+  example: []
+  syntax:
+    content: >-
+      [RequireComponent(typeof(Animator))]
+
+      [RequireComponent(typeof(NavMeshAgent))]
+
+      [RequireComponent(typeof(CapsuleCollider))]
+
+      [RequireComponent(typeof(AudioSource))]
+
+      [RequireComponent(typeof(EnemyHealthSystem))]
+
+      [AddComponentMenu("FSM AI/FSM AI")]
+
+      public class FsmGraph : MonoBehaviour
+    content.vb: >-
+      <RequireComponent(GetType(Animator))>
+
+      <RequireComponent(GetType(NavMeshAgent))>
+
+      <RequireComponent(GetType(CapsuleCollider))>
+
+      <RequireComponent(GetType(AudioSource))>
+
+      <RequireComponent(GetType(EnemyHealthSystem))>
+
+      <AddComponentMenu("FSM AI/FSM AI")>
+
+      Public Class FsmGraph Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  attributes:
+  - type: UnityEngine.RequireComponent
+    ctor: UnityEngine.RequireComponent.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: FSM.Enemy.EnemyHealthSystem
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: FSM AI/FSM AI
+- uid: EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject
+  commentId: M:EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject
+  id: UpdateComponentOfGameObject
+  parent: EditorWindow.FSMSystem.Inspectors.FsmGraph
+  langs:
+  - csharp
+  - vb
+  name: UpdateComponentOfGameObject()
+  nameWithType: FsmGraph.UpdateComponentOfGameObject()
+  fullName: EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Inspectors/FsmGraph.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateComponentOfGameObject
+    path: Assets/EditorWindow/FSMSystem/Inspectors/FsmGraph.cs
+    startLine: 29
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Inspectors
+  summary: Updates the components of the GameObject based on the FSM graph.
+  example: []
+  syntax:
+    content: public void UpdateComponentOfGameObject()
+    content.vb: Public Sub UpdateComponentOfGameObject()
+  overload: EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject*
+references:
+- uid: EditorWindow.FSMSystem.Inspectors
+  commentId: N:EditorWindow.FSMSystem.Inspectors
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Inspectors
+  nameWithType: EditorWindow.FSMSystem.Inspectors
+  fullName: EditorWindow.FSMSystem.Inspectors
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject*
+  commentId: Overload:EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject
+  href: EditorWindow.FSMSystem.Inspectors.FsmGraph.html#EditorWindow_FSMSystem_Inspectors_FsmGraph_UpdateComponentOfGameObject
+  name: UpdateComponentOfGameObject
+  nameWithType: FsmGraph.UpdateComponentOfGameObject
+  fullName: EditorWindow.FSMSystem.Inspectors.FsmGraph.UpdateComponentOfGameObject

@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Data.Error
+  commentId: N:EditorWindow.FSMSystem.Data.Error
+  id: EditorWindow.FSMSystem.Data.Error
+  children:
+  - EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  - EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  langs:
+  - csharp
+  - vb
+  name: EditorWindow.FSMSystem.Data.Error
+  nameWithType: EditorWindow.FSMSystem.Data.Error
+  fullName: EditorWindow.FSMSystem.Data.Error
+  type: Namespace
+  assemblies:
+  - EditorWindow
+references:
+- uid: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  commentId: T:EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+  href: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData.html
+  name: FsmNodeErrorData
+  nameWithType: FsmNodeErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmNodeErrorData
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  commentId: T:EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  parent: EditorWindow.FSMSystem.Data.Error
+  href: EditorWindow.FSMSystem.Data.Error.FsmErrorData.html
+  name: FsmErrorData
+  nameWithType: FsmErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+- uid: EditorWindow.FSMSystem.Data.Error
+  commentId: N:EditorWindow.FSMSystem.Data.Error
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Error
+  nameWithType: EditorWindow.FSMSystem.Data.Error
+  fullName: EditorWindow.FSMSystem.Data.Error
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Error
+    name: Error
+    href: EditorWindow.FSMSystem.Data.Error.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Error
+    name: Error
+    href: EditorWindow.FSMSystem.Data.Error.html

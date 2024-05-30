@@ -1,0 +1,356 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  id: FsmInspectorUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  children:
+  - EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields(System.Action)
+  - EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader(System.String)
+  - EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox(System.String,UnityEditor.MessageType,System.Boolean)
+  - EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField(UnityEditor.SerializedProperty)
+  - EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: FsmInspectorUtility
+  nameWithType: FsmInspectorUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmInspectorUtility
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+    startLine: 9
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Utility class for drawing custom inspector elements in the Unity Editor.
+  example: []
+  syntax:
+    content: public static class FsmInspectorUtility
+    content.vb: Public Module FsmInspectorUtility
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields(System.Action)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields(System.Action)
+  id: DrawDisabledFields(System.Action)
+  parent: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  langs:
+  - csharp
+  - vb
+  name: DrawDisabledFields(Action)
+  nameWithType: FsmInspectorUtility.DrawDisabledFields(Action)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields(System.Action)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DrawDisabledFields
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+    startLine: 15
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Draws fields in a disabled state.
+  example: []
+  syntax:
+    content: public static void DrawDisabledFields(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+      description: The action that draws the fields.
+    content.vb: Public Shared Sub DrawDisabledFields(action As Action)
+  overload: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields*
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader(System.String)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader(System.String)
+  id: DrawHeader(System.String)
+  parent: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  langs:
+  - csharp
+  - vb
+  name: DrawHeader(string)
+  nameWithType: FsmInspectorUtility.DrawHeader(string)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DrawHeader
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+    startLine: 26
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Draws a header label with bold styling.
+  example: []
+  syntax:
+    content: public static void DrawHeader(string label)
+    parameters:
+    - id: label
+      type: System.String
+      description: The label text.
+    content.vb: Public Shared Sub DrawHeader(label As String)
+  overload: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader*
+  nameWithType.vb: FsmInspectorUtility.DrawHeader(String)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader(String)
+  name.vb: DrawHeader(String)
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox(System.String,UnityEditor.MessageType,System.Boolean)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox(System.String,UnityEditor.MessageType,System.Boolean)
+  id: DrawHelpBox(System.String,UnityEditor.MessageType,System.Boolean)
+  parent: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  langs:
+  - csharp
+  - vb
+  name: DrawHelpBox(string, MessageType, bool)
+  nameWithType: FsmInspectorUtility.DrawHelpBox(string, MessageType, bool)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox(string, UnityEditor.MessageType, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DrawHelpBox
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+    startLine: 37
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Draws a help box with the specified message and type.
+  example: []
+  syntax:
+    content: public static void DrawHelpBox(string message, MessageType messageType = MessageType.Info, bool wide = true)
+    parameters:
+    - id: message
+      type: System.String
+      description: The help box message.
+    - id: messageType
+      type: UnityEditor.MessageType
+      description: The type of the message.
+    - id: wide
+      type: System.Boolean
+      description: Whether the help box should be wide.
+    content.vb: Public Shared Sub DrawHelpBox(message As String, messageType As MessageType = MessageType.Info, wide As Boolean = True)
+  overload: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox*
+  nameWithType.vb: FsmInspectorUtility.DrawHelpBox(String, MessageType, Boolean)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox(String, UnityEditor.MessageType, Boolean)
+  name.vb: DrawHelpBox(String, MessageType, Boolean)
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField(UnityEditor.SerializedProperty)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField(UnityEditor.SerializedProperty)
+  id: DrawPropertyField(UnityEditor.SerializedProperty)
+  isExtensionMethod: true
+  parent: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  langs:
+  - csharp
+  - vb
+  name: DrawPropertyField(SerializedProperty)
+  nameWithType: FsmInspectorUtility.DrawPropertyField(SerializedProperty)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField(UnityEditor.SerializedProperty)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DrawPropertyField
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+    startLine: 47
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Draws a property field for the given serialized property.
+  example: []
+  syntax:
+    content: public static bool DrawPropertyField(this SerializedProperty serializedProperty)
+    parameters:
+    - id: serializedProperty
+      type: UnityEditor.SerializedProperty
+      description: The serialized property to draw.
+    return:
+      type: System.Boolean
+      description: True if the property has been modified; otherwise, false.
+    content.vb: Public Shared Function DrawPropertyField(serializedProperty As SerializedProperty) As Boolean
+  overload: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField*
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace(System.Int32)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace(System.Int32)
+  id: DrawSpace(System.Int32)
+  parent: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility
+  langs:
+  - csharp
+  - vb
+  name: DrawSpace(int)
+  nameWithType: FsmInspectorUtility.DrawSpace(int)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DrawSpace
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmInspectorUtility.cs
+    startLine: 56
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Draws a space of the specified amount.
+  example: []
+  syntax:
+    content: public static void DrawSpace(int amount = 4)
+    parameters:
+    - id: amount
+      type: System.Int32
+      description: The amount of space to draw.
+    content.vb: Public Shared Sub DrawSpace(amount As Integer = 4)
+  overload: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace*
+  nameWithType.vb: FsmInspectorUtility.DrawSpace(Integer)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace(Integer)
+  name.vb: DrawSpace(Integer)
+references:
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields
+  href: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.html#EditorWindow_FSMSystem_Utilities_FsmInspectorUtility_DrawDisabledFields_System_Action_
+  name: DrawDisabledFields
+  nameWithType: FsmInspectorUtility.DrawDisabledFields
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawDisabledFields
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader
+  href: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.html#EditorWindow_FSMSystem_Utilities_FsmInspectorUtility_DrawHeader_System_String_
+  name: DrawHeader
+  nameWithType: FsmInspectorUtility.DrawHeader
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHeader
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox
+  href: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.html#EditorWindow_FSMSystem_Utilities_FsmInspectorUtility_DrawHelpBox_System_String_UnityEditor_MessageType_System_Boolean_
+  name: DrawHelpBox
+  nameWithType: FsmInspectorUtility.DrawHelpBox
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawHelpBox
+- uid: UnityEditor.MessageType
+  commentId: T:UnityEditor.MessageType
+  parent: UnityEditor
+  isExternal: true
+  name: MessageType
+  nameWithType: MessageType
+  fullName: UnityEditor.MessageType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField
+  href: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.html#EditorWindow_FSMSystem_Utilities_FsmInspectorUtility_DrawPropertyField_UnityEditor_SerializedProperty_
+  name: DrawPropertyField
+  nameWithType: FsmInspectorUtility.DrawPropertyField
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawPropertyField
+- uid: UnityEditor.SerializedProperty
+  commentId: T:UnityEditor.SerializedProperty
+  parent: UnityEditor
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: UnityEditor.SerializedProperty
+- uid: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace
+  href: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.html#EditorWindow_FSMSystem_Utilities_FsmInspectorUtility_DrawSpace_System_Int32_
+  name: DrawSpace
+  nameWithType: FsmInspectorUtility.DrawSpace
+  fullName: EditorWindow.FSMSystem.Utilities.FsmInspectorUtility.DrawSpace
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

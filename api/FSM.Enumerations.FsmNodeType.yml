@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Enumerations.FsmNodeType
+  commentId: T:FSM.Enumerations.FsmNodeType
+  id: FsmNodeType
+  parent: FSM.Enumerations
+  children:
+  - FSM.Enumerations.FsmNodeType.CustomCondition
+  - FSM.Enumerations.FsmNodeType.CustomState
+  - FSM.Enumerations.FsmNodeType.DualTransition
+  - FSM.Enumerations.FsmNodeType.Extension
+  - FSM.Enumerations.FsmNodeType.Initial
+  - FSM.Enumerations.FsmNodeType.State
+  - FSM.Enumerations.FsmNodeType.Transition
+  - FSM.Enumerations.FsmNodeType.Variable
+  langs:
+  - csharp
+  - vb
+  name: FsmNodeType
+  nameWithType: FsmNodeType
+  fullName: FSM.Enumerations.FsmNodeType
+  type: Enum
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmNodeType
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 5
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  summary: Enumeration representing different types of FSM nodes.
+  example: []
+  syntax:
+    content: public enum FsmNodeType
+    content.vb: Public Enum FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.State
+  commentId: F:FSM.Enumerations.FsmNodeType.State
+  id: State
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: FsmNodeType.State
+  fullName: FSM.Enumerations.FsmNodeType.State
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: State
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 7
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: State = 0
+    return:
+      type: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.Transition
+  commentId: F:FSM.Enumerations.FsmNodeType.Transition
+  id: Transition
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: Transition
+  nameWithType: FsmNodeType.Transition
+  fullName: FSM.Enumerations.FsmNodeType.Transition
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Transition
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 8
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Transition = 1
+    return:
+      type: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.Initial
+  commentId: F:FSM.Enumerations.FsmNodeType.Initial
+  id: Initial
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: Initial
+  nameWithType: FsmNodeType.Initial
+  fullName: FSM.Enumerations.FsmNodeType.Initial
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Initial
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Initial = 2
+    return:
+      type: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.DualTransition
+  commentId: F:FSM.Enumerations.FsmNodeType.DualTransition
+  id: DualTransition
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: DualTransition
+  nameWithType: FsmNodeType.DualTransition
+  fullName: FSM.Enumerations.FsmNodeType.DualTransition
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DualTransition
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 10
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: DualTransition = 3
+    return:
+      type: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.Extension
+  commentId: F:FSM.Enumerations.FsmNodeType.Extension
+  id: Extension
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: FsmNodeType.Extension
+  fullName: FSM.Enumerations.FsmNodeType.Extension
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Extension
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 11
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Extension = 4
+    return:
+      type: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.CustomState
+  commentId: F:FSM.Enumerations.FsmNodeType.CustomState
+  id: CustomState
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: CustomState
+  nameWithType: FsmNodeType.CustomState
+  fullName: FSM.Enumerations.FsmNodeType.CustomState
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CustomState
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 12
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: CustomState = 5
+    return:
+      type: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.CustomCondition
+  commentId: F:FSM.Enumerations.FsmNodeType.CustomCondition
+  id: CustomCondition
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: CustomCondition
+  nameWithType: FsmNodeType.CustomCondition
+  fullName: FSM.Enumerations.FsmNodeType.CustomCondition
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CustomCondition
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 13
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: CustomCondition = 6
+    return:
+      type: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmNodeType.Variable
+  commentId: F:FSM.Enumerations.FsmNodeType.Variable
+  id: Variable
+  parent: FSM.Enumerations.FsmNodeType
+  langs:
+  - csharp
+  - vb
+  name: Variable
+  nameWithType: FsmNodeType.Variable
+  fullName: FSM.Enumerations.FsmNodeType.Variable
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmNodeType.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Variable
+    path: Assets/FSM/Enumerations/FsmNodeType.cs
+    startLine: 14
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: Variable = 7
+    return:
+      type: FSM.Enumerations.FsmNodeType
+references:
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+- uid: FSM.Enumerations.FsmNodeType
+  commentId: T:FSM.Enumerations.FsmNodeType
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmNodeType.html
+  name: FsmNodeType
+  nameWithType: FsmNodeType
+  fullName: FSM.Enumerations.FsmNodeType

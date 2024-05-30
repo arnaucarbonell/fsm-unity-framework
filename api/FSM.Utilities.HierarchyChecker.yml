@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities.HierarchyChecker
+  commentId: T:FSM.Utilities.HierarchyChecker
+  id: HierarchyChecker
+  parent: FSM.Utilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: HierarchyChecker
+  nameWithType: HierarchyChecker
+  fullName: FSM.Utilities.HierarchyChecker
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Utilities/HierarchyChecker.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: HierarchyChecker
+    path: Assets/FSM/Utilities/HierarchyChecker.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Class for loading unique ID's to every object everytime the hierarchy changes.
+  example: []
+  syntax:
+    content: >-
+      [InitializeOnLoad]
+
+      public static class HierarchyChecker
+    content.vb: >-
+      <InitializeOnLoad>
+
+      Public Module HierarchyChecker
+  inheritance:
+  - System.Object
+  attributes:
+  - type: UnityEditor.InitializeOnLoadAttribute
+    ctor: UnityEditor.InitializeOnLoadAttribute.#ctor
+    arguments: []
+references:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

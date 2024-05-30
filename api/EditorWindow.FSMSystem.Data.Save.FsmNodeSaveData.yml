@@ -1,0 +1,566 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  id: FsmNodeSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  children:
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position
+  langs:
+  - csharp
+  - vb
+  name: FsmNodeSaveData
+  nameWithType: FsmNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmNodeSaveData
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 6
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class FsmNodeSaveData
+    content.vb: >-
+      <Serializable>
+
+      Public Class FsmNodeSaveData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id
+  id: Id
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: FsmNodeSaveData.Id
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Id
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 12
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the ID of the node.
+  example: []
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name
+  id: Name
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FsmNodeSaveData.Name
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Name
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 16
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the name of the node.
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections
+  id: Connections
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: Connections
+  nameWithType: FsmNodeSaveData.Connections
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Connections
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 20
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the list of connections associated with the node.
+  example: []
+  syntax:
+    content: public List<FsmConnectionSaveData> Connections { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData}
+    content.vb: Public Property Connections As List(Of FsmConnectionSaveData)
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType
+  id: NodeType
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: NodeType
+  nameWithType: FsmNodeSaveData.NodeType
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: NodeType
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 24
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the type of the node.
+  example: []
+  syntax:
+    content: public FsmNodeType NodeType { get; set; }
+    parameters: []
+    return:
+      type: FSM.Enumerations.FsmNodeType
+    content.vb: Public Property NodeType As FsmNodeType
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position
+  id: Position
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: FsmNodeSaveData.Position
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Position
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 28
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the position of the node.
+  example: []
+  syntax:
+    content: public Vector2 Position { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Property Position As Vector2
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData
+  id: AnimatorSaveData
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: AnimatorSaveData
+  nameWithType: FsmNodeSaveData.AnimatorSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: AnimatorSaveData
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 32
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the save data about the animation option selected associated with the node.
+  example: []
+  syntax:
+    content: public FsmAnimatorSaveData AnimatorSaveData { get; set; }
+    parameters: []
+    return:
+      type: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+    content.vb: Public Property AnimatorSaveData As FsmAnimatorSaveData
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData
+  id: HitNodeSaveData
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: HitNodeSaveData
+  nameWithType: FsmNodeSaveData.HitNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: HitNodeSaveData
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 36
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the save data for hit override values associated with the node.
+  example: []
+  syntax:
+    content: public FsmHitNodeSaveData HitNodeSaveData { get; set; }
+    parameters: []
+    return:
+      type: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+    content.vb: Public Property HitNodeSaveData As FsmHitNodeSaveData
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject
+  id: DataObject
+  parent: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: DataObject
+  nameWithType: FsmNodeSaveData.DataObject
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DataObject
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmNodeSaveData.cs
+    startLine: 40
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the data object saved in a json associated with the node.
+  example: []
+  syntax:
+    content: public string DataObject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataObject As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject*
+references:
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_Id
+  name: Id
+  nameWithType: FsmNodeSaveData.Id
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_Name
+  name: Name
+  nameWithType: FsmNodeSaveData.Name
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Name
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_Connections
+  name: Connections
+  nameWithType: FsmNodeSaveData.Connections
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Connections
+- uid: System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData}
+  commentId: T:System.Collections.Generic.List{EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FsmConnectionSaveData>
+  nameWithType: List<FsmConnectionSaveData>
+  fullName: System.Collections.Generic.List<EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData>
+  nameWithType.vb: List(Of FsmConnectionSaveData)
+  fullName.vb: System.Collections.Generic.List(Of EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData)
+  name.vb: List(Of FsmConnectionSaveData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+    name: FsmConnectionSaveData
+    href: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+    name: FsmConnectionSaveData
+    href: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_NodeType
+  name: NodeType
+  nameWithType: FsmNodeSaveData.NodeType
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.NodeType
+- uid: FSM.Enumerations.FsmNodeType
+  commentId: T:FSM.Enumerations.FsmNodeType
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmNodeType.html
+  name: FsmNodeType
+  nameWithType: FsmNodeType
+  fullName: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_Position
+  name: Position
+  nameWithType: FsmNodeSaveData.Position
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.Position
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_AnimatorSaveData
+  name: AnimatorSaveData
+  nameWithType: FsmNodeSaveData.AnimatorSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.AnimatorSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData.html
+  name: FsmAnimatorSaveData
+  nameWithType: FsmAnimatorSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_HitNodeSaveData
+  name: HitNodeSaveData
+  nameWithType: FsmNodeSaveData.HitNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.HitNodeSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData.html
+  name: FsmHitNodeSaveData
+  nameWithType: FsmHitNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_DataObject
+  name: DataObject
+  nameWithType: FsmNodeSaveData.DataObject
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.DataObject

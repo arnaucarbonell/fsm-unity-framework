@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FsmGraphView | FSM Unity Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FsmGraphView | FSM Unity Framework ">
+      
+      <meta name="description" content="The graph view that hold the content for the FSM system.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/acarbonellb33/Unity_FSM_ToolKit/new/main/apiSpec/new?filename=EditorWindow_FSMSystem_Windows_FsmGraphView.md&amp;value=---%0Auid%3A%20EditorWindow.FSMSystem.Windows.FsmGraphView%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView">
+
+
+
+  <h1 id="EditorWindow_FSMSystem_Windows_FsmGraphView" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView" class="text-break">
+Class FsmGraphView  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="EditorWindow.html">EditorWindow</a>.<a class="xref" href="EditorWindow.FSMSystem.html">FSMSystem</a>.<a class="xref" href="EditorWindow.FSMSystem.Windows.html">Windows</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>EditorWindow.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The graph view that hold the content for the FSM system.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FsmGraphView : GraphView</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CallbackEventHandler</span></div>
+      <div><span class="xref">Focusable</span></div>
+      <div><span class="xref">VisualElement</span></div>
+      <div><span class="xref">GraphView</span></div>
+      <div><span class="xref">FsmGraphView</span></div>
+    </dd>
+  </dl>
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___">FsmStyleUtility.AddClasses(VisualElement, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___">FsmStyleUtility.AddStyleSheets(VisualElement, params string[])</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="EditorWindow_FSMSystem_Windows_FsmGraphView__ctor_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Windows_FsmGraphView__ctor_EditorWindow_FSMSystem_Windows_FsmEditorWindow_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor(EditorWindow.FSMSystem.Windows.FsmEditorWindow)">
+  FsmGraphView(FsmEditorWindow)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Constructor for the FSM graph view. Uses the <a class="xref" href="EditorWindow.FSMSystem.Windows.FsmEditorWindow.html">FsmEditorWindow</a> as a parameter, and loads the content of the graph view inside the window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FsmGraphView(FsmEditorWindow window)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>window</code> <a class="xref" href="EditorWindow.FSMSystem.Windows.FsmEditorWindow.html">FsmEditorWindow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="EditorWindow_FSMSystem_Windows_FsmGraphView_ClearGraph_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Windows_FsmGraphView_ClearGraph" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph">
+  ClearGraph()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L867"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGraph()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Windows_FsmGraphView_CreateNode_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Windows_FsmGraphView_CreateNode_System_String_UnityEngine_Vector2_FSM_Enumerations_FsmNodeType_System_Boolean_System_Boolean_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode(System.String,UnityEngine.Vector2,FSM.Enumerations.FsmNodeType,System.Boolean,System.Boolean)">
+  CreateNode(string, Vector2, FsmNodeType, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new node in the graph view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FsmNode CreateNode(string nodeName, Vector2 position, FsmNodeType nodeT, bool fixName = true, bool shouldDraw = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nodeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the node.</p>
+</dd>
+    <dt><code>position</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The position of the node.</p>
+</dd>
+    <dt><code>nodeT</code> <a class="xref" href="FSM.Enumerations.FsmNodeType.html">FsmNodeType</a></dt>
+    <dd><p>The type of the node.</p>
+</dd>
+    <dt><code>fixName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Should the name be fixed?</p>
+</dd>
+    <dt><code>shouldDraw</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Should the node be drawn?</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmNode.html">FsmNode</a></dt>
+    <dd><p>Returns the <a class="xref" href="EditorWindow.FSMSystem.Elements.FsmNode.html">FsmNode</a> that you just created.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Windows_FsmGraphView_GetCompatiblePorts_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Windows_FsmGraphView_GetCompatiblePorts_UnityEditor_Experimental_GraphView_Port_UnityEditor_Experimental_GraphView_NodeAdapter_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)">
+  GetCompatiblePorts(Port, NodeAdapter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all ports compatible with given port.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;Port&gt; GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPort</code> <span class="xref">Port</span></dt>
+    <dd><p>Start port to validate against.</p>
+</dd>
+    <dt><code>nodeAdapter</code> <span class="xref">NodeAdapter</span></dt>
+    <dd><p>Node adapter.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Port</span>&gt;</dt>
+    <dd><p>List of compatible ports.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Windows_FsmGraphView_GetLocalMousePosition_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Windows_FsmGraphView_GetLocalMousePosition_UnityEngine_Vector2_System_Boolean_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition(UnityEngine.Vector2,System.Boolean)">
+  GetLocalMousePosition(Vector2, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L856"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 GetLocalMousePosition(Vector2 mousePosition, bool isSearchWindow = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mousePosition</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>isSearchWindow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Windows_FsmGraphView_GetWindow_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Windows_FsmGraphView_GetWindow" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow">
+  GetWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L878"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FsmEditorWindow GetWindow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EditorWindow.FSMSystem.Windows.FsmEditorWindow.html">FsmEditorWindow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Windows_FsmGraphView_ToggleMiniMap_" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Windows_FsmGraphView_ToggleMiniMap" data-uid="EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap">
+  ToggleMiniMap()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L874"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleMiniMap()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs/#L20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

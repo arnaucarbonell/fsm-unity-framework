@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Inspectors
+  commentId: N:EditorWindow.FSMSystem.Inspectors
+  id: EditorWindow.FSMSystem.Inspectors
+  children:
+  - EditorWindow.FSMSystem.Inspectors.FsmGraph
+  - EditorWindow.FSMSystem.Inspectors.FsmInspector
+  langs:
+  - csharp
+  - vb
+  name: EditorWindow.FSMSystem.Inspectors
+  nameWithType: EditorWindow.FSMSystem.Inspectors
+  fullName: EditorWindow.FSMSystem.Inspectors
+  type: Namespace
+  assemblies:
+  - EditorWindow
+references:
+- uid: EditorWindow.FSMSystem.Inspectors.FsmInspector
+  commentId: T:EditorWindow.FSMSystem.Inspectors.FsmInspector
+  href: EditorWindow.FSMSystem.Inspectors.FsmInspector.html
+  name: FsmInspector
+  nameWithType: FsmInspector
+  fullName: EditorWindow.FSMSystem.Inspectors.FsmInspector
+- uid: EditorWindow.FSMSystem.Inspectors.FsmGraph
+  commentId: T:EditorWindow.FSMSystem.Inspectors.FsmGraph
+  parent: EditorWindow.FSMSystem.Inspectors
+  href: EditorWindow.FSMSystem.Inspectors.FsmGraph.html
+  name: FsmGraph
+  nameWithType: FsmGraph
+  fullName: EditorWindow.FSMSystem.Inspectors.FsmGraph
+- uid: EditorWindow.FSMSystem.Inspectors
+  commentId: N:EditorWindow.FSMSystem.Inspectors
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Inspectors
+  nameWithType: EditorWindow.FSMSystem.Inspectors
+  fullName: EditorWindow.FSMSystem.Inspectors
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html

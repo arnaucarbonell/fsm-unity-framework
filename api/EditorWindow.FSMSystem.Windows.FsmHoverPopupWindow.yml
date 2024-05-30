@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow
+  id: FsmHoverPopupWindow
+  parent: EditorWindow.FSMSystem.Windows
+  children:
+  - EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize
+  - EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI(UnityEngine.Rect)
+  langs:
+  - csharp
+  - vb
+  name: FsmHoverPopupWindow
+  nameWithType: FsmHoverPopupWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmHoverPopupWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+    startLine: 9
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Class representing a popup window with instructions on enabling hit state override.
+  example: []
+  syntax:
+    content: 'public class FsmHoverPopupWindow : PopupWindowContent'
+    content.vb: Public Class FsmHoverPopupWindow Inherits PopupWindowContent
+  inheritance:
+  - System.Object
+  - UnityEditor.PopupWindowContent
+- uid: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI(UnityEngine.Rect)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI(UnityEngine.Rect)
+  id: OnGUI(UnityEngine.Rect)
+  parent: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect)
+  nameWithType: FsmHoverPopupWindow.OnGUI(Rect)
+  fullName: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI(UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OnGUI
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+    startLine: 15
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Draws the GUI for the popup window.
+  example: []
+  syntax:
+    content: public override void OnGUI(Rect rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: The rectangle within which to draw the GUI.
+    content.vb: Public Overrides Sub OnGUI(rect As Rect)
+  overridden: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  overload: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI*
+- uid: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize
+  id: GetWindowSize
+  parent: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow
+  langs:
+  - csharp
+  - vb
+  name: GetWindowSize()
+  nameWithType: FsmHoverPopupWindow.GetWindowSize()
+  fullName: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetWindowSize
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmHoverPopupWindow.cs
+    startLine: 28
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Gets the size of the popup window.
+  example: []
+  syntax:
+    content: public override Vector2 GetWindowSize()
+    return:
+      type: UnityEngine.Vector2
+      description: The size of the popup window.
+    content.vb: Public Overrides Function GetWindowSize() As Vector2
+  overridden: UnityEditor.PopupWindowContent.GetWindowSize
+  overload: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize*
+references:
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEditor.PopupWindowContent
+  commentId: T:UnityEditor.PopupWindowContent
+  parent: UnityEditor
+  isExternal: true
+  name: PopupWindowContent
+  nameWithType: PopupWindowContent
+  fullName: UnityEditor.PopupWindowContent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  commentId: M:UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  parent: UnityEditor.PopupWindowContent
+  isExternal: true
+  name: OnGUI(Rect)
+  nameWithType: PopupWindowContent.OnGUI(Rect)
+  fullName: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+  spec.csharp:
+  - uid: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+    name: OnGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PopupWindowContent.OnGUI(UnityEngine.Rect)
+    name: OnGUI
+    isExternal: true
+  - name: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    isExternal: true
+  - name: )
+- uid: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI
+  href: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.html#EditorWindow_FSMSystem_Windows_FsmHoverPopupWindow_OnGUI_UnityEngine_Rect_
+  name: OnGUI
+  nameWithType: FsmHoverPopupWindow.OnGUI
+  fullName: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.OnGUI
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor.PopupWindowContent.GetWindowSize
+  commentId: M:UnityEditor.PopupWindowContent.GetWindowSize
+  parent: UnityEditor.PopupWindowContent
+  isExternal: true
+  name: GetWindowSize()
+  nameWithType: PopupWindowContent.GetWindowSize()
+  fullName: UnityEditor.PopupWindowContent.GetWindowSize()
+  spec.csharp:
+  - uid: UnityEditor.PopupWindowContent.GetWindowSize
+    name: GetWindowSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.PopupWindowContent.GetWindowSize
+    name: GetWindowSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize
+  href: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.html#EditorWindow_FSMSystem_Windows_FsmHoverPopupWindow_GetWindowSize
+  name: GetWindowSize
+  nameWithType: FsmHoverPopupWindow.GetWindowSize
+  fullName: EditorWindow.FSMSystem.Windows.FsmHoverPopupWindow.GetWindowSize
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2

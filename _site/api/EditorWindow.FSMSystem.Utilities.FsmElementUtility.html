@@ -1,0 +1,564 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FsmElementUtility | FSM Unity Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FsmElementUtility | FSM Unity Framework ">
+      
+      <meta name="description" content="Utility class for creating various UI elements for the FSM editor.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/acarbonellb33/Unity_FSM_ToolKit/new/main/apiSpec/new?filename=EditorWindow_FSMSystem_Utilities_FsmElementUtility.md&amp;value=---%0Auid%3A%20EditorWindow.FSMSystem.Utilities.FsmElementUtility%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility">
+
+
+
+  <h1 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility" class="text-break">
+Class FsmElementUtility  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="EditorWindow.html">EditorWindow</a>.<a class="xref" href="EditorWindow.FSMSystem.html">FSMSystem</a>.<a class="xref" href="EditorWindow.FSMSystem.Utilities.html">Utilities</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>EditorWindow.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Utility class for creating various UI elements for the FSM editor.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class FsmElementUtility</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FsmElementUtility</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateButton_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateButton_System_String_System_Action_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton(System.String,System.Action)">
+  CreateButton(string, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Button CreateButton(string text, Action onClick = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Text of the button.</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action to be performed on button click.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Button</span></dt>
+    <dd><p>Returns the created Button.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateFoldout_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateFoldout_System_String_System_Boolean_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout(System.String,System.Boolean)">
+  CreateFoldout(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a foldout element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Foldout CreateFoldout(string title, bool collapsed = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Title of the foldout.</p>
+</dd>
+    <dt><code>collapsed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the foldout is collapsed initially.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Foldout</span></dt>
+    <dd><p>Returns the created Foldout.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateLabel_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateLabel_System_String_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel(System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})">
+  CreateLabel(string, EventCallback&lt;ChangeEvent&lt;string&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a label.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Label CreateLabel(string text = null, EventCallback&lt;ChangeEvent&lt;string&gt;&gt; onValueChanged = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Text of the label.</p>
+</dd>
+    <dt><code>onValueChanged</code> <span class="xref">EventCallback</span>&lt;<span class="xref">ChangeEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd><p>Event callback for value change.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Label</span></dt>
+    <dd><p>Returns the created Label.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateObjectField_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateObjectField__1_System_String___0_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_UnityEngine_Object___" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField``1(System.String,``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}})">
+  CreateObjectField&lt;T&gt;(string, T, EventCallback&lt;ChangeEvent&lt;Object&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a custom object field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CustomObjectField CreateObjectField&lt;T&gt;(string label = null, T value = null, EventCallback&lt;ChangeEvent&lt;Object&gt;&gt; onValueChanged = null) where T : Object</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Label for the object field.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Initial value of the object field.</p>
+</dd>
+    <dt><code>onValueChanged</code> <span class="xref">EventCallback</span>&lt;<span class="xref">ChangeEvent</span>&lt;<span class="xref">Object</span>&gt;&gt;</dt>
+    <dd><p>Event callback for value change.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FSM.Utilities.CustomObjectField.html">CustomObjectField</a></dt>
+    <dd><p>Returns the created CustomObjectField.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of the object field.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePopupField_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePopupField_System_Collections_Generic_List_System_String__System_Int32_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField(System.Collections.Generic.List{System.String},System.Int32,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})">
+  CreatePopupField(List&lt;string&gt;, int, EventCallback&lt;ChangeEvent&lt;string&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a popup field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PopupField&lt;string&gt; CreatePopupField(List&lt;string&gt; choices, int index = 0, EventCallback&lt;ChangeEvent&lt;string&gt;&gt; onValueChanged = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>choices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>List of choices for the popup field.</p>
+</dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Index of the default choice.</p>
+</dd>
+    <dt><code>onValueChanged</code> <span class="xref">EventCallback</span>&lt;<span class="xref">ChangeEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd><p>Event callback for value change.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PopupField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Returns the created PopupField.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)">
+  CreatePort(FsmNode, string, Orientation, Direction, Capacity)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a port for a node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Port CreatePort(this FsmNode node, string portName = &quot;&quot;, Orientation orientation = Orientation.Horizontal, Direction direction = Direction.Input, Port.Capacity capacity = Capacity.Single)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>node</code> <a class="xref" href="EditorWindow.FSMSystem.Elements.FsmNode.html">FsmNode</a></dt>
+    <dd><p>The node to which the port is added.</p>
+</dd>
+    <dt><code>portName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the port.</p>
+</dd>
+    <dt><code>orientation</code> <span class="xref">Orientation</span></dt>
+    <dd><p>Orientation of the port.</p>
+</dd>
+    <dt><code>direction</code> <span class="xref">Direction</span></dt>
+    <dd><p>Direction of the port.</p>
+</dd>
+    <dt><code>capacity</code> <span class="xref">Port</span>.<span class="xref">Capacity</span></dt>
+    <dd><p>Capacity of the port.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Port</span></dt>
+    <dd><p>Returns the created Port.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateTextArea_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateTextArea_System_String_System_String_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})">
+  CreateTextArea(string, string, EventCallback&lt;ChangeEvent&lt;string&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a text area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextField CreateTextArea(string value = null, string label = null, EventCallback&lt;ChangeEvent&lt;string&gt;&gt; onValueChanged = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Initial value of the text area.</p>
+</dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Label for the text area.</p>
+</dd>
+    <dt><code>onValueChanged</code> <span class="xref">EventCallback</span>&lt;<span class="xref">ChangeEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd><p>Event callback for value change.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TextField</span></dt>
+    <dd><p>Returns the created TextField as a text area.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateTextField_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateTextField_System_String_System_String_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})">
+  CreateTextField(string, string, EventCallback&lt;ChangeEvent&lt;string&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a text field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextField CreateTextField(string value = null, string label = null, EventCallback&lt;ChangeEvent&lt;string&gt;&gt; onValueChanged = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Initial value of the text field.</p>
+</dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Label for the text field.</p>
+</dd>
+    <dt><code>onValueChanged</code> <span class="xref">EventCallback</span>&lt;<span class="xref">ChangeEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd><p>Event callback for value change.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TextField</span></dt>
+    <dd><p>Returns the created TextField.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateToggle_" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateToggle_System_String_System_Boolean_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_Boolean___" data-uid="EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle(System.String,System.Boolean,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}})">
+  CreateToggle(string, bool, EventCallback&lt;ChangeEvent&lt;bool&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a toggle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Toggle CreateToggle(string label = null, bool value = false, EventCallback&lt;ChangeEvent&lt;bool&gt;&gt; onValueChanged = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Label for the toggle.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Initial value of the toggle.</p>
+</dd>
+    <dt><code>onValueChanged</code> <span class="xref">EventCallback</span>&lt;<span class="xref">ChangeEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>Event callback for value change.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Toggle</span></dt>
+    <dd><p>Returns the created Toggle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1375 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities.SerializableDictionary`2
+  commentId: T:FSM.Utilities.SerializableDictionary`2
+  id: SerializableDictionary`2
+  parent: FSM.Utilities
+  children:
+  - FSM.Utilities.SerializableDictionary`2.#ctor
+  - FSM.Utilities.SerializableDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
+  - FSM.Utilities.SerializableDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - FSM.Utilities.SerializableDictionary`2.Add(`0,`1)
+  - FSM.Utilities.SerializableDictionary`2.Clear
+  - FSM.Utilities.SerializableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - FSM.Utilities.SerializableDictionary`2.ContainsKey(`0)
+  - FSM.Utilities.SerializableDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - FSM.Utilities.SerializableDictionary`2.Count
+  - FSM.Utilities.SerializableDictionary`2.GetEnumerator
+  - FSM.Utilities.SerializableDictionary`2.GetValue(`0)
+  - FSM.Utilities.SerializableDictionary`2.IsReadOnly
+  - FSM.Utilities.SerializableDictionary`2.Item(`0)
+  - FSM.Utilities.SerializableDictionary`2.Keys
+  - FSM.Utilities.SerializableDictionary`2.OnAfterDeserialize
+  - FSM.Utilities.SerializableDictionary`2.OnBeforeSerialize
+  - FSM.Utilities.SerializableDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - FSM.Utilities.SerializableDictionary`2.Remove(`0)
+  - FSM.Utilities.SerializableDictionary`2.TryGetValue(`0,`1@)
+  - FSM.Utilities.SerializableDictionary`2.UpdateKey(`0,`0)
+  - FSM.Utilities.SerializableDictionary`2.Values
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary<TKey, TValue>
+  nameWithType: SerializableDictionary<TKey, TValue>
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SerializableDictionary
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 18
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Serializable dictionary implementation using a list of key-value pairs.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SerializableDictionary<TKey, TValue> : SerializableDictionary
+    typeParameters:
+    - id: TKey
+      description: Type of the keys.
+    - id: TValue
+      description: Type of the values.
+    content.vb: >-
+      <Serializable>
+
+      Public Class SerializableDictionary(Of TKey, TValue) Inherits SerializableDictionary
+  inheritance:
+  - System.Object
+  - FSM.Utilities.SerializableDictionary
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue)
+  name.vb: SerializableDictionary(Of TKey, TValue)
+- uid: FSM.Utilities.SerializableDictionary`2.#ctor
+  commentId: M:FSM.Utilities.SerializableDictionary`2.#ctor
+  id: '#ctor'
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary()
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableDictionary()
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableDictionary()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 47
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Constructor for SerializableDictionary.
+  example: []
+  syntax:
+    content: public SerializableDictionary()
+    content.vb: Public Sub New()
+  overload: FSM.Utilities.SerializableDictionary`2.#ctor*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).New()
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).New()
+  name.vb: New()
+- uid: FSM.Utilities.SerializableDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
+  commentId: M:FSM.Utilities.SerializableDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
+  id: '#ctor(System.Collections.Generic.IDictionary{`0,`1})'
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary(IDictionary<TKey, TValue>)
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableDictionary(IDictionary<TKey, TValue>)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableDictionary(System.Collections.Generic.IDictionary<TKey, TValue>)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 55
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Constructor for SerializableDictionary with initial dictionary.
+  example: []
+  syntax:
+    content: public SerializableDictionary(IDictionary<TKey, TValue> dictionary)
+    parameters:
+    - id: dictionary
+      type: System.Collections.Generic.IDictionary{{TKey},{TValue}}
+      description: Initial dictionary to populate.
+    content.vb: Public Sub New(dictionary As IDictionary(Of TKey, TValue))
+  overload: FSM.Utilities.SerializableDictionary`2.#ctor*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).New(IDictionary(Of TKey, TValue))
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).New(System.Collections.Generic.IDictionary(Of TKey, TValue))
+  name.vb: New(IDictionary(Of TKey, TValue))
+- uid: FSM.Utilities.SerializableDictionary`2.OnBeforeSerialize
+  commentId: M:FSM.Utilities.SerializableDictionary`2.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: SerializableDictionary<TKey, TValue>.OnBeforeSerialize()
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.OnBeforeSerialize()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OnBeforeSerialize
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 84
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: <p>Implement this method to receive a callback before Unity serializes your object.</p>
+  example: []
+  syntax:
+    content: public void OnBeforeSerialize()
+    content.vb: Public Sub OnBeforeSerialize()
+  overload: FSM.Utilities.SerializableDictionary`2.OnBeforeSerialize*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnBeforeSerialize()
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).OnBeforeSerialize()
+- uid: FSM.Utilities.SerializableDictionary`2.OnAfterDeserialize
+  commentId: M:FSM.Utilities.SerializableDictionary`2.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: SerializableDictionary<TKey, TValue>.OnAfterDeserialize()
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.OnAfterDeserialize()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OnAfterDeserialize
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 88
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: <p>Implement this method to receive a callback after Unity deserializes your object.</p>
+  example: []
+  syntax:
+    content: public void OnAfterDeserialize()
+    content.vb: Public Sub OnAfterDeserialize()
+  overload: FSM.Utilities.SerializableDictionary`2.OnAfterDeserialize*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnAfterDeserialize()
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).OnAfterDeserialize()
+- uid: FSM.Utilities.SerializableDictionary`2.Item(`0)
+  commentId: P:FSM.Utilities.SerializableDictionary`2.Item(`0)
+  id: Item(`0)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: this[TKey]
+  nameWithType: SerializableDictionary<TKey, TValue>.this[TKey]
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.this[TKey]
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: this[]
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 95
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public TValue this[TKey key] { get; set; }
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: '{TValue}'
+    content.vb: Public Default Property this[](key As TKey) As TValue
+  overload: FSM.Utilities.SerializableDictionary`2.Item*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).this[](TKey)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).this[](TKey)
+  name.vb: this[](TKey)
+- uid: FSM.Utilities.SerializableDictionary`2.Keys
+  commentId: P:FSM.Utilities.SerializableDictionary`2.Keys
+  id: Keys
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: SerializableDictionary<TKey, TValue>.Keys
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Keys
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Keys
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 113
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public ICollection<TKey> Keys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{{TKey}}
+    content.vb: Public ReadOnly Property Keys As ICollection(Of TKey)
+  overload: FSM.Utilities.SerializableDictionary`2.Keys*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Keys
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Keys
+- uid: FSM.Utilities.SerializableDictionary`2.Values
+  commentId: P:FSM.Utilities.SerializableDictionary`2.Values
+  id: Values
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: SerializableDictionary<TKey, TValue>.Values
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Values
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Values
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 114
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public ICollection<TValue> Values { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{{TValue}}
+    content.vb: Public ReadOnly Property Values As ICollection(Of TValue)
+  overload: FSM.Utilities.SerializableDictionary`2.Values*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Values
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Values
+- uid: FSM.Utilities.SerializableDictionary`2.Add(`0,`1)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.Add(`0,`1)
+  id: Add(`0,`1)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Add(TKey, TValue)
+  nameWithType: SerializableDictionary<TKey, TValue>.Add(TKey, TValue)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Add(TKey, TValue)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Add
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 116
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public void Add(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    - id: value
+      type: '{TValue}'
+    content.vb: Public Sub Add(key As TKey, value As TValue)
+  overload: FSM.Utilities.SerializableDictionary`2.Add*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Add(TKey, TValue)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Add(TKey, TValue)
+- uid: FSM.Utilities.SerializableDictionary`2.UpdateKey(`0,`0)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.UpdateKey(`0,`0)
+  id: UpdateKey(`0,`0)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: UpdateKey(TKey, TKey)
+  nameWithType: SerializableDictionary<TKey, TValue>.UpdateKey(TKey, TKey)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.UpdateKey(TKey, TKey)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateKey
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 130
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: public void UpdateKey(TKey oldKey, TKey newKey)
+    parameters:
+    - id: oldKey
+      type: '{TKey}'
+    - id: newKey
+      type: '{TKey}'
+    content.vb: Public Sub UpdateKey(oldKey As TKey, newKey As TKey)
+  overload: FSM.Utilities.SerializableDictionary`2.UpdateKey*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).UpdateKey(TKey, TKey)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).UpdateKey(TKey, TKey)
+- uid: FSM.Utilities.SerializableDictionary`2.GetValue(`0)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.GetValue(`0)
+  id: GetValue(`0)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: GetValue(TKey)
+  nameWithType: SerializableDictionary<TKey, TValue>.GetValue(TKey)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.GetValue(TKey)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetValue
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 147
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: public TValue GetValue(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: '{TValue}'
+    content.vb: Public Function GetValue(key As TKey) As TValue
+  overload: FSM.Utilities.SerializableDictionary`2.GetValue*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).GetValue(TKey)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).GetValue(TKey)
+- uid: FSM.Utilities.SerializableDictionary`2.ContainsKey(`0)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.ContainsKey(`0)
+  id: ContainsKey(`0)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey(TKey)
+  nameWithType: SerializableDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.ContainsKey(TKey)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ContainsKey
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 157
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public bool ContainsKey(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function ContainsKey(key As TKey) As Boolean
+  overload: FSM.Utilities.SerializableDictionary`2.ContainsKey*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).ContainsKey(TKey)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).ContainsKey(TKey)
+- uid: FSM.Utilities.SerializableDictionary`2.Remove(`0)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.Remove(`0)
+  id: Remove(`0)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Remove(TKey)
+  nameWithType: SerializableDictionary<TKey, TValue>.Remove(TKey)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Remove(TKey)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Remove
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 159
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public bool Remove(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function Remove(key As TKey) As Boolean
+  overload: FSM.Utilities.SerializableDictionary`2.Remove*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Remove(TKey)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Remove(TKey)
+- uid: FSM.Utilities.SerializableDictionary`2.TryGetValue(`0,`1@)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.TryGetValue(`0,`1@)
+  id: TryGetValue(`0,`1@)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: TryGetValue(TKey, out TValue)
+  nameWithType: SerializableDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: TryGetValue
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 182
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public bool TryGetValue(TKey key, out TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    - id: value
+      type: '{TValue}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetValue(key As TKey, value As TValue) As Boolean
+  overload: FSM.Utilities.SerializableDictionary`2.TryGetValue*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  name.vb: TryGetValue(TKey, TValue)
+- uid: FSM.Utilities.SerializableDictionary`2.Count
+  commentId: P:FSM.Utilities.SerializableDictionary`2.Count
+  id: Count
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: SerializableDictionary<TKey, TValue>.Count
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Count
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Count
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 200
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: FSM.Utilities.SerializableDictionary`2.Count*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Count
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Count
+- uid: FSM.Utilities.SerializableDictionary`2.IsReadOnly
+  commentId: P:FSM.Utilities.SerializableDictionary`2.IsReadOnly
+  id: IsReadOnly
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: SerializableDictionary<TKey, TValue>.IsReadOnly
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.IsReadOnly
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: IsReadOnly
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 201
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public bool IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+  overload: FSM.Utilities.SerializableDictionary`2.IsReadOnly*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).IsReadOnly
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).IsReadOnly
+- uid: FSM.Utilities.SerializableDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:FSM.Utilities.SerializableDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  id: Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Add(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionary<TKey, TValue>.Add(KeyValuePair<TKey, TValue>)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Add
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 203
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public void Add(KeyValuePair<TKey, TValue> kvp)
+    parameters:
+    - id: kvp
+      type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
+    content.vb: Public Sub Add(kvp As KeyValuePair(Of TKey, TValue))
+  overload: FSM.Utilities.SerializableDictionary`2.Add*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Add(KeyValuePair(Of TKey, TValue))
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Add(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Add(KeyValuePair(Of TKey, TValue))
+- uid: FSM.Utilities.SerializableDictionary`2.Clear
+  commentId: M:FSM.Utilities.SerializableDictionary`2.Clear
+  id: Clear
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: SerializableDictionary<TKey, TValue>.Clear()
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Clear()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Clear
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 205
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: FSM.Utilities.SerializableDictionary`2.Clear*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Clear()
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Clear()
+- uid: FSM.Utilities.SerializableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:FSM.Utilities.SerializableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  id: Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Contains(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionary<TKey, TValue>.Contains(KeyValuePair<TKey, TValue>)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Contains
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 211
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public bool Contains(KeyValuePair<TKey, TValue> kvp)
+    parameters:
+    - id: kvp
+      type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(kvp As KeyValuePair(Of TKey, TValue)) As Boolean
+  overload: FSM.Utilities.SerializableDictionary`2.Contains*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Contains(KeyValuePair(Of TKey, TValue))
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Contains(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Contains(KeyValuePair(Of TKey, TValue))
+- uid: FSM.Utilities.SerializableDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  id: CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(KeyValuePair<TKey, TValue>[], int)
+  nameWithType: SerializableDictionary<TKey, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], int)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], int)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CopyTo
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 213
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
+    parameters:
+    - id: array
+      type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}[]
+    - id: arrayIndex
+      type: System.Int32
+    content.vb: Public Sub CopyTo(array As KeyValuePair(Of TKey, TValue)(), arrayIndex As Integer)
+  overload: FSM.Utilities.SerializableDictionary`2.CopyTo*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), Integer)
+  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+- uid: FSM.Utilities.SerializableDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:FSM.Utilities.SerializableDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  id: Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Remove(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionary<TKey, TValue>.Remove(KeyValuePair<TKey, TValue>)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Remove
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 230
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public bool Remove(KeyValuePair<TKey, TValue> kvp)
+    parameters:
+    - id: kvp
+      type: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
+    return:
+      type: System.Boolean
+    content.vb: Public Function Remove(kvp As KeyValuePair(Of TKey, TValue)) As Boolean
+  overload: FSM.Utilities.SerializableDictionary`2.Remove*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Remove(KeyValuePair(Of TKey, TValue))
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Remove(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Remove(KeyValuePair(Of TKey, TValue))
+- uid: FSM.Utilities.SerializableDictionary`2.GetEnumerator
+  commentId: M:FSM.Utilities.SerializableDictionary`2.GetEnumerator
+  id: GetEnumerator
+  parent: FSM.Utilities.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: SerializableDictionary<TKey, TValue>.GetEnumerator()
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetEnumerator
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 236
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  example: []
+  syntax:
+    content: public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of KeyValuePair(Of TKey, TValue))
+  overload: FSM.Utilities.SerializableDictionary`2.GetEnumerator*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).GetEnumerator()
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).GetEnumerator()
+references:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: FSM.Utilities.SerializableDictionary
+  commentId: T:FSM.Utilities.SerializableDictionary
+  parent: FSM.Utilities
+  href: FSM.Utilities.SerializableDictionary.html
+  name: SerializableDictionary
+  nameWithType: SerializableDictionary
+  fullName: FSM.Utilities.SerializableDictionary
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FSM.Utilities.SerializableDictionary`2.#ctor*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.#ctor
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2__ctor
+  name: SerializableDictionary
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableDictionary
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableDictionary
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).New
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).New
+  name.vb: New
+- uid: System.Collections.Generic.IDictionary{{TKey},{TValue}}
+  commentId: T:System.Collections.Generic.IDictionary{`0,`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: FSM.Utilities.SerializableDictionary`2.OnBeforeSerialize*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.OnBeforeSerialize
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: SerializableDictionary<TKey, TValue>.OnBeforeSerialize
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.OnBeforeSerialize
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnBeforeSerialize
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).OnBeforeSerialize
+- uid: FSM.Utilities.SerializableDictionary`2.OnAfterDeserialize*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.OnAfterDeserialize
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: SerializableDictionary<TKey, TValue>.OnAfterDeserialize
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.OnAfterDeserialize
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnAfterDeserialize
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).OnAfterDeserialize
+- uid: FSM.Utilities.SerializableDictionary`2.Item*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Item
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Item__0_
+  name: this
+  nameWithType: SerializableDictionary<TKey, TValue>.this
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.this
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).this[]
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).this[]
+  name.vb: this[]
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: FSM.Utilities.SerializableDictionary`2.Keys*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Keys
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Keys
+  name: Keys
+  nameWithType: SerializableDictionary<TKey, TValue>.Keys
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Keys
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Keys
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Keys
+- uid: System.Collections.Generic.ICollection{{TKey}}
+  commentId: T:System.Collections.Generic.ICollection{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TKey>
+  nameWithType: ICollection<TKey>
+  fullName: System.Collections.Generic.ICollection<TKey>
+  nameWithType.vb: ICollection(Of TKey)
+  fullName.vb: System.Collections.Generic.ICollection(Of TKey)
+  name.vb: ICollection(Of TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: FSM.Utilities.SerializableDictionary`2.Values*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Values
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Values
+  name: Values
+  nameWithType: SerializableDictionary<TKey, TValue>.Values
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Values
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Values
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Values
+- uid: System.Collections.Generic.ICollection{{TValue}}
+  commentId: T:System.Collections.Generic.ICollection{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TValue>
+  nameWithType: ICollection<TValue>
+  fullName: System.Collections.Generic.ICollection<TValue>
+  nameWithType.vb: ICollection(Of TValue)
+  fullName.vb: System.Collections.Generic.ICollection(Of TValue)
+  name.vb: ICollection(Of TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: FSM.Utilities.SerializableDictionary`2.Add*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Add
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Add__0__1_
+  name: Add
+  nameWithType: SerializableDictionary<TKey, TValue>.Add
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Add
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Add
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Add
+- uid: FSM.Utilities.SerializableDictionary`2.UpdateKey*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.UpdateKey
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_UpdateKey__0__0_
+  name: UpdateKey
+  nameWithType: SerializableDictionary<TKey, TValue>.UpdateKey
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.UpdateKey
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).UpdateKey
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).UpdateKey
+- uid: FSM.Utilities.SerializableDictionary`2.GetValue*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.GetValue
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_GetValue__0_
+  name: GetValue
+  nameWithType: SerializableDictionary<TKey, TValue>.GetValue
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.GetValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).GetValue
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).GetValue
+- uid: FSM.Utilities.SerializableDictionary`2.ContainsKey*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.ContainsKey
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_ContainsKey__0_
+  name: ContainsKey
+  nameWithType: SerializableDictionary<TKey, TValue>.ContainsKey
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.ContainsKey
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).ContainsKey
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).ContainsKey
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: FSM.Utilities.SerializableDictionary`2.Remove*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Remove
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Remove__0_
+  name: Remove
+  nameWithType: SerializableDictionary<TKey, TValue>.Remove
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Remove
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Remove
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Remove
+- uid: FSM.Utilities.SerializableDictionary`2.TryGetValue*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.TryGetValue
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_TryGetValue__0__1__
+  name: TryGetValue
+  nameWithType: SerializableDictionary<TKey, TValue>.TryGetValue
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.TryGetValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).TryGetValue
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).TryGetValue
+- uid: FSM.Utilities.SerializableDictionary`2.Count*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Count
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Count
+  name: Count
+  nameWithType: SerializableDictionary<TKey, TValue>.Count
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Count
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Count
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: FSM.Utilities.SerializableDictionary`2.IsReadOnly*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.IsReadOnly
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_IsReadOnly
+  name: IsReadOnly
+  nameWithType: SerializableDictionary<TKey, TValue>.IsReadOnly
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.IsReadOnly
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).IsReadOnly
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).IsReadOnly
+- uid: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}
+  commentId: T:System.Collections.Generic.KeyValuePair{`0,`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: FSM.Utilities.SerializableDictionary`2.Clear*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Clear
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Clear
+  name: Clear
+  nameWithType: SerializableDictionary<TKey, TValue>.Clear
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Clear
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Clear
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Clear
+- uid: FSM.Utilities.SerializableDictionary`2.Contains*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.Contains
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
+  name: Contains
+  nameWithType: SerializableDictionary<TKey, TValue>.Contains
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.Contains
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).Contains
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).Contains
+- uid: FSM.Utilities.SerializableDictionary`2.CopyTo*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.CopyTo
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
+  name: CopyTo
+  nameWithType: SerializableDictionary<TKey, TValue>.CopyTo
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.CopyTo
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).CopyTo
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).CopyTo
+- uid: System.Collections.Generic.KeyValuePair{{TKey},{TValue}}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<TKey, TValue>[]
+  nameWithType: KeyValuePair<TKey, TValue>[]
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>[]
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)()
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)()
+  name.vb: KeyValuePair(Of TKey, TValue)()
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - name: )
+- uid: FSM.Utilities.SerializableDictionary`2.GetEnumerator*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.GetEnumerator
+  href: FSM.Utilities.SerializableDictionary-2.html#FSM_Utilities_SerializableDictionary_2_GetEnumerator
+  name: GetEnumerator
+  nameWithType: SerializableDictionary<TKey, TValue>.GetEnumerator
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.GetEnumerator
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).GetEnumerator
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).GetEnumerator
+- uid: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
+  commentId: T:System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{`0,`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<KeyValuePair<TKey, TValue>>
+  nameWithType: IEnumerator<KeyValuePair<TKey, TValue>>
+  fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>
+  nameWithType.vb: IEnumerator(Of KeyValuePair(Of TKey, TValue))
+  fullName.vb: System.Collections.Generic.IEnumerator(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: IEnumerator(Of KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

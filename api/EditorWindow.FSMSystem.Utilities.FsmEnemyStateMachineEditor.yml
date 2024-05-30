@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor
+  id: FsmEnemyStateMachineEditor
+  parent: EditorWindow.FSMSystem.Utilities
+  children:
+  - EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  langs:
+  - csharp
+  - vb
+  name: FsmEnemyStateMachineEditor
+  nameWithType: FsmEnemyStateMachineEditor
+  fullName: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmEnemyStateMachineEditor
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
+    startLine: 13
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Utility class for generating enemy state machine scripts.
+  example: []
+  syntax:
+    content: public static class FsmEnemyStateMachineEditor
+    content.vb: Public Module FsmEnemyStateMachineEditor
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  id: GenerateScript(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  parent: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor
+  langs:
+  - csharp
+  - vb
+  name: GenerateScript(FsmGraphSaveData)
+  nameWithType: FsmEnemyStateMachineEditor.GenerateScript(FsmGraphSaveData)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GenerateScript
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmEnemyStateMachineEditor.cs
+    startLine: 21
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Generates and saves the script files based on the FSM graph data.
+  example: []
+  syntax:
+    content: public static void GenerateScript(FsmGraphSaveData saveData)
+    parameters:
+    - id: saveData
+      type: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+      description: The save data containing FSM graph information.
+    content.vb: Public Shared Sub GenerateScript(saveData As FsmGraphSaveData)
+  overload: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript*
+references:
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript
+  href: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.html#EditorWindow_FSMSystem_Utilities_FsmEnemyStateMachineEditor_GenerateScript_EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_
+  name: GenerateScript
+  nameWithType: FsmEnemyStateMachineEditor.GenerateScript
+  fullName: EditorWindow.FSMSystem.Utilities.FsmEnemyStateMachineEditor.GenerateScript
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html
+  name: FsmGraphSaveData
+  nameWithType: FsmGraphSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html

@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  commentId: T:EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  id: chasingai
+  parent: EditorWindow.FSMSystem.BehaviorScripts
+  children:
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.chase
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance0
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance1
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.nextState
+  - EditorWindow.FSMSystem.BehaviorScripts.chasingai.search
+  langs:
+  - csharp
+  - vb
+  name: chasingai
+  nameWithType: chasingai
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: chasingai
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class chasingai : BehaviorScript
+    content.vb: >-
+      <Serializable>
+
+      Public Class chasingai Inherits BehaviorScript
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  inheritedMembers:
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance0
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance0
+  id: distance0
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: distance0
+  nameWithType: chasingai.distance0
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance0
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: distance0
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Distance 0")]
+
+      [SerializeField]
+
+      public DistanceConditionScript distance0
+    return:
+      type: FSM.Nodes.States.StateScripts.DistanceConditionScript
+    content.vb: >-
+      <Header("Distance 0")>
+
+      <SerializeField>
+
+      Public distance0 As DistanceConditionScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Distance 0
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.search
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.chasingai.search
+  id: search
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: search
+  nameWithType: chasingai.search
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.search
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: search
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Search")]
+
+      [SerializeField]
+
+      public SearchStateScript search
+    return:
+      type: FSM.Nodes.States.StateScripts.SearchStateScript
+    content.vb: >-
+      <Header("Search")>
+
+      <SerializeField>
+
+      Public search As SearchStateScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Search
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.chase
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.chasingai.chase
+  id: chase
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: chase
+  nameWithType: chasingai.chase
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.chase
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: chase
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Chase")]
+
+      [SerializeField]
+
+      public ChaseStateScript chase
+    return:
+      type: FSM.Nodes.States.StateScripts.ChaseStateScript
+    content.vb: >-
+      <Header("Chase")>
+
+      <SerializeField>
+
+      Public chase As ChaseStateScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Chase
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance1
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance1
+  id: distance1
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: distance1
+  nameWithType: chasingai.distance1
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.distance1
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: distance1
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("Distance 1")]
+
+      [SerializeField]
+
+      public DistanceConditionScript distance1
+    return:
+      type: FSM.Nodes.States.StateScripts.DistanceConditionScript
+    content.vb: >-
+      <Header("Distance 1")>
+
+      <SerializeField>
+
+      Public distance1 As DistanceConditionScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Distance 1
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.nextState
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.chasingai.nextState
+  id: nextState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: nextState
+  nameWithType: chasingai.nextState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.nextState
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: nextState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 31
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: >-
+      [Header("NextState")]
+
+      [SerializeField]
+
+      public NextStateConditionScript nextState
+    return:
+      type: FSM.Nodes.States.StateScripts.NextStateConditionScript
+    content.vb: >-
+      <Header("NextState")>
+
+      <SerializeField>
+
+      Public nextState As NextStateConditionScript
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: NextState
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState
+  id: UpdateSearchState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: UpdateSearchState()
+  nameWithType: chasingai.UpdateSearchState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateSearchState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 73
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateSearchState()
+    content.vb: Public Sub UpdateSearchState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState*
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState
+  id: UpdateChaseState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: UpdateChaseState()
+  nameWithType: chasingai.UpdateChaseState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateChaseState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 82
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateChaseState()
+    content.vb: Public Sub UpdateChaseState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState*
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState
+  id: UpdateHitState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: UpdateHitState()
+  nameWithType: chasingai.UpdateHitState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateHitState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 92
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateHitState()
+    content.vb: Public Sub UpdateHitState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState*
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState
+  id: UpdateDieState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+  langs:
+  - csharp
+  - vb
+  name: UpdateDieState()
+  nameWithType: chasingai.UpdateDieState()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateDieState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/chasingai.cs
+    startLine: 102
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public void UpdateDieState()
+    content.vb: Public Sub UpdateDieState()
+  overload: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState*
+references:
+- uid: EditorWindow.FSMSystem.BehaviorScripts
+  commentId: N:EditorWindow.FSMSystem.BehaviorScripts
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.BehaviorScripts
+  nameWithType: EditorWindow.FSMSystem.BehaviorScripts
+  fullName: EditorWindow.FSMSystem.BehaviorScripts
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.BehaviorScripts
+    name: BehaviorScripts
+    href: EditorWindow.FSMSystem.BehaviorScripts.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.BehaviorScripts
+    name: BehaviorScripts
+    href: EditorWindow.FSMSystem.BehaviorScripts.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  commentId: T:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  parent: EditorWindow.FSMSystem.BehaviorScripts
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html
+  name: BehaviorScript
+  nameWithType: BehaviorScript
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_options
+  name: options
+  nameWithType: BehaviorScript.options
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_selectedOptionIndex
+  name: selectedOptionIndex
+  nameWithType: BehaviorScript.selectedOptionIndex
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_CurrentState
+  name: CurrentState
+  nameWithType: BehaviorScript.CurrentState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_GetVariables
+  name: GetVariables()
+  nameWithType: BehaviorScript.GetVariables()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables()
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+    name: GetVariables
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_GetVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+    name: GetVariables
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_GetVariables
+  - name: (
+  - name: )
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  isExternal: true
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_SetVariableValue_System_String_System_Object_
+  name: SetVariableValue(string, object)
+  nameWithType: BehaviorScript.SetVariableValue(string, object)
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(string, object)
+  nameWithType.vb: BehaviorScript.SetVariableValue(String, Object)
+  fullName.vb: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(String, Object)
+  name.vb: SetVariableValue(String, Object)
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: FSM.Nodes.States.StateScripts.DistanceConditionScript
+  commentId: T:FSM.Nodes.States.StateScripts.DistanceConditionScript
+  parent: FSM.Nodes.States.StateScripts
+  href: FSM.Nodes.States.StateScripts.DistanceConditionScript.html
+  name: DistanceConditionScript
+  nameWithType: DistanceConditionScript
+  fullName: FSM.Nodes.States.StateScripts.DistanceConditionScript
+- uid: FSM.Nodes.States.StateScripts
+  commentId: N:FSM.Nodes.States.StateScripts
+  href: FSM.html
+  name: FSM.Nodes.States.StateScripts
+  nameWithType: FSM.Nodes.States.StateScripts
+  fullName: FSM.Nodes.States.StateScripts
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StateScripts
+    name: StateScripts
+    href: FSM.Nodes.States.StateScripts.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StateScripts
+    name: StateScripts
+    href: FSM.Nodes.States.StateScripts.html
+- uid: FSM.Nodes.States.StateScripts.SearchStateScript
+  commentId: T:FSM.Nodes.States.StateScripts.SearchStateScript
+  parent: FSM.Nodes.States.StateScripts
+  href: FSM.Nodes.States.StateScripts.SearchStateScript.html
+  name: SearchStateScript
+  nameWithType: SearchStateScript
+  fullName: FSM.Nodes.States.StateScripts.SearchStateScript
+- uid: FSM.Nodes.States.StateScripts.ChaseStateScript
+  commentId: T:FSM.Nodes.States.StateScripts.ChaseStateScript
+  parent: FSM.Nodes.States.StateScripts
+  href: FSM.Nodes.States.StateScripts.ChaseStateScript.html
+  name: ChaseStateScript
+  nameWithType: ChaseStateScript
+  fullName: FSM.Nodes.States.StateScripts.ChaseStateScript
+- uid: FSM.Nodes.States.StateScripts.NextStateConditionScript
+  commentId: T:FSM.Nodes.States.StateScripts.NextStateConditionScript
+  parent: FSM.Nodes.States.StateScripts
+  href: FSM.Nodes.States.StateScripts.NextStateConditionScript.html
+  name: NextStateConditionScript
+  nameWithType: NextStateConditionScript
+  fullName: FSM.Nodes.States.StateScripts.NextStateConditionScript
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState
+  href: EditorWindow.FSMSystem.BehaviorScripts.chasingai.html#EditorWindow_FSMSystem_BehaviorScripts_chasingai_UpdateSearchState
+  name: UpdateSearchState
+  nameWithType: chasingai.UpdateSearchState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateSearchState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState
+  href: EditorWindow.FSMSystem.BehaviorScripts.chasingai.html#EditorWindow_FSMSystem_BehaviorScripts_chasingai_UpdateChaseState
+  name: UpdateChaseState
+  nameWithType: chasingai.UpdateChaseState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateChaseState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState
+  href: EditorWindow.FSMSystem.BehaviorScripts.chasingai.html#EditorWindow_FSMSystem_BehaviorScripts_chasingai_UpdateHitState
+  name: UpdateHitState
+  nameWithType: chasingai.UpdateHitState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateHitState
+- uid: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState
+  href: EditorWindow.FSMSystem.BehaviorScripts.chasingai.html#EditorWindow_FSMSystem_BehaviorScripts_chasingai_UpdateDieState
+  name: UpdateDieState
+  nameWithType: chasingai.UpdateDieState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.chasingai.UpdateDieState

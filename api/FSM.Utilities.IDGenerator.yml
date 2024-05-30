@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities.IDGenerator
+  commentId: T:FSM.Utilities.IDGenerator
+  id: IDGenerator
+  parent: FSM.Utilities
+  children:
+  - FSM.Utilities.IDGenerator.GenerateNewID
+  - FSM.Utilities.IDGenerator.GetUniqueID
+  - FSM.Utilities.IDGenerator.uniqueID
+  langs:
+  - csharp
+  - vb
+  name: IDGenerator
+  nameWithType: IDGenerator
+  fullName: FSM.Utilities.IDGenerator
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Utilities/IDGenerator.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: IDGenerator
+    path: Assets/FSM/Utilities/IDGenerator.cs
+    startLine: 7
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Class for generating unique IDs for GameObjects.
+  example: []
+  syntax:
+    content: 'public class IDGenerator : MonoBehaviour'
+    content.vb: Public Class IDGenerator Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: FSM.Utilities.IDGenerator.uniqueID
+  commentId: F:FSM.Utilities.IDGenerator.uniqueID
+  id: uniqueID
+  parent: FSM.Utilities.IDGenerator
+  langs:
+  - csharp
+  - vb
+  name: uniqueID
+  nameWithType: IDGenerator.uniqueID
+  fullName: FSM.Utilities.IDGenerator.uniqueID
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Utilities/IDGenerator.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: uniqueID
+    path: Assets/FSM/Utilities/IDGenerator.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: public string uniqueID
+    return:
+      type: System.String
+    content.vb: Public uniqueID As String
+- uid: FSM.Utilities.IDGenerator.GetUniqueID
+  commentId: M:FSM.Utilities.IDGenerator.GetUniqueID
+  id: GetUniqueID
+  parent: FSM.Utilities.IDGenerator
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueID()
+  nameWithType: IDGenerator.GetUniqueID()
+  fullName: FSM.Utilities.IDGenerator.GetUniqueID()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/IDGenerator.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetUniqueID
+    path: Assets/FSM/Utilities/IDGenerator.cs
+    startLine: 15
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Call this method to get the unique ID. If the unique ID is not generated yet, it will generate it. Else, it will return the existing unique ID.
+  example: []
+  syntax:
+    content: public string GetUniqueID()
+    return:
+      type: System.String
+      description: The generated unique ID.
+    content.vb: Public Function GetUniqueID() As String
+  overload: FSM.Utilities.IDGenerator.GetUniqueID*
+- uid: FSM.Utilities.IDGenerator.GenerateNewID
+  commentId: M:FSM.Utilities.IDGenerator.GenerateNewID
+  id: GenerateNewID
+  parent: FSM.Utilities.IDGenerator
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewID()
+  nameWithType: IDGenerator.GenerateNewID()
+  fullName: FSM.Utilities.IDGenerator.GenerateNewID()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/IDGenerator.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GenerateNewID
+    path: Assets/FSM/Utilities/IDGenerator.cs
+    startLine: 28
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Call this method to generate a new unique ID.
+  example: []
+  syntax:
+    content: public string GenerateNewID()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GenerateNewID() As String
+  overload: FSM.Utilities.IDGenerator.GenerateNewID*
+references:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FSM.Utilities.IDGenerator.GetUniqueID*
+  commentId: Overload:FSM.Utilities.IDGenerator.GetUniqueID
+  href: FSM.Utilities.IDGenerator.html#FSM_Utilities_IDGenerator_GetUniqueID
+  name: GetUniqueID
+  nameWithType: IDGenerator.GetUniqueID
+  fullName: FSM.Utilities.IDGenerator.GetUniqueID
+- uid: FSM.Utilities.IDGenerator.GenerateNewID*
+  commentId: Overload:FSM.Utilities.IDGenerator.GenerateNewID
+  href: FSM.Utilities.IDGenerator.html#FSM_Utilities_IDGenerator_GenerateNewID
+  name: GenerateNewID
+  nameWithType: IDGenerator.GenerateNewID
+  fullName: FSM.Utilities.IDGenerator.GenerateNewID

@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Player.MouseLook
+  commentId: T:FSM.Player.MouseLook
+  id: MouseLook
+  parent: FSM.Player
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MouseLook
+  nameWithType: MouseLook
+  fullName: FSM.Player.MouseLook
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Player/MouseLook.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: MouseLook
+    path: Assets/FSM/Player/MouseLook.cs
+    startLine: 6
+  assemblies:
+  - FSM
+  namespace: FSM.Player
+  summary: Controls the player's mouse look behavior.
+  example: []
+  syntax:
+    content: 'public class MouseLook : MonoBehaviour'
+    content.vb: Public Class MouseLook Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+references:
+- uid: FSM.Player
+  commentId: N:FSM.Player
+  href: FSM.html
+  name: FSM.Player
+  nameWithType: FSM.Player
+  fullName: FSM.Player
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Player
+    name: Player
+    href: FSM.Player.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Player
+    name: Player
+    href: FSM.Player.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

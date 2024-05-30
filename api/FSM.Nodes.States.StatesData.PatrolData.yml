@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.States.StatesData.PatrolData
+  commentId: T:FSM.Nodes.States.StatesData.PatrolData
+  id: PatrolData
+  parent: FSM.Nodes.States.StatesData
+  children:
+  - FSM.Nodes.States.StatesData.PatrolData.#ctor
+  - FSM.Nodes.States.StatesData.PatrolData.patrolPoints
+  langs:
+  - csharp
+  - vb
+  name: PatrolData
+  nameWithType: PatrolData
+  fullName: FSM.Nodes.States.StatesData.PatrolData
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/PatrolData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: PatrolData
+    path: Assets/FSM/Nodes/States/StatesData/PatrolData.cs
+    startLine: 4
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: 'public class PatrolData : StateScriptData'
+    content.vb: Public Class PatrolData Inherits StateScriptData
+  inheritance:
+  - System.Object
+  - FSM.Nodes.States.StateScriptData
+  inheritedMembers:
+  - FSM.Nodes.States.StateScriptData.InspectVariables
+  - FSM.Nodes.States.StateScriptData.GetVariables
+  - FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  - FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  - FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  - FSM.Nodes.States.StateScriptData.GetStateName
+- uid: FSM.Nodes.States.StatesData.PatrolData.patrolPoints
+  commentId: F:FSM.Nodes.States.StatesData.PatrolData.patrolPoints
+  id: patrolPoints
+  parent: FSM.Nodes.States.StatesData.PatrolData
+  langs:
+  - csharp
+  - vb
+  name: patrolPoints
+  nameWithType: PatrolData.patrolPoints
+  fullName: FSM.Nodes.States.StatesData.PatrolData.patrolPoints
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/PatrolData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: patrolPoints
+    path: Assets/FSM/Nodes/States/StatesData/PatrolData.cs
+    startLine: 6
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: public List<string> patrolPoints
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public patrolPoints As List(Of String)
+- uid: FSM.Nodes.States.StatesData.PatrolData.#ctor
+  commentId: M:FSM.Nodes.States.StatesData.PatrolData.#ctor
+  id: '#ctor'
+  parent: FSM.Nodes.States.StatesData.PatrolData
+  langs:
+  - csharp
+  - vb
+  name: PatrolData()
+  nameWithType: PatrolData.PatrolData()
+  fullName: FSM.Nodes.States.StatesData.PatrolData.PatrolData()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/PatrolData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/FSM/Nodes/States/StatesData/PatrolData.cs
+    startLine: 8
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: public PatrolData()
+    content.vb: Public Sub New()
+  overload: FSM.Nodes.States.StatesData.PatrolData.#ctor*
+  nameWithType.vb: PatrolData.New()
+  fullName.vb: FSM.Nodes.States.StatesData.PatrolData.New()
+  name.vb: New()
+references:
+- uid: FSM.Nodes.States.StatesData
+  commentId: N:FSM.Nodes.States.StatesData
+  href: FSM.html
+  name: FSM.Nodes.States.StatesData
+  nameWithType: FSM.Nodes.States.StatesData
+  fullName: FSM.Nodes.States.StatesData
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StatesData
+    name: StatesData
+    href: FSM.Nodes.States.StatesData.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StatesData
+    name: StatesData
+    href: FSM.Nodes.States.StatesData.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: FSM.Nodes.States.StateScriptData
+  commentId: T:FSM.Nodes.States.StateScriptData
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.StateScriptData.html
+  name: StateScriptData
+  nameWithType: StateScriptData
+  fullName: FSM.Nodes.States.StateScriptData
+- uid: FSM.Nodes.States.StateScriptData.InspectVariables
+  commentId: M:FSM.Nodes.States.StateScriptData.InspectVariables
+  parent: FSM.Nodes.States.StateScriptData
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_InspectVariables
+  name: InspectVariables()
+  nameWithType: StateScriptData.InspectVariables()
+  fullName: FSM.Nodes.States.StateScriptData.InspectVariables()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.InspectVariables
+    name: InspectVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_InspectVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.InspectVariables
+    name: InspectVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_InspectVariables
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.GetVariables
+  commentId: M:FSM.Nodes.States.StateScriptData.GetVariables
+  parent: FSM.Nodes.States.StateScriptData
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetVariables
+  name: GetVariables()
+  nameWithType: StateScriptData.GetVariables()
+  fullName: FSM.Nodes.States.StateScriptData.GetVariables()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.GetVariables
+    name: GetVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.GetVariables
+    name: GetVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetVariables
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  commentId: M:FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  parent: FSM.Nodes.States.StateScriptData
+  isExternal: true
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetVariableValue_System_String_System_Object_
+  name: SetVariableValue(string, object)
+  nameWithType: StateScriptData.SetVariableValue(string, object)
+  fullName: FSM.Nodes.States.StateScriptData.SetVariableValue(string, object)
+  nameWithType.vb: StateScriptData.SetVariableValue(String, Object)
+  fullName.vb: FSM.Nodes.States.StateScriptData.SetVariableValue(String, Object)
+  name.vb: SetVariableValue(String, Object)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  commentId: M:FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  parent: FSM.Nodes.States.StateScriptData
+  isExternal: true
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_RemoveVariable_System_String_System_Object_
+  name: RemoveVariable(string, object)
+  nameWithType: StateScriptData.RemoveVariable(string, object)
+  fullName: FSM.Nodes.States.StateScriptData.RemoveVariable(string, object)
+  nameWithType.vb: StateScriptData.RemoveVariable(String, Object)
+  fullName.vb: FSM.Nodes.States.StateScriptData.RemoveVariable(String, Object)
+  name.vb: RemoveVariable(String, Object)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+    name: RemoveVariable
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_RemoveVariable_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+    name: RemoveVariable
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_RemoveVariable_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  commentId: M:FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  parent: FSM.Nodes.States.StateScriptData
+  isExternal: true
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetStateName_System_String_
+  name: SetStateName(string)
+  nameWithType: StateScriptData.SetStateName(string)
+  fullName: FSM.Nodes.States.StateScriptData.SetStateName(string)
+  nameWithType.vb: StateScriptData.SetStateName(String)
+  fullName.vb: FSM.Nodes.States.StateScriptData.SetStateName(String)
+  name.vb: SetStateName(String)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+    name: SetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetStateName_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+    name: SetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetStateName_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.GetStateName
+  commentId: M:FSM.Nodes.States.StateScriptData.GetStateName
+  parent: FSM.Nodes.States.StateScriptData
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetStateName
+  name: GetStateName()
+  nameWithType: StateScriptData.GetStateName()
+  fullName: FSM.Nodes.States.StateScriptData.GetStateName()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.GetStateName
+    name: GetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetStateName
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.GetStateName
+    name: GetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetStateName
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: FSM.Nodes.States.StatesData.PatrolData.#ctor*
+  commentId: Overload:FSM.Nodes.States.StatesData.PatrolData.#ctor
+  href: FSM.Nodes.States.StatesData.PatrolData.html#FSM_Nodes_States_StatesData_PatrolData__ctor
+  name: PatrolData
+  nameWithType: PatrolData.PatrolData
+  fullName: FSM.Nodes.States.StatesData.PatrolData.PatrolData
+  nameWithType.vb: PatrolData.New
+  fullName.vb: FSM.Nodes.States.StatesData.PatrolData.New
+  name.vb: New

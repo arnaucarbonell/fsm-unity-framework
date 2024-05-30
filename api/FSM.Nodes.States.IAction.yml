@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.States.IAction
+  commentId: T:FSM.Nodes.States.IAction
+  id: IAction
+  parent: FSM.Nodes.States
+  children:
+  - FSM.Nodes.States.IAction.Execute
+  langs:
+  - csharp
+  - vb
+  name: IAction
+  nameWithType: IAction
+  fullName: FSM.Nodes.States.IAction
+  type: Interface
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/IAction.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: IAction
+    path: Assets/FSM/Nodes/States/IAction.cs
+    startLine: 5
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Interface for defining actions.
+  example: []
+  syntax:
+    content: public interface IAction
+    content.vb: Public Interface IAction
+- uid: FSM.Nodes.States.IAction.Execute
+  commentId: M:FSM.Nodes.States.IAction.Execute
+  id: Execute
+  parent: FSM.Nodes.States.IAction
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: IAction.Execute()
+  fullName: FSM.Nodes.States.IAction.Execute()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/IAction.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Execute
+    path: Assets/FSM/Nodes/States/IAction.cs
+    startLine: 10
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Executes the action.
+  example: []
+  syntax:
+    content: void Execute()
+    content.vb: Sub Execute()
+  overload: FSM.Nodes.States.IAction.Execute*
+references:
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: FSM.Nodes.States.IAction.Execute*
+  commentId: Overload:FSM.Nodes.States.IAction.Execute
+  href: FSM.Nodes.States.IAction.html#FSM_Nodes_States_IAction_Execute
+  name: Execute
+  nameWithType: IAction.Execute
+  fullName: FSM.Nodes.States.IAction.Execute

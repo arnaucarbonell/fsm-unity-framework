@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Inspectors.chasingaiEditor
+  commentId: T:EditorWindow.FSMSystem.Inspectors.chasingaiEditor
+  id: chasingaiEditor
+  parent: EditorWindow.FSMSystem.Inspectors
+  children:
+  - EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: chasingaiEditor
+  nameWithType: chasingaiEditor
+  fullName: EditorWindow.FSMSystem.Inspectors.chasingaiEditor
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Inspectors/chasingaiEditor.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: chasingaiEditor
+    path: Assets/EditorWindow/FSMSystem/Inspectors/chasingaiEditor.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.Inspectors
+  syntax:
+    content: >-
+      [CustomEditor(typeof(chasingai))]
+
+      public class chasingaiEditor : Editor
+    content.vb: >-
+      <CustomEditor(GetType(chasingai))>
+
+      Public Class chasingaiEditor Inherits Editor
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.Editor
+  attributes:
+  - type: UnityEditor.CustomEditor
+    ctor: UnityEditor.CustomEditor.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: EditorWindow.FSMSystem.BehaviorScripts.chasingai
+- uid: EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI
+  commentId: M:EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: EditorWindow.FSMSystem.Inspectors.chasingaiEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: chasingaiEditor.OnInspectorGUI()
+  fullName: EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Inspectors/chasingaiEditor.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OnInspectorGUI
+    path: Assets/EditorWindow/FSMSystem/Inspectors/chasingaiEditor.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.Inspectors
+  summary: <p>Implement this function to make a custom inspector.</p>
+  example: []
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overridden: UnityEditor.Editor.OnInspectorGUI
+  overload: EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI*
+references:
+- uid: EditorWindow.FSMSystem.Inspectors
+  commentId: N:EditorWindow.FSMSystem.Inspectors
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Inspectors
+  nameWithType: EditorWindow.FSMSystem.Inspectors
+  fullName: EditorWindow.FSMSystem.Inspectors
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.Editor
+  commentId: T:UnityEditor.Editor
+  parent: UnityEditor
+  isExternal: true
+  name: Editor
+  nameWithType: Editor
+  fullName: UnityEditor.Editor
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: UnityEditor.Editor.OnInspectorGUI
+  commentId: M:UnityEditor.Editor.OnInspectorGUI
+  parent: UnityEditor.Editor
+  isExternal: true
+  name: OnInspectorGUI()
+  nameWithType: Editor.OnInspectorGUI()
+  fullName: UnityEditor.Editor.OnInspectorGUI()
+  spec.csharp:
+  - uid: UnityEditor.Editor.OnInspectorGUI
+    name: OnInspectorGUI
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Editor.OnInspectorGUI
+    name: OnInspectorGUI
+    isExternal: true
+  - name: (
+  - name: )
+- uid: EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI*
+  commentId: Overload:EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI
+  href: EditorWindow.FSMSystem.Inspectors.chasingaiEditor.html#EditorWindow_FSMSystem_Inspectors_chasingaiEditor_OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: chasingaiEditor.OnInspectorGUI
+  fullName: EditorWindow.FSMSystem.Inspectors.chasingaiEditor.OnInspectorGUI

@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Player
+  commentId: N:FSM.Player
+  id: FSM.Player
+  children:
+  - FSM.Player.HealthBar
+  - FSM.Player.HealthSystem
+  - FSM.Player.MouseLook
+  - FSM.Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: FSM.Player
+  nameWithType: FSM.Player
+  fullName: FSM.Player
+  type: Namespace
+  assemblies:
+  - FSM
+references:
+- uid: FSM.Player.PlayerMovement
+  commentId: T:FSM.Player.PlayerMovement
+  href: FSM.Player.PlayerMovement.html
+  name: PlayerMovement
+  nameWithType: PlayerMovement
+  fullName: FSM.Player.PlayerMovement
+- uid: FSM.Player.HealthBar
+  commentId: T:FSM.Player.HealthBar
+  href: FSM.Player.HealthBar.html
+  name: HealthBar
+  nameWithType: HealthBar
+  fullName: FSM.Player.HealthBar
+- uid: FSM.Player.MouseLook
+  commentId: T:FSM.Player.MouseLook
+  href: FSM.Player.MouseLook.html
+  name: MouseLook
+  nameWithType: MouseLook
+  fullName: FSM.Player.MouseLook
+- uid: FSM.Player.HealthSystem
+  commentId: T:FSM.Player.HealthSystem
+  href: FSM.Player.HealthSystem.html
+  name: HealthSystem
+  nameWithType: HealthSystem
+  fullName: FSM.Player.HealthSystem

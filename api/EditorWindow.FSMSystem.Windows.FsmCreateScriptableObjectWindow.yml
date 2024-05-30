@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow
+  id: FsmCreateScriptableObjectWindow
+  parent: EditorWindow.FSMSystem.Windows
+  children:
+  - EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow
+  langs:
+  - csharp
+  - vb
+  name: FsmCreateScriptableObjectWindow
+  nameWithType: FsmCreateScriptableObjectWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmCreateScriptableObjectWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmCreateScriptableObjectWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmCreateScriptableObjectWindow.cs
+    startLine: 15
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Editor window for creating FSM Graph scriptable objects and configuring enemy setup.
+  example: []
+  syntax:
+    content: 'public class FsmCreateScriptableObjectWindow : EditorWindow'
+    content.vb: Public Class FsmCreateScriptableObjectWindow Inherits EditorWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+- uid: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow
+  id: ShowWindow
+  parent: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: FsmCreateScriptableObjectWindow.ShowWindow()
+  fullName: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmCreateScriptableObjectWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ShowWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmCreateScriptableObjectWindow.cs
+    startLine: 28
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: >-
+      [MenuItem("Window/FSM/FSM Graph")]
+
+      public static void ShowWindow()
+    content.vb: >-
+      <MenuItem("Window/FSM/FSM Graph")>
+
+      Public Shared Sub ShowWindow()
+  overload: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Window/FSM/FSM Graph
+references:
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow
+  href: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.html#EditorWindow_FSMSystem_Windows_FsmCreateScriptableObjectWindow_ShowWindow
+  name: ShowWindow
+  nameWithType: FsmCreateScriptableObjectWindow.ShowWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmCreateScriptableObjectWindow.ShowWindow

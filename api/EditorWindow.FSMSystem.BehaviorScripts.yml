@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.BehaviorScripts
+  commentId: N:EditorWindow.FSMSystem.BehaviorScripts
+  id: EditorWindow.FSMSystem.BehaviorScripts
+  children:
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  langs:
+  - csharp
+  - vb
+  name: EditorWindow.FSMSystem.BehaviorScripts
+  nameWithType: EditorWindow.FSMSystem.BehaviorScripts
+  fullName: EditorWindow.FSMSystem.BehaviorScripts
+  type: Namespace
+  assemblies:
+  - EditorWindow
+references:
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  commentId: T:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html
+  name: BehaviorScript
+  nameWithType: BehaviorScript
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript

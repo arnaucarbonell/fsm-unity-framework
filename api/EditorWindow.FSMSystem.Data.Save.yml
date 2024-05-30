@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  id: EditorWindow.FSMSystem.Data.Save
+  children:
+  - EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+  - EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  - EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  - EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+  - EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  - EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  type: Namespace
+  assemblies:
+  - EditorWindow
+references:
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html
+  name: FsmGraphSaveData
+  nameWithType: FsmGraphSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  href: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html
+  name: FsmConnectionSaveData
+  nameWithType: FsmConnectionSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData.html
+  name: FsmAnimatorSaveData
+  nameWithType: FsmAnimatorSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html
+  name: FsmNodeSaveData
+  nameWithType: FsmNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData.html
+  name: FsmHitNodeSaveData
+  nameWithType: FsmHitNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData.html
+  name: FsmHitSaveData
+  nameWithType: FsmHitSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html

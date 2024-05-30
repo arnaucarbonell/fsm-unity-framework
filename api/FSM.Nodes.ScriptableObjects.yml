@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.ScriptableObjects
+  commentId: N:FSM.Nodes.ScriptableObjects
+  id: FSM.Nodes.ScriptableObjects
+  children:
+  - FSM.Nodes.ScriptableObjects.FsmNodeSo
+  - FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  langs:
+  - csharp
+  - vb
+  name: FSM.Nodes.ScriptableObjects
+  nameWithType: FSM.Nodes.ScriptableObjects
+  fullName: FSM.Nodes.ScriptableObjects
+  type: Namespace
+  assemblies:
+  - FSM
+references:
+- uid: FSM.Nodes.ScriptableObjects.FsmNodeSo
+  commentId: T:FSM.Nodes.ScriptableObjects.FsmNodeSo
+  parent: FSM.Nodes.ScriptableObjects
+  href: FSM.Nodes.ScriptableObjects.FsmNodeSo.html
+  name: FsmNodeSo
+  nameWithType: FsmNodeSo
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodeSo
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  commentId: T:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  href: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.html
+  name: FsmNodesContainerSo
+  nameWithType: FsmNodesContainerSo
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+- uid: FSM.Nodes.ScriptableObjects
+  commentId: N:FSM.Nodes.ScriptableObjects
+  href: FSM.html
+  name: FSM.Nodes.ScriptableObjects
+  nameWithType: FSM.Nodes.ScriptableObjects
+  fullName: FSM.Nodes.ScriptableObjects
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.ScriptableObjects
+    name: ScriptableObjects
+    href: FSM.Nodes.ScriptableObjects.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.ScriptableObjects
+    name: ScriptableObjects
+    href: FSM.Nodes.ScriptableObjects.html

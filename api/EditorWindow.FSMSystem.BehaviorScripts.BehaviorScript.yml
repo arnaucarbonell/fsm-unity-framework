@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  commentId: T:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  id: BehaviorScript
+  parent: EditorWindow.FSMSystem.BehaviorScripts
+  children:
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  - EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  langs:
+  - csharp
+  - vb
+  name: BehaviorScript
+  nameWithType: BehaviorScript
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: BehaviorScript
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+    startLine: 12
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  summary: Represents an abstract behavior script for managing state options.
+  example: []
+  syntax:
+    content: 'public abstract class BehaviorScript : MonoBehaviour'
+    content.vb: Public MustInherit Class BehaviorScript Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  id: options
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  langs:
+  - csharp
+  - vb
+  name: options
+  nameWithType: BehaviorScript.options
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.options
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: options
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+    startLine: 14
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public List<StateScript> options
+    return:
+      type: System.Collections.Generic.List{FSM.Nodes.States.StateScript}
+    content.vb: Public options As List(Of StateScript)
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  id: selectedOptionIndex
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  langs:
+  - csharp
+  - vb
+  name: selectedOptionIndex
+  nameWithType: BehaviorScript.selectedOptionIndex
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.selectedOptionIndex
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: selectedOptionIndex
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+    startLine: 15
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: public int selectedOptionIndex
+    return:
+      type: System.Int32
+    content.vb: Public selectedOptionIndex As Integer
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  commentId: F:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  id: CurrentState
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  langs:
+  - csharp
+  - vb
+  name: CurrentState
+  nameWithType: BehaviorScript.CurrentState
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.CurrentState
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CurrentState
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+    startLine: 16
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  syntax:
+    content: protected FsmStates CurrentState
+    return:
+      type: FSM.Enumerations.FsmStates
+    content.vb: Protected CurrentState As FsmStates
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  id: GetVariables
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  langs:
+  - csharp
+  - vb
+  name: GetVariables()
+  nameWithType: BehaviorScript.GetVariables()
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetVariables
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+    startLine: 22
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  summary: Retrieves variables and their values from the behavior script.
+  example: []
+  syntax:
+    content: public virtual Dictionary<string, object> GetVariables()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: A dictionary containing variable names and their values.
+    content.vb: Public Overridable Function GetVariables() As Dictionary(Of String, Object)
+  overload: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables*
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  commentId: M:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(System.String,System.Object)
+  id: SetVariableValue(System.String,System.Object)
+  parent: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript
+  langs:
+  - csharp
+  - vb
+  name: SetVariableValue(string, object)
+  nameWithType: BehaviorScript.SetVariableValue(string, object)
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(string, object)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetVariableValue
+    path: Assets/EditorWindow/FSMSystem/BehaviorScripts/BehaviorScript.cs
+    startLine: 42
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.BehaviorScripts
+  summary: Sets the value of a specified variable in the behavior script.
+  example: []
+  syntax:
+    content: public virtual void SetVariableValue(string variableName, object newValue)
+    parameters:
+    - id: variableName
+      type: System.String
+      description: The name of the variable to set.
+    - id: newValue
+      type: System.Object
+      description: The new value to assign to the variable.
+    content.vb: Public Overridable Sub SetVariableValue(variableName As String, newValue As Object)
+  overload: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue*
+  nameWithType.vb: BehaviorScript.SetVariableValue(String, Object)
+  fullName.vb: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue(String, Object)
+  name.vb: SetVariableValue(String, Object)
+references:
+- uid: EditorWindow.FSMSystem.BehaviorScripts
+  commentId: N:EditorWindow.FSMSystem.BehaviorScripts
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.BehaviorScripts
+  nameWithType: EditorWindow.FSMSystem.BehaviorScripts
+  fullName: EditorWindow.FSMSystem.BehaviorScripts
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.BehaviorScripts
+    name: BehaviorScripts
+    href: EditorWindow.FSMSystem.BehaviorScripts.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.BehaviorScripts
+    name: BehaviorScripts
+    href: EditorWindow.FSMSystem.BehaviorScripts.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Collections.Generic.List{FSM.Nodes.States.StateScript}
+  commentId: T:System.Collections.Generic.List{FSM.Nodes.States.StateScript}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<StateScript>
+  nameWithType: List<StateScript>
+  fullName: System.Collections.Generic.List<FSM.Nodes.States.StateScript>
+  nameWithType.vb: List(Of StateScript)
+  fullName.vb: System.Collections.Generic.List(Of FSM.Nodes.States.StateScript)
+  name.vb: List(Of StateScript)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: FSM.Nodes.States.StateScript
+    name: StateScript
+    href: FSM.Nodes.States.StateScript.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: FSM.Nodes.States.StateScript
+    name: StateScript
+    href: FSM.Nodes.States.StateScript.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: FSM.Enumerations.FsmStates
+  commentId: T:FSM.Enumerations.FsmStates
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmStates.html
+  name: FsmStates
+  nameWithType: FsmStates
+  fullName: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_GetVariables
+  name: GetVariables
+  nameWithType: BehaviorScript.GetVariables
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.GetVariables
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue*
+  commentId: Overload:EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue
+  href: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.html#EditorWindow_FSMSystem_BehaviorScripts_BehaviorScript_SetVariableValue_System_String_System_Object_
+  name: SetVariableValue
+  nameWithType: BehaviorScript.SetVariableValue
+  fullName: EditorWindow.FSMSystem.BehaviorScripts.BehaviorScript.SetVariableValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

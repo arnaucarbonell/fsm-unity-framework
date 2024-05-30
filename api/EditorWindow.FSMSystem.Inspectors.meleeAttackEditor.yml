@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor
+  commentId: T:EditorWindow.FSMSystem.Inspectors.meleeAttackEditor
+  id: meleeAttackEditor
+  parent: EditorWindow.FSMSystem.Inspectors
+  children:
+  - EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: meleeAttackEditor
+  nameWithType: meleeAttackEditor
+  fullName: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Inspectors/meleeAttackEditor.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: meleeAttackEditor
+    path: Assets/EditorWindow/FSMSystem/Inspectors/meleeAttackEditor.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.Inspectors
+  syntax:
+    content: >-
+      [CustomEditor(typeof(meleeAttack))]
+
+      public class meleeAttackEditor : Editor
+    content.vb: >-
+      <CustomEditor(GetType(meleeAttack))>
+
+      Public Class meleeAttackEditor Inherits Editor
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.Editor
+  attributes:
+  - type: UnityEditor.CustomEditor
+    ctor: UnityEditor.CustomEditor.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: EditorWindow.FSMSystem.BehaviorScripts.meleeAttack
+- uid: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI
+  commentId: M:EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: meleeAttackEditor.OnInspectorGUI()
+  fullName: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Inspectors/meleeAttackEditor.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OnInspectorGUI
+    path: Assets/EditorWindow/FSMSystem/Inspectors/meleeAttackEditor.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp
+  namespace: EditorWindow.FSMSystem.Inspectors
+  summary: <p>Implement this function to make a custom inspector.</p>
+  example: []
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overridden: UnityEditor.Editor.OnInspectorGUI
+  overload: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI*
+references:
+- uid: EditorWindow.FSMSystem.Inspectors
+  commentId: N:EditorWindow.FSMSystem.Inspectors
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Inspectors
+  nameWithType: EditorWindow.FSMSystem.Inspectors
+  fullName: EditorWindow.FSMSystem.Inspectors
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Inspectors
+    name: Inspectors
+    href: EditorWindow.FSMSystem.Inspectors.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.Editor
+  commentId: T:UnityEditor.Editor
+  parent: UnityEditor
+  isExternal: true
+  name: Editor
+  nameWithType: Editor
+  fullName: UnityEditor.Editor
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: UnityEditor.Editor.OnInspectorGUI
+  commentId: M:UnityEditor.Editor.OnInspectorGUI
+  parent: UnityEditor.Editor
+  isExternal: true
+  name: OnInspectorGUI()
+  nameWithType: Editor.OnInspectorGUI()
+  fullName: UnityEditor.Editor.OnInspectorGUI()
+  spec.csharp:
+  - uid: UnityEditor.Editor.OnInspectorGUI
+    name: OnInspectorGUI
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Editor.OnInspectorGUI
+    name: OnInspectorGUI
+    isExternal: true
+  - name: (
+  - name: )
+- uid: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI*
+  commentId: Overload:EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI
+  href: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.html#EditorWindow_FSMSystem_Inspectors_meleeAttackEditor_OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: meleeAttackEditor.OnInspectorGUI
+  fullName: EditorWindow.FSMSystem.Inspectors.meleeAttackEditor.OnInspectorGUI

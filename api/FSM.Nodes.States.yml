@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  id: FSM.Nodes.States
+  children:
+  - FSM.Nodes.States.IAction
+  - FSM.Nodes.States.ICondition
+  - FSM.Nodes.States.StateScript
+  - FSM.Nodes.States.StateScriptData
+  langs:
+  - csharp
+  - vb
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  type: Namespace
+  assemblies:
+  - FSM
+references:
+- uid: FSM.Nodes.States.IAction
+  commentId: T:FSM.Nodes.States.IAction
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.IAction.html
+  name: IAction
+  nameWithType: IAction
+  fullName: FSM.Nodes.States.IAction
+- uid: FSM.Nodes.States.StateScriptData
+  commentId: T:FSM.Nodes.States.StateScriptData
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.StateScriptData.html
+  name: StateScriptData
+  nameWithType: StateScriptData
+  fullName: FSM.Nodes.States.StateScriptData
+- uid: FSM.Nodes.States.ICondition
+  commentId: T:FSM.Nodes.States.ICondition
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.ICondition.html
+  name: ICondition
+  nameWithType: ICondition
+  fullName: FSM.Nodes.States.ICondition
+- uid: FSM.Nodes.States.StateScript
+  commentId: T:FSM.Nodes.States.StateScript
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.StateScript.html
+  name: StateScript
+  nameWithType: StateScript
+  fullName: FSM.Nodes.States.StateScript
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html

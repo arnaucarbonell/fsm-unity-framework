@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  id: FsmConnectionSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  children:
+  - EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId
+  - EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text
+  langs:
+  - csharp
+  - vb
+  name: FsmConnectionSaveData
+  nameWithType: FsmConnectionSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmConnectionSaveData
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+    startLine: 7
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Represents save data for FSM connections.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class FsmConnectionSaveData
+    content.vb: >-
+      <Serializable>
+
+      Public Class FsmConnectionSaveData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text
+  id: Text
+  parent: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: FsmConnectionSaveData.Text
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Text
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+    startLine: 13
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the text associated with the connection.
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text*
+- uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId
+  commentId: P:EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId
+  id: NodeId
+  parent: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData
+  langs:
+  - csharp
+  - vb
+  name: NodeId
+  nameWithType: FsmConnectionSaveData.NodeId
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: NodeId
+    path: Assets/EditorWindow/FSMSystem/Data/Save/FsmConnectionSaveData.cs
+    startLine: 17
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Save
+  summary: Gets or sets the ID of the connected node.
+  example: []
+  syntax:
+    content: public string NodeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NodeId As String
+  overload: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId*
+references:
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text
+  href: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmConnectionSaveData_Text
+  name: Text
+  nameWithType: FsmConnectionSaveData.Text
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId
+  href: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html#EditorWindow_FSMSystem_Data_Save_FsmConnectionSaveData_NodeId
+  name: NodeId
+  nameWithType: FsmConnectionSaveData.NodeId
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.NodeId

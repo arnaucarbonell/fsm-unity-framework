@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  commentId: T:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  id: FsmNodesContainerSo
+  parent: FSM.Nodes.ScriptableObjects
+  children:
+  - FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName
+  - FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames
+  - FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize(System.String)
+  - FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes
+  langs:
+  - csharp
+  - vb
+  name: FsmNodesContainerSo
+  nameWithType: FsmNodesContainerSo
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmNodesContainerSo
+    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    startLine: 4
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.ScriptableObjects
+  syntax:
+    content: 'public class FsmNodesContainerSo : ScriptableObject'
+    content.vb: Public Class FsmNodesContainerSo Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName
+  commentId: P:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName
+  id: FileName
+  parent: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: FsmNodesContainerSo.FileName
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FileName
+    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    startLine: 6
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.ScriptableObjects
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName*
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes
+  commentId: P:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes
+  id: UngroupedNodes
+  parent: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  langs:
+  - csharp
+  - vb
+  name: UngroupedNodes
+  nameWithType: FsmNodesContainerSo.UngroupedNodes
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UngroupedNodes
+    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    startLine: 7
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.ScriptableObjects
+  syntax:
+    content: public List<FsmNodeSo> UngroupedNodes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{FSM.Nodes.ScriptableObjects.FsmNodeSo}
+    content.vb: Public Property UngroupedNodes As List(Of FsmNodeSo)
+  overload: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes*
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize(System.String)
+  commentId: M:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize(System.String)
+  id: Initialize(System.String)
+  parent: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  langs:
+  - csharp
+  - vb
+  name: Initialize(string)
+  nameWithType: FsmNodesContainerSo.Initialize(string)
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Initialize
+    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.ScriptableObjects
+  syntax:
+    content: public void Initialize(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    content.vb: Public Sub Initialize(fileName As String)
+  overload: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize*
+  nameWithType.vb: FsmNodesContainerSo.Initialize(String)
+  fullName.vb: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize(String)
+  name.vb: Initialize(String)
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames
+  commentId: M:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames
+  id: GetUngroupedStateNames
+  parent: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo
+  langs:
+  - csharp
+  - vb
+  name: GetUngroupedStateNames()
+  nameWithType: FsmNodesContainerSo.GetUngroupedStateNames()
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetUngroupedStateNames
+    path: Assets/FSM/Nodes/ScriptableObjects/FsmNodesContainerSo.cs
+    startLine: 15
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.ScriptableObjects
+  syntax:
+    content: public List<string> GetUngroupedStateNames()
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Function GetUngroupedStateNames() As List(Of String)
+  overload: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames*
+references:
+- uid: FSM.Nodes.ScriptableObjects
+  commentId: N:FSM.Nodes.ScriptableObjects
+  href: FSM.html
+  name: FSM.Nodes.ScriptableObjects
+  nameWithType: FSM.Nodes.ScriptableObjects
+  fullName: FSM.Nodes.ScriptableObjects
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.ScriptableObjects
+    name: ScriptableObjects
+    href: FSM.Nodes.ScriptableObjects.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.ScriptableObjects
+    name: ScriptableObjects
+    href: FSM.Nodes.ScriptableObjects.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName*
+  commentId: Overload:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName
+  href: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.html#FSM_Nodes_ScriptableObjects_FsmNodesContainerSo_FileName
+  name: FileName
+  nameWithType: FsmNodesContainerSo.FileName
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes*
+  commentId: Overload:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes
+  href: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.html#FSM_Nodes_ScriptableObjects_FsmNodesContainerSo_UngroupedNodes
+  name: UngroupedNodes
+  nameWithType: FsmNodesContainerSo.UngroupedNodes
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.UngroupedNodes
+- uid: System.Collections.Generic.List{FSM.Nodes.ScriptableObjects.FsmNodeSo}
+  commentId: T:System.Collections.Generic.List{FSM.Nodes.ScriptableObjects.FsmNodeSo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FsmNodeSo>
+  nameWithType: List<FsmNodeSo>
+  fullName: System.Collections.Generic.List<FSM.Nodes.ScriptableObjects.FsmNodeSo>
+  nameWithType.vb: List(Of FsmNodeSo)
+  fullName.vb: System.Collections.Generic.List(Of FSM.Nodes.ScriptableObjects.FsmNodeSo)
+  name.vb: List(Of FsmNodeSo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: FSM.Nodes.ScriptableObjects.FsmNodeSo
+    name: FsmNodeSo
+    href: FSM.Nodes.ScriptableObjects.FsmNodeSo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: FSM.Nodes.ScriptableObjects.FsmNodeSo
+    name: FsmNodeSo
+    href: FSM.Nodes.ScriptableObjects.FsmNodeSo.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize*
+  commentId: Overload:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize
+  href: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.html#FSM_Nodes_ScriptableObjects_FsmNodesContainerSo_Initialize_System_String_
+  name: Initialize
+  nameWithType: FsmNodesContainerSo.Initialize
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.Initialize
+- uid: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames*
+  commentId: Overload:FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames
+  href: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.html#FSM_Nodes_ScriptableObjects_FsmNodesContainerSo_GetUngroupedStateNames
+  name: GetUngroupedStateNames
+  nameWithType: FsmNodesContainerSo.GetUngroupedStateNames
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodesContainerSo.GetUngroupedStateNames
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

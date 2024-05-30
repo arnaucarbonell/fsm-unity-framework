@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Enumerations.FsmOperands
+  commentId: T:FSM.Enumerations.FsmOperands
+  id: FsmOperands
+  parent: FSM.Enumerations
+  children:
+  - FSM.Enumerations.FsmOperands.EqualTo
+  - FSM.Enumerations.FsmOperands.GreaterThan
+  - FSM.Enumerations.FsmOperands.LessThan
+  - FSM.Enumerations.FsmOperands.NotEqualTo
+  langs:
+  - csharp
+  - vb
+  name: FsmOperands
+  nameWithType: FsmOperands
+  fullName: FSM.Enumerations.FsmOperands
+  type: Enum
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmOperands.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmOperands
+    path: Assets/FSM/Enumerations/FsmOperands.cs
+    startLine: 5
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  summary: Enumeration representing different comparison operands.
+  example: []
+  syntax:
+    content: public enum FsmOperands
+    content.vb: Public Enum FsmOperands
+- uid: FSM.Enumerations.FsmOperands.GreaterThan
+  commentId: F:FSM.Enumerations.FsmOperands.GreaterThan
+  id: GreaterThan
+  parent: FSM.Enumerations.FsmOperands
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan
+  nameWithType: FsmOperands.GreaterThan
+  fullName: FSM.Enumerations.FsmOperands.GreaterThan
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmOperands.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GreaterThan
+    path: Assets/FSM/Enumerations/FsmOperands.cs
+    startLine: 7
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: GreaterThan = 0
+    return:
+      type: FSM.Enumerations.FsmOperands
+- uid: FSM.Enumerations.FsmOperands.LessThan
+  commentId: F:FSM.Enumerations.FsmOperands.LessThan
+  id: LessThan
+  parent: FSM.Enumerations.FsmOperands
+  langs:
+  - csharp
+  - vb
+  name: LessThan
+  nameWithType: FsmOperands.LessThan
+  fullName: FSM.Enumerations.FsmOperands.LessThan
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmOperands.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: LessThan
+    path: Assets/FSM/Enumerations/FsmOperands.cs
+    startLine: 8
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: LessThan = 1
+    return:
+      type: FSM.Enumerations.FsmOperands
+- uid: FSM.Enumerations.FsmOperands.EqualTo
+  commentId: F:FSM.Enumerations.FsmOperands.EqualTo
+  id: EqualTo
+  parent: FSM.Enumerations.FsmOperands
+  langs:
+  - csharp
+  - vb
+  name: EqualTo
+  nameWithType: FsmOperands.EqualTo
+  fullName: FSM.Enumerations.FsmOperands.EqualTo
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmOperands.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: EqualTo
+    path: Assets/FSM/Enumerations/FsmOperands.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: EqualTo = 2
+    return:
+      type: FSM.Enumerations.FsmOperands
+- uid: FSM.Enumerations.FsmOperands.NotEqualTo
+  commentId: F:FSM.Enumerations.FsmOperands.NotEqualTo
+  id: NotEqualTo
+  parent: FSM.Enumerations.FsmOperands
+  langs:
+  - csharp
+  - vb
+  name: NotEqualTo
+  nameWithType: FsmOperands.NotEqualTo
+  fullName: FSM.Enumerations.FsmOperands.NotEqualTo
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enumerations/FsmOperands.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: NotEqualTo
+    path: Assets/FSM/Enumerations/FsmOperands.cs
+    startLine: 10
+  assemblies:
+  - FSM
+  namespace: FSM.Enumerations
+  syntax:
+    content: NotEqualTo = 3
+    return:
+      type: FSM.Enumerations.FsmOperands
+references:
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+- uid: FSM.Enumerations.FsmOperands
+  commentId: T:FSM.Enumerations.FsmOperands
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmOperands.html
+  name: FsmOperands
+  nameWithType: FsmOperands
+  fullName: FSM.Enumerations.FsmOperands

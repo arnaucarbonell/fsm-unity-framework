@@ -1,0 +1,946 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmGraphView
+  id: FsmGraphView
+  parent: EditorWindow.FSMSystem.Windows
+  children:
+  - EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor(EditorWindow.FSMSystem.Windows.FsmEditorWindow)
+  - EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph
+  - EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode(System.String,UnityEngine.Vector2,FSM.Enumerations.FsmNodeType,System.Boolean,System.Boolean)
+  - EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+  - EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition(UnityEngine.Vector2,System.Boolean)
+  - EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow
+  - EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap
+  langs:
+  - csharp
+  - vb
+  name: FsmGraphView
+  nameWithType: FsmGraphView
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmGraphView
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 19
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: The graph view that hold the content for the FSM system.
+  example: []
+  syntax:
+    content: 'public class FsmGraphView : GraphView'
+    content.vb: Public Class FsmGraphView Inherits GraphView
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  - UnityEditor.Experimental.GraphView.GraphView
+  extensionMethods:
+  - UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(System.String[])
+  - UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(System.String[])
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor(EditorWindow.FSMSystem.Windows.FsmEditorWindow)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor(EditorWindow.FSMSystem.Windows.FsmEditorWindow)
+  id: '#ctor(EditorWindow.FSMSystem.Windows.FsmEditorWindow)'
+  parent: EditorWindow.FSMSystem.Windows.FsmGraphView
+  langs:
+  - csharp
+  - vb
+  name: FsmGraphView(FsmEditorWindow)
+  nameWithType: FsmGraphView.FsmGraphView(FsmEditorWindow)
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.FsmGraphView(EditorWindow.FSMSystem.Windows.FsmEditorWindow)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 46
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Constructor for the FSM graph view. Uses the <xref href="EditorWindow.FSMSystem.Windows.FsmEditorWindow" data-throw-if-not-resolved="false"></xref> as a parameter, and loads the content of the graph view inside the window.
+  example: []
+  syntax:
+    content: public FsmGraphView(FsmEditorWindow window)
+    parameters:
+    - id: window
+      type: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+      description: ''
+    content.vb: Public Sub New(window As FsmEditorWindow)
+  overload: EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor*
+  nameWithType.vb: FsmGraphView.New(FsmEditorWindow)
+  fullName.vb: EditorWindow.FSMSystem.Windows.FsmGraphView.New(EditorWindow.FSMSystem.Windows.FsmEditorWindow)
+  name.vb: New(FsmEditorWindow)
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+  id: GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+  parent: EditorWindow.FSMSystem.Windows.FsmGraphView
+  langs:
+  - csharp
+  - vb
+  name: GetCompatiblePorts(Port, NodeAdapter)
+  nameWithType: FsmGraphView.GetCompatiblePorts(Port, NodeAdapter)
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port, UnityEditor.Experimental.GraphView.NodeAdapter)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetCompatiblePorts
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 133
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: <p>Get all ports compatible with given port.</p>
+  example: []
+  syntax:
+    content: public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)
+    parameters:
+    - id: startPort
+      type: UnityEditor.Experimental.GraphView.Port
+      description: Start port to validate against.
+    - id: nodeAdapter
+      type: UnityEditor.Experimental.GraphView.NodeAdapter
+      description: Node adapter.
+    return:
+      type: System.Collections.Generic.List{UnityEditor.Experimental.GraphView.Port}
+      description: <p>List of compatible ports.</p>
+    content.vb: Public Overrides Function GetCompatiblePorts(startPort As Port, nodeAdapter As NodeAdapter) As List(Of Port)
+  overridden: UnityEditor.Experimental.GraphView.GraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+  overload: EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts*
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode(System.String,UnityEngine.Vector2,FSM.Enumerations.FsmNodeType,System.Boolean,System.Boolean)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode(System.String,UnityEngine.Vector2,FSM.Enumerations.FsmNodeType,System.Boolean,System.Boolean)
+  id: CreateNode(System.String,UnityEngine.Vector2,FSM.Enumerations.FsmNodeType,System.Boolean,System.Boolean)
+  parent: EditorWindow.FSMSystem.Windows.FsmGraphView
+  langs:
+  - csharp
+  - vb
+  name: CreateNode(string, Vector2, FsmNodeType, bool, bool)
+  nameWithType: FsmGraphView.CreateNode(string, Vector2, FsmNodeType, bool, bool)
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode(string, UnityEngine.Vector2, FSM.Enumerations.FsmNodeType, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateNode
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 158
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Creates a new node in the graph view.
+  example: []
+  syntax:
+    content: public FsmNode CreateNode(string nodeName, Vector2 position, FsmNodeType nodeT, bool fixName = true, bool shouldDraw = true)
+    parameters:
+    - id: nodeName
+      type: System.String
+      description: The name of the node.
+    - id: position
+      type: UnityEngine.Vector2
+      description: The position of the node.
+    - id: nodeT
+      type: FSM.Enumerations.FsmNodeType
+      description: The type of the node.
+    - id: fixName
+      type: System.Boolean
+      description: Should the name be fixed?
+    - id: shouldDraw
+      type: System.Boolean
+      description: Should the node be drawn?
+    return:
+      type: EditorWindow.FSMSystem.Elements.FsmNode
+      description: Returns the <xref href="EditorWindow.FSMSystem.Elements.FsmNode" data-throw-if-not-resolved="false"></xref> that you just created.
+    content.vb: Public Function CreateNode(nodeName As String, position As Vector2, nodeT As FsmNodeType, fixName As Boolean = True, shouldDraw As Boolean = True) As FsmNode
+  overload: EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode*
+  nameWithType.vb: FsmGraphView.CreateNode(String, Vector2, FsmNodeType, Boolean, Boolean)
+  fullName.vb: EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode(String, UnityEngine.Vector2, FSM.Enumerations.FsmNodeType, Boolean, Boolean)
+  name.vb: CreateNode(String, Vector2, FsmNodeType, Boolean, Boolean)
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition(UnityEngine.Vector2,System.Boolean)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition(UnityEngine.Vector2,System.Boolean)
+  id: GetLocalMousePosition(UnityEngine.Vector2,System.Boolean)
+  parent: EditorWindow.FSMSystem.Windows.FsmGraphView
+  langs:
+  - csharp
+  - vb
+  name: GetLocalMousePosition(Vector2, bool)
+  nameWithType: FsmGraphView.GetLocalMousePosition(Vector2, bool)
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition(UnityEngine.Vector2, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetLocalMousePosition
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 855
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public Vector2 GetLocalMousePosition(Vector2 mousePosition, bool isSearchWindow = false)
+    parameters:
+    - id: mousePosition
+      type: UnityEngine.Vector2
+    - id: isSearchWindow
+      type: System.Boolean
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Function GetLocalMousePosition(mousePosition As Vector2, isSearchWindow As Boolean = False) As Vector2
+  overload: EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition*
+  nameWithType.vb: FsmGraphView.GetLocalMousePosition(Vector2, Boolean)
+  fullName.vb: EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition(UnityEngine.Vector2, Boolean)
+  name.vb: GetLocalMousePosition(Vector2, Boolean)
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph
+  id: ClearGraph
+  parent: EditorWindow.FSMSystem.Windows.FsmGraphView
+  langs:
+  - csharp
+  - vb
+  name: ClearGraph()
+  nameWithType: FsmGraphView.ClearGraph()
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ClearGraph
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 866
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public void ClearGraph()
+    content.vb: Public Sub ClearGraph()
+  overload: EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph*
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap
+  id: ToggleMiniMap
+  parent: EditorWindow.FSMSystem.Windows.FsmGraphView
+  langs:
+  - csharp
+  - vb
+  name: ToggleMiniMap()
+  nameWithType: FsmGraphView.ToggleMiniMap()
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ToggleMiniMap
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 873
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public void ToggleMiniMap()
+    content.vb: Public Sub ToggleMiniMap()
+  overload: EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap*
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow
+  id: GetWindow
+  parent: EditorWindow.FSMSystem.Windows.FsmGraphView
+  langs:
+  - csharp
+  - vb
+  name: GetWindow()
+  nameWithType: FsmGraphView.GetWindow()
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmGraphView.cs
+    startLine: 877
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public FsmEditorWindow GetWindow()
+    return:
+      type: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+    content.vb: Public Function GetWindow() As FsmEditorWindow
+  overload: EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow*
+references:
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEditor.Experimental.GraphView.GraphView
+  commentId: T:UnityEditor.Experimental.GraphView.GraphView
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: GraphView
+  nameWithType: GraphView
+  fullName: UnityEditor.Experimental.GraphView.GraphView
+- uid: UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  definition: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  definition: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEditor.Experimental.GraphView
+  commentId: N:UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: UnityEditor.Experimental.GraphView
+  nameWithType: UnityEditor.Experimental.GraphView
+  fullName: UnityEditor.Experimental.GraphView
+  spec.csharp:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  isExternal: true
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html
+  name: FsmStyleUtility
+  nameWithType: FsmStyleUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  isExternal: true
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  parent: EditorWindow.FSMSystem.Windows
+  href: EditorWindow.FSMSystem.Windows.FsmEditorWindow.html
+  name: FsmEditorWindow
+  nameWithType: FsmEditorWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmGraphView.#ctor
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html#EditorWindow_FSMSystem_Windows_FsmGraphView__ctor_EditorWindow_FSMSystem_Windows_FsmEditorWindow_
+  name: FsmGraphView
+  nameWithType: FsmGraphView.FsmGraphView
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.FsmGraphView
+  nameWithType.vb: FsmGraphView.New
+  fullName.vb: EditorWindow.FSMSystem.Windows.FsmGraphView.New
+  name.vb: New
+- uid: UnityEditor.Experimental.GraphView.GraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+  commentId: M:UnityEditor.Experimental.GraphView.GraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+  parent: UnityEditor.Experimental.GraphView.GraphView
+  isExternal: true
+  name: GetCompatiblePorts(Port, NodeAdapter)
+  nameWithType: GraphView.GetCompatiblePorts(Port, NodeAdapter)
+  fullName: UnityEditor.Experimental.GraphView.GraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port, UnityEditor.Experimental.GraphView.NodeAdapter)
+  spec.csharp:
+  - uid: UnityEditor.Experimental.GraphView.GraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+    name: GetCompatiblePorts
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.NodeAdapter
+    name: NodeAdapter
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Experimental.GraphView.GraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)
+    name: GetCompatiblePorts
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.NodeAdapter
+    name: NodeAdapter
+    isExternal: true
+  - name: )
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html#EditorWindow_FSMSystem_Windows_FsmGraphView_GetCompatiblePorts_UnityEditor_Experimental_GraphView_Port_UnityEditor_Experimental_GraphView_NodeAdapter_
+  name: GetCompatiblePorts
+  nameWithType: FsmGraphView.GetCompatiblePorts
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.GetCompatiblePorts
+- uid: UnityEditor.Experimental.GraphView.Port
+  commentId: T:UnityEditor.Experimental.GraphView.Port
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Port
+  nameWithType: Port
+  fullName: UnityEditor.Experimental.GraphView.Port
+- uid: UnityEditor.Experimental.GraphView.NodeAdapter
+  commentId: T:UnityEditor.Experimental.GraphView.NodeAdapter
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: NodeAdapter
+  nameWithType: NodeAdapter
+  fullName: UnityEditor.Experimental.GraphView.NodeAdapter
+- uid: System.Collections.Generic.List{UnityEditor.Experimental.GraphView.Port}
+  commentId: T:System.Collections.Generic.List{UnityEditor.Experimental.GraphView.Port}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Port>
+  nameWithType: List<Port>
+  fullName: System.Collections.Generic.List<UnityEditor.Experimental.GraphView.Port>
+  nameWithType.vb: List(Of Port)
+  fullName.vb: System.Collections.Generic.List(Of UnityEditor.Experimental.GraphView.Port)
+  name.vb: List(Of Port)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: EditorWindow.FSMSystem.Elements.FsmNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmNode
+  parent: EditorWindow.FSMSystem.Elements
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  name: FsmNode
+  nameWithType: FsmNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html#EditorWindow_FSMSystem_Windows_FsmGraphView_CreateNode_System_String_UnityEngine_Vector2_FSM_Enumerations_FsmNodeType_System_Boolean_System_Boolean_
+  name: CreateNode
+  nameWithType: FsmGraphView.CreateNode
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.CreateNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: FSM.Enumerations.FsmNodeType
+  commentId: T:FSM.Enumerations.FsmNodeType
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmNodeType.html
+  name: FsmNodeType
+  nameWithType: FsmNodeType
+  fullName: FSM.Enumerations.FsmNodeType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: EditorWindow.FSMSystem.Elements
+  commentId: N:EditorWindow.FSMSystem.Elements
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Elements
+  nameWithType: EditorWindow.FSMSystem.Elements
+  fullName: EditorWindow.FSMSystem.Elements
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html#EditorWindow_FSMSystem_Windows_FsmGraphView_GetLocalMousePosition_UnityEngine_Vector2_System_Boolean_
+  name: GetLocalMousePosition
+  nameWithType: FsmGraphView.GetLocalMousePosition
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.GetLocalMousePosition
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html#EditorWindow_FSMSystem_Windows_FsmGraphView_ClearGraph
+  name: ClearGraph
+  nameWithType: FsmGraphView.ClearGraph
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.ClearGraph
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html#EditorWindow_FSMSystem_Windows_FsmGraphView_ToggleMiniMap
+  name: ToggleMiniMap
+  nameWithType: FsmGraphView.ToggleMiniMap
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.ToggleMiniMap
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html#EditorWindow_FSMSystem_Windows_FsmGraphView_GetWindow
+  name: GetWindow
+  nameWithType: FsmGraphView.GetWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView.GetWindow

@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities
+  id: FsmCreationNodesUtilities
+  parent: EditorWindow.FSMSystem.Utilities
+  children:
+  - EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode(System.String)
+  - EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FsmCreationNodesUtilities
+  nameWithType: FsmCreationNodesUtilities
+  fullName: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmCreationNodesUtilities.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmCreationNodesUtilities
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmCreationNodesUtilities.cs
+    startLine: 7
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  syntax:
+    content: public static class FsmCreationNodesUtilities
+    content.vb: Public Module FsmCreationNodesUtilities
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode(System.String)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode(System.String)
+  id: CreateStateNode(System.String)
+  parent: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateStateNode(string)
+  nameWithType: FsmCreationNodesUtilities.CreateStateNode(string)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmCreationNodesUtilities.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateStateNode
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmCreationNodesUtilities.cs
+    startLine: 11
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  syntax:
+    content: public static void CreateStateNode(string stateName)
+    parameters:
+    - id: stateName
+      type: System.String
+    content.vb: Public Shared Sub CreateStateNode(stateName As String)
+  overload: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode*
+  nameWithType.vb: FsmCreationNodesUtilities.CreateStateNode(String)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode(String)
+  name.vb: CreateStateNode(String)
+- uid: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode(System.String)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode(System.String)
+  id: CreateConditionNode(System.String)
+  parent: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateConditionNode(string)
+  nameWithType: FsmCreationNodesUtilities.CreateConditionNode(string)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmCreationNodesUtilities.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateConditionNode
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmCreationNodesUtilities.cs
+    startLine: 23
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  syntax:
+    content: public static void CreateConditionNode(string stateName)
+    parameters:
+    - id: stateName
+      type: System.String
+    content.vb: Public Shared Sub CreateConditionNode(stateName As String)
+  overload: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode*
+  nameWithType.vb: FsmCreationNodesUtilities.CreateConditionNode(String)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode(String)
+  name.vb: CreateConditionNode(String)
+references:
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode
+  href: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.html#EditorWindow_FSMSystem_Utilities_FsmCreationNodesUtilities_CreateStateNode_System_String_
+  name: CreateStateNode
+  nameWithType: FsmCreationNodesUtilities.CreateStateNode
+  fullName: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateStateNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode
+  href: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.html#EditorWindow_FSMSystem_Utilities_FsmCreationNodesUtilities_CreateConditionNode_System_String_
+  name: CreateConditionNode
+  nameWithType: FsmCreationNodesUtilities.CreateConditionNode
+  fullName: EditorWindow.FSMSystem.Utilities.FsmCreationNodesUtilities.CreateConditionNode

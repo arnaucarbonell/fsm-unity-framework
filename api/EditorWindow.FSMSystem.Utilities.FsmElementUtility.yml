@@ -1,0 +1,1105 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  id: FsmElementUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  children:
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton(System.String,System.Action)
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout(System.String,System.Boolean)
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel(System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField``1(System.String,``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}})
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField(System.Collections.Generic.List{System.String},System.Int32,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  - EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle(System.String,System.Boolean,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}})
+  langs:
+  - csharp
+  - vb
+  name: FsmElementUtility
+  nameWithType: FsmElementUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmElementUtility
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 13
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Utility class for creating various UI elements for the FSM editor.
+  example: []
+  syntax:
+    content: public static class FsmElementUtility
+    content.vb: Public Module FsmElementUtility
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  id: CreateTextField(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateTextField(string, string, EventCallback<ChangeEvent<string>>)
+  nameWithType: FsmElementUtility.CreateTextField(string, string, EventCallback<ChangeEvent<string>>)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField(string, string, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<string>>)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateTextField
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 22
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a text field.
+  example: []
+  syntax:
+    content: public static TextField CreateTextField(string value = null, string label = null, EventCallback<ChangeEvent<string>> onValueChanged = null)
+    parameters:
+    - id: value
+      type: System.String
+      description: Initial value of the text field.
+    - id: label
+      type: System.String
+      description: Label for the text field.
+    - id: onValueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}}
+      description: Event callback for value change.
+    return:
+      type: UnityEngine.UIElements.TextField
+      description: Returns the created TextField.
+    content.vb: Public Shared Function CreateTextField(value As String = Nothing, label As String = Nothing, onValueChanged As EventCallback(Of ChangeEvent(Of String)) = Nothing) As TextField
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField*
+  nameWithType.vb: FsmElementUtility.CreateTextField(String, String, EventCallback(Of ChangeEvent(Of String)))
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField(String, String, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of String)))
+  name.vb: CreateTextField(String, String, EventCallback(Of ChangeEvent(Of String)))
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField(System.Collections.Generic.List{System.String},System.Int32,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField(System.Collections.Generic.List{System.String},System.Int32,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  id: CreatePopupField(System.Collections.Generic.List{System.String},System.Int32,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreatePopupField(List<string>, int, EventCallback<ChangeEvent<string>>)
+  nameWithType: FsmElementUtility.CreatePopupField(List<string>, int, EventCallback<ChangeEvent<string>>)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField(System.Collections.Generic.List<string>, int, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<string>>)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreatePopupField
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 44
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a popup field.
+  example: []
+  syntax:
+    content: public static PopupField<string> CreatePopupField(List<string> choices, int index = 0, EventCallback<ChangeEvent<string>> onValueChanged = null)
+    parameters:
+    - id: choices
+      type: System.Collections.Generic.List{System.String}
+      description: List of choices for the popup field.
+    - id: index
+      type: System.Int32
+      description: Index of the default choice.
+    - id: onValueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}}
+      description: Event callback for value change.
+    return:
+      type: UnityEngine.UIElements.PopupField{System.String}
+      description: Returns the created PopupField.
+    content.vb: Public Shared Function CreatePopupField(choices As List(Of String), index As Integer = 0, onValueChanged As EventCallback(Of ChangeEvent(Of String)) = Nothing) As PopupField(Of String)
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField*
+  nameWithType.vb: FsmElementUtility.CreatePopupField(List(Of String), Integer, EventCallback(Of ChangeEvent(Of String)))
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField(System.Collections.Generic.List(Of String), Integer, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of String)))
+  name.vb: CreatePopupField(List(Of String), Integer, EventCallback(Of ChangeEvent(Of String)))
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel(System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel(System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  id: CreateLabel(System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateLabel(string, EventCallback<ChangeEvent<string>>)
+  nameWithType: FsmElementUtility.CreateLabel(string, EventCallback<ChangeEvent<string>>)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel(string, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<string>>)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateLabel
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 61
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a label.
+  example: []
+  syntax:
+    content: public static Label CreateLabel(string text = null, EventCallback<ChangeEvent<string>> onValueChanged = null)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text of the label.
+    - id: onValueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}}
+      description: Event callback for value change.
+    return:
+      type: UnityEngine.UIElements.Label
+      description: Returns the created Label.
+    content.vb: Public Shared Function CreateLabel(text As String = Nothing, onValueChanged As EventCallback(Of ChangeEvent(Of String)) = Nothing) As Label
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel*
+  nameWithType.vb: FsmElementUtility.CreateLabel(String, EventCallback(Of ChangeEvent(Of String)))
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel(String, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of String)))
+  name.vb: CreateLabel(String, EventCallback(Of ChangeEvent(Of String)))
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  id: CreateTextArea(System.String,System.String,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}})
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateTextArea(string, string, EventCallback<ChangeEvent<string>>)
+  nameWithType: FsmElementUtility.CreateTextArea(string, string, EventCallback<ChangeEvent<string>>)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea(string, string, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<string>>)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateTextArea
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 81
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a text area.
+  example: []
+  syntax:
+    content: public static TextField CreateTextArea(string value = null, string label = null, EventCallback<ChangeEvent<string>> onValueChanged = null)
+    parameters:
+    - id: value
+      type: System.String
+      description: Initial value of the text area.
+    - id: label
+      type: System.String
+      description: Label for the text area.
+    - id: onValueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}}
+      description: Event callback for value change.
+    return:
+      type: UnityEngine.UIElements.TextField
+      description: Returns the created TextField as a text area.
+    content.vb: Public Shared Function CreateTextArea(value As String = Nothing, label As String = Nothing, onValueChanged As EventCallback(Of ChangeEvent(Of String)) = Nothing) As TextField
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea*
+  nameWithType.vb: FsmElementUtility.CreateTextArea(String, String, EventCallback(Of ChangeEvent(Of String)))
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea(String, String, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of String)))
+  name.vb: CreateTextArea(String, String, EventCallback(Of ChangeEvent(Of String)))
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField``1(System.String,``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}})
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField``1(System.String,``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}})
+  id: CreateObjectField``1(System.String,``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}})
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateObjectField<T>(string, T, EventCallback<ChangeEvent<Object>>)
+  nameWithType: FsmElementUtility.CreateObjectField<T>(string, T, EventCallback<ChangeEvent<Object>>)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField<T>(string, T, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<UnityEngine.Object>>)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateObjectField
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 97
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a custom object field.
+  example: []
+  syntax:
+    content: 'public static CustomObjectField CreateObjectField<T>(string label = null, T value = null, EventCallback<ChangeEvent<Object>> onValueChanged = null) where T : Object'
+    parameters:
+    - id: label
+      type: System.String
+      description: Label for the object field.
+    - id: value
+      type: '{T}'
+      description: Initial value of the object field.
+    - id: onValueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}}
+      description: Event callback for value change.
+    typeParameters:
+    - id: T
+      description: Type of the object field.
+    return:
+      type: FSM.Utilities.CustomObjectField
+      description: Returns the created CustomObjectField.
+    content.vb: Public Shared Function CreateObjectField(Of T As [Object])(label As String = Nothing, value As T = Nothing, onValueChanged As EventCallback(Of ChangeEvent(Of [Object])) = Nothing) As CustomObjectField
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField*
+  nameWithType.vb: FsmElementUtility.CreateObjectField(Of T)(String, T, EventCallback(Of ChangeEvent(Of Object)))
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField(Of T)(String, T, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of UnityEngine.Object)))
+  name.vb: CreateObjectField(Of T)(String, T, EventCallback(Of ChangeEvent(Of Object)))
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout(System.String,System.Boolean)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout(System.String,System.Boolean)
+  id: CreateFoldout(System.String,System.Boolean)
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateFoldout(string, bool)
+  nameWithType: FsmElementUtility.CreateFoldout(string, bool)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout(string, bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateFoldout
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 119
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a foldout element.
+  example: []
+  syntax:
+    content: public static Foldout CreateFoldout(string title, bool collapsed = false)
+    parameters:
+    - id: title
+      type: System.String
+      description: Title of the foldout.
+    - id: collapsed
+      type: System.Boolean
+      description: Whether the foldout is collapsed initially.
+    return:
+      type: UnityEngine.UIElements.Foldout
+      description: Returns the created Foldout.
+    content.vb: Public Shared Function CreateFoldout(title As String, collapsed As Boolean = False) As Foldout
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout*
+  nameWithType.vb: FsmElementUtility.CreateFoldout(String, Boolean)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout(String, Boolean)
+  name.vb: CreateFoldout(String, Boolean)
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton(System.String,System.Action)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton(System.String,System.Action)
+  id: CreateButton(System.String,System.Action)
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateButton(string, Action)
+  nameWithType: FsmElementUtility.CreateButton(string, Action)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton(string, System.Action)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateButton
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 134
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a button.
+  example: []
+  syntax:
+    content: public static Button CreateButton(string text, Action onClick = null)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text of the button.
+    - id: onClick
+      type: System.Action
+      description: Action to be performed on button click.
+    return:
+      type: UnityEngine.UIElements.Button
+      description: Returns the created Button.
+    content.vb: Public Shared Function CreateButton(text As String, onClick As Action = Nothing) As Button
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton*
+  nameWithType.vb: FsmElementUtility.CreateButton(String, Action)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton(String, System.Action)
+  name.vb: CreateButton(String, Action)
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle(System.String,System.Boolean,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}})
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle(System.String,System.Boolean,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}})
+  id: CreateToggle(System.String,System.Boolean,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}})
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateToggle(string, bool, EventCallback<ChangeEvent<bool>>)
+  nameWithType: FsmElementUtility.CreateToggle(string, bool, EventCallback<ChangeEvent<bool>>)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle(string, bool, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<bool>>)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateToggle
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 149
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a toggle.
+  example: []
+  syntax:
+    content: public static Toggle CreateToggle(string label = null, bool value = false, EventCallback<ChangeEvent<bool>> onValueChanged = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: Label for the toggle.
+    - id: value
+      type: System.Boolean
+      description: Initial value of the toggle.
+    - id: onValueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}}
+      description: Event callback for value change.
+    return:
+      type: UnityEngine.UIElements.Toggle
+      description: Returns the created Toggle.
+    content.vb: Public Shared Function CreateToggle(label As String = Nothing, value As Boolean = False, onValueChanged As EventCallback(Of ChangeEvent(Of Boolean)) = Nothing) As Toggle
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle*
+  nameWithType.vb: FsmElementUtility.CreateToggle(String, Boolean, EventCallback(Of ChangeEvent(Of Boolean)))
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle(String, Boolean, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of Boolean)))
+  name.vb: CreateToggle(String, Boolean, EventCallback(Of ChangeEvent(Of Boolean)))
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  id: CreatePort(EditorWindow.FSMSystem.Elements.FsmNode,System.String,UnityEditor.Experimental.GraphView.Orientation,UnityEditor.Experimental.GraphView.Direction,UnityEditor.Experimental.GraphView.Port.Capacity)
+  isExtensionMethod: true
+  parent: EditorWindow.FSMSystem.Utilities.FsmElementUtility
+  langs:
+  - csharp
+  - vb
+  name: CreatePort(FsmNode, string, Orientation, Direction, Capacity)
+  nameWithType: FsmElementUtility.CreatePort(FsmNode, string, Orientation, Direction, Port.Capacity)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode, string, UnityEditor.Experimental.GraphView.Orientation, UnityEditor.Experimental.GraphView.Direction, UnityEditor.Experimental.GraphView.Port.Capacity)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreatePort
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmElementUtility.cs
+    startLine: 172
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a port for a node.
+  example: []
+  syntax:
+    content: public static Port CreatePort(this FsmNode node, string portName = "", Orientation orientation = Orientation.Horizontal, Direction direction = Direction.Input, Port.Capacity capacity = Capacity.Single)
+    parameters:
+    - id: node
+      type: EditorWindow.FSMSystem.Elements.FsmNode
+      description: The node to which the port is added.
+    - id: portName
+      type: System.String
+      description: Name of the port.
+    - id: orientation
+      type: UnityEditor.Experimental.GraphView.Orientation
+      description: Orientation of the port.
+    - id: direction
+      type: UnityEditor.Experimental.GraphView.Direction
+      description: Direction of the port.
+    - id: capacity
+      type: UnityEditor.Experimental.GraphView.Port.Capacity
+      description: Capacity of the port.
+    return:
+      type: UnityEditor.Experimental.GraphView.Port
+      description: Returns the created Port.
+    content.vb: Public Shared Function CreatePort(node As FsmNode, portName As String = "", orientation As Orientation = Orientation.Horizontal, direction As Direction = Direction.Input, capacity As Port.Capacity = Capacity.Single) As Port
+  overload: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort*
+  nameWithType.vb: FsmElementUtility.CreatePort(FsmNode, String, Orientation, Direction, Port.Capacity)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort(EditorWindow.FSMSystem.Elements.FsmNode, String, UnityEditor.Experimental.GraphView.Orientation, UnityEditor.Experimental.GraphView.Direction, UnityEditor.Experimental.GraphView.Port.Capacity)
+  name.vb: CreatePort(FsmNode, String, Orientation, Direction, Capacity)
+references:
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateTextField_System_String_System_String_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___
+  name: CreateTextField
+  nameWithType: FsmElementUtility.CreateTextField
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextField
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}}
+  commentId: T:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.String}}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: EventCallback<ChangeEvent<string>>
+  nameWithType: EventCallback<ChangeEvent<string>>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<string>>
+  nameWithType.vb: EventCallback(Of ChangeEvent(Of String))
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of String))
+  name.vb: EventCallback(Of ChangeEvent(Of String))
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: UnityEngine.UIElements.TextField
+  commentId: T:UnityEngine.UIElements.TextField
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: TextField
+  nameWithType: TextField
+  fullName: UnityEngine.UIElements.TextField
+- uid: UnityEngine.UIElements.EventCallback`1
+  commentId: T:UnityEngine.UIElements.EventCallback`1
+  isExternal: true
+  name: EventCallback<TEventType>
+  nameWithType: EventCallback<TEventType>
+  fullName: UnityEngine.UIElements.EventCallback<TEventType>
+  nameWithType.vb: EventCallback(Of TEventType)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of TEventType)
+  name.vb: EventCallback(Of TEventType)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEventType
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventType
+  - name: )
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePopupField_System_Collections_Generic_List_System_String__System_Int32_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___
+  name: CreatePopupField
+  nameWithType: FsmElementUtility.CreatePopupField
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePopupField
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UnityEngine.UIElements.PopupField{System.String}
+  commentId: T:UnityEngine.UIElements.PopupField{System.String}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.PopupField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: PopupField<string>
+  nameWithType: PopupField<string>
+  fullName: UnityEngine.UIElements.PopupField<string>
+  nameWithType.vb: PopupField(Of String)
+  fullName.vb: UnityEngine.UIElements.PopupField(Of String)
+  name.vb: PopupField(Of String)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.PopupField`1
+    name: PopupField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.PopupField`1
+    name: PopupField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: UnityEngine.UIElements.PopupField`1
+  commentId: T:UnityEngine.UIElements.PopupField`1
+  isExternal: true
+  name: PopupField<T>
+  nameWithType: PopupField<T>
+  fullName: UnityEngine.UIElements.PopupField<T>
+  nameWithType.vb: PopupField(Of T)
+  fullName.vb: UnityEngine.UIElements.PopupField(Of T)
+  name.vb: PopupField(Of T)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.PopupField`1
+    name: PopupField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.PopupField`1
+    name: PopupField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateLabel_System_String_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___
+  name: CreateLabel
+  nameWithType: FsmElementUtility.CreateLabel
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateLabel
+- uid: UnityEngine.UIElements.Label
+  commentId: T:UnityEngine.UIElements.Label
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: UnityEngine.UIElements.Label
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateTextArea_System_String_System_String_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_String___
+  name: CreateTextArea
+  nameWithType: FsmElementUtility.CreateTextArea
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateTextArea
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateObjectField__1_System_String___0_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_UnityEngine_Object___
+  name: CreateObjectField
+  nameWithType: FsmElementUtility.CreateObjectField
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateObjectField
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}}
+  commentId: T:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{UnityEngine.Object}}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<ChangeEvent<Object>>
+  nameWithType: EventCallback<ChangeEvent<Object>>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<UnityEngine.Object>>
+  nameWithType.vb: EventCallback(Of ChangeEvent(Of Object))
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of UnityEngine.Object))
+  name.vb: EventCallback(Of ChangeEvent(Of Object))
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: )
+  - name: )
+- uid: FSM.Utilities.CustomObjectField
+  commentId: T:FSM.Utilities.CustomObjectField
+  parent: FSM.Utilities
+  href: FSM.Utilities.CustomObjectField.html
+  name: CustomObjectField
+  nameWithType: CustomObjectField
+  fullName: FSM.Utilities.CustomObjectField
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateFoldout_System_String_System_Boolean_
+  name: CreateFoldout
+  nameWithType: FsmElementUtility.CreateFoldout
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateFoldout
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UnityEngine.UIElements.Foldout
+  commentId: T:UnityEngine.UIElements.Foldout
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Foldout
+  nameWithType: Foldout
+  fullName: UnityEngine.UIElements.Foldout
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateButton_System_String_System_Action_
+  name: CreateButton
+  nameWithType: FsmElementUtility.CreateButton
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateButton
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: UnityEngine.UIElements.Button
+  commentId: T:UnityEngine.UIElements.Button
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UIElements.Button
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreateToggle_System_String_System_Boolean_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_Boolean___
+  name: CreateToggle
+  nameWithType: FsmElementUtility.CreateToggle
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreateToggle
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}}
+  commentId: T:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: EventCallback<ChangeEvent<bool>>
+  nameWithType: EventCallback<ChangeEvent<bool>>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<bool>>
+  nameWithType.vb: EventCallback(Of ChangeEvent(Of Boolean))
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of Boolean))
+  name.vb: EventCallback(Of ChangeEvent(Of Boolean))
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: UnityEngine.UIElements.Toggle
+  commentId: T:UnityEngine.UIElements.Toggle
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: UnityEngine.UIElements.Toggle
+- uid: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort
+  href: EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_
+  name: CreatePort
+  nameWithType: FsmElementUtility.CreatePort
+  fullName: EditorWindow.FSMSystem.Utilities.FsmElementUtility.CreatePort
+- uid: EditorWindow.FSMSystem.Elements.FsmNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmNode
+  parent: EditorWindow.FSMSystem.Elements
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  name: FsmNode
+  nameWithType: FsmNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode
+- uid: UnityEditor.Experimental.GraphView.Orientation
+  commentId: T:UnityEditor.Experimental.GraphView.Orientation
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Orientation
+  nameWithType: Orientation
+  fullName: UnityEditor.Experimental.GraphView.Orientation
+- uid: UnityEditor.Experimental.GraphView.Direction
+  commentId: T:UnityEditor.Experimental.GraphView.Direction
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Direction
+  nameWithType: Direction
+  fullName: UnityEditor.Experimental.GraphView.Direction
+- uid: UnityEditor.Experimental.GraphView.Port.Capacity
+  commentId: T:UnityEditor.Experimental.GraphView.Port.Capacity
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Port.Capacity
+  nameWithType: Port.Capacity
+  fullName: UnityEditor.Experimental.GraphView.Port.Capacity
+  spec.csharp:
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView.Port.Capacity
+    name: Capacity
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor.Experimental.GraphView.Port
+    name: Port
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView.Port.Capacity
+    name: Capacity
+    isExternal: true
+- uid: UnityEditor.Experimental.GraphView.Port
+  commentId: T:UnityEditor.Experimental.GraphView.Port
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: Port
+  nameWithType: Port
+  fullName: UnityEditor.Experimental.GraphView.Port
+- uid: EditorWindow.FSMSystem.Elements
+  commentId: N:EditorWindow.FSMSystem.Elements
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Elements
+  nameWithType: EditorWindow.FSMSystem.Elements
+  fullName: EditorWindow.FSMSystem.Elements
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+- uid: UnityEditor.Experimental.GraphView
+  commentId: N:UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: UnityEditor.Experimental.GraphView
+  nameWithType: UnityEditor.Experimental.GraphView
+  fullName: UnityEditor.Experimental.GraphView
+  spec.csharp:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true

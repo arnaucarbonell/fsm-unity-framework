@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Enemy.EnemyHealthBar
+  commentId: T:FSM.Enemy.EnemyHealthBar
+  id: EnemyHealthBar
+  parent: FSM.Enemy
+  children:
+  - FSM.Enemy.EnemyHealthBar.UpdateHealthBar(System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: EnemyHealthBar
+  nameWithType: EnemyHealthBar
+  fullName: FSM.Enemy.EnemyHealthBar
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthBar.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: EnemyHealthBar
+    path: Assets/FSM/Enemy/EnemyHealthBar.cs
+    startLine: 7
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Class responsible for updating the health bar of an enemy.
+  example: []
+  syntax:
+    content: 'public class EnemyHealthBar : MonoBehaviour'
+    content.vb: Public Class EnemyHealthBar Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: FSM.Enemy.EnemyHealthBar.UpdateHealthBar(System.Single,System.Single)
+  commentId: M:FSM.Enemy.EnemyHealthBar.UpdateHealthBar(System.Single,System.Single)
+  id: UpdateHealthBar(System.Single,System.Single)
+  parent: FSM.Enemy.EnemyHealthBar
+  langs:
+  - csharp
+  - vb
+  name: UpdateHealthBar(float, float)
+  nameWithType: EnemyHealthBar.UpdateHealthBar(float, float)
+  fullName: FSM.Enemy.EnemyHealthBar.UpdateHealthBar(float, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthBar.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateHealthBar
+    path: Assets/FSM/Enemy/EnemyHealthBar.cs
+    startLine: 25
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Updates the health bar based on the provided max and current health values.
+  example: []
+  syntax:
+    content: public void UpdateHealthBar(float maxHealth, float currentHealth)
+    parameters:
+    - id: maxHealth
+      type: System.Single
+      description: Maximum health of the enemy.
+    - id: currentHealth
+      type: System.Single
+      description: Current health of the enemy.
+    content.vb: Public Sub UpdateHealthBar(maxHealth As Single, currentHealth As Single)
+  overload: FSM.Enemy.EnemyHealthBar.UpdateHealthBar*
+  nameWithType.vb: EnemyHealthBar.UpdateHealthBar(Single, Single)
+  fullName.vb: FSM.Enemy.EnemyHealthBar.UpdateHealthBar(Single, Single)
+  name.vb: UpdateHealthBar(Single, Single)
+references:
+- uid: FSM.Enemy
+  commentId: N:FSM.Enemy
+  href: FSM.html
+  name: FSM.Enemy
+  nameWithType: FSM.Enemy
+  fullName: FSM.Enemy
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enemy
+    name: Enemy
+    href: FSM.Enemy.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enemy
+    name: Enemy
+    href: FSM.Enemy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: FSM.Enemy.EnemyHealthBar.UpdateHealthBar*
+  commentId: Overload:FSM.Enemy.EnemyHealthBar.UpdateHealthBar
+  href: FSM.Enemy.EnemyHealthBar.html#FSM_Enemy_EnemyHealthBar_UpdateHealthBar_System_Single_System_Single_
+  name: UpdateHealthBar
+  nameWithType: EnemyHealthBar.UpdateHealthBar
+  fullName: FSM.Enemy.EnemyHealthBar.UpdateHealthBar
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

@@ -1,0 +1,1056 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FsmNode | FSM Unity Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FsmNode | FSM Unity Framework ">
+      
+      <meta name="description" content="Represents the base class for all FSM node elements.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/acarbonellb33/Unity_FSM_ToolKit/new/main/apiSpec/new?filename=EditorWindow_FSMSystem_Elements_FsmNode.md&amp;value=---%0Auid%3A%20EditorWindow.FSMSystem.Elements.FsmNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="EditorWindow.FSMSystem.Elements.FsmNode">
+
+
+
+  <h1 id="EditorWindow_FSMSystem_Elements_FsmNode" data-uid="EditorWindow.FSMSystem.Elements.FsmNode" class="text-break">
+Class FsmNode  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="EditorWindow.html">EditorWindow</a>.<a class="xref" href="EditorWindow.FSMSystem.html">FSMSystem</a>.<a class="xref" href="EditorWindow.FSMSystem.Elements.html">Elements</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>EditorWindow.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents the base class for all FSM node elements.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FsmNode : Node</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CallbackEventHandler</span></div>
+      <div><span class="xref">Focusable</span></div>
+      <div><span class="xref">VisualElement</span></div>
+      <div><span class="xref">GraphElement</span></div>
+      <div><span class="xref">Node</span></div>
+      <div><span class="xref">FsmNode</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmCustomConditionNode.html">FsmCustomConditionNode</a></div>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmCustomStateNode.html">FsmCustomStateNode</a></div>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmDualTransitionNode.html">FsmDualTransitionNode</a></div>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmExtensionNode.html">FsmExtensionNode</a></div>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmInitialNode.html">FsmInitialNode</a></div>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmStateNode.html">FsmStateNode</a></div>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmTransitionNode.html">FsmTransitionNode</a></div>
+      <div><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmVariableNode.html">FsmVariableNode</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="EditorWindow.FSMSystem.Utilities.FsmElementUtility.html#EditorWindow_FSMSystem_Utilities_FsmElementUtility_CreatePort_EditorWindow_FSMSystem_Elements_FsmNode_System_String_UnityEditor_Experimental_GraphView_Orientation_UnityEditor_Experimental_GraphView_Direction_UnityEditor_Experimental_GraphView_Port_Capacity_">FsmElementUtility.CreatePort(FsmNode, string, Orientation, Direction, Port.Capacity)</a>
+  </div>
+  <div>
+      <a class="xref" href="EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___">FsmStyleUtility.AddClasses(VisualElement, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___">FsmStyleUtility.AddStyleSheets(VisualElement, params string[])</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_DataObjects" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.DataObjects">
+  DataObjects
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;StateScriptData&gt; DataObjects</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FSM.Nodes.States.StateScriptData.html">StateScriptData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_HasAnimatorTrigger" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.HasAnimatorTrigger">
+  HasAnimatorTrigger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool HasAnimatorTrigger</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_HasHitStateOverride" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.HasHitStateOverride">
+  HasHitStateOverride
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool HasHitStateOverride</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_InputPort" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.InputPort">
+  InputPort
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Port InputPort</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Port</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_OutputPort" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.OutputPort">
+  OutputPort
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;Port&gt; OutputPort</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Port</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_Connections_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Connections*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_Connections" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Connections">
+  Connections
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the list of connections associated with the FSM node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;FsmConnectionSaveData&gt; Connections { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="EditorWindow.FSMSystem.Data.Save.FsmConnectionSaveData.html">FsmConnectionSaveData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_Id_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Id*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_Id" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the unique identifier of the FSM node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_NodeType_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.NodeType*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_NodeType" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.NodeType">
+  NodeType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the type of the FSM node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FsmNodeType NodeType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FSM.Enumerations.FsmNodeType.html">FsmNodeType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_StateName_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.StateName*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_StateName" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.StateName">
+  StateName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the name of the state associated with the FSM node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StateName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_StateScript_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.StateScript*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_StateScript" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.StateScript">
+  StateScript
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the script data associated with the behaviour of the FSM node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StateScriptData StateScript { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FSM.Nodes.States.StateScriptData.html">StateScriptData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_BuildContextualMenu_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_BuildContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)">
+  BuildContextualMenu(ContextualMenuPopulateEvent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Overrides the method to build a contextual menu for the FSM node. In this case, the menu will contain options to disconnect input and output ports.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void BuildContextualMenu(ContextualMenuPopulateEvent evt)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>evt</code> <span class="xref">ContextualMenuPopulateEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_DisconnectAllPorts_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_DisconnectAllPorts" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.DisconnectAllPorts">
+  DisconnectAllPorts()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisconnectAllPorts()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_Draw_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Draw*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_Draw" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Draw">
+  Draw()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Virtual method to draw the FSM node. This method will be overridden by the derived classes. Acts as a base node and the derived classes will implement their own logic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Draw()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_GetAnimatorSaveData_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_GetAnimatorSaveData" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.GetAnimatorSaveData">
+  GetAnimatorSaveData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the saved animator data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FsmAnimatorSaveData GetAnimatorSaveData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData.html">FsmAnimatorSaveData</a></dt>
+    <dd><p>The saved animator data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_GetHitNodeSaveData_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_GetHitNodeSaveData" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.GetHitNodeSaveData">
+  GetHitNodeSaveData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the save data from the hit information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FsmHitNodeSaveData GetHitNodeSaveData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData.html">FsmHitNodeSaveData</a></dt>
+    <dd><p>The hit node save data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_GetScriptableObject_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_GetScriptableObject" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.GetScriptableObject">
+  GetScriptableObject()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the StateScriptData object associated with the current state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void GetScriptableObject()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_Initialize_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Initialize*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_Initialize_System_String_EditorWindow_FSMSystem_Windows_FsmGraphView_UnityEngine_Vector2_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,UnityEngine.Vector2)">
+  Initialize(string, FsmGraphView, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes the FSM node with the provided name, FSM graph view, and position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize(string nodeName, FsmGraphView graphView, Vector2 vectorPos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nodeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the FSM node.</p>
+</dd>
+    <dt><code>graphView</code> <a class="xref" href="EditorWindow.FSMSystem.Windows.FsmGraphView.html">FsmGraphView</a></dt>
+    <dd><p>The FSM graph view where the node will be placed.</p>
+</dd>
+    <dt><code>vectorPos</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The position of the node within the FSM graph view.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_ResetStyle_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_ResetStyle" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.ResetStyle">
+  ResetStyle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resets the style of the main container to its default color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetStyle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_SetAnimatorSaveData_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_SetAnimatorSaveData_EditorWindow_FSMSystem_Data_Save_FsmAnimatorSaveData_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetAnimatorSaveData(EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData)">
+  SetAnimatorSaveData(FsmAnimatorSaveData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the animator save data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAnimatorSaveData(FsmAnimatorSaveData animatorSaveData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animatorSaveData</code> <a class="xref" href="EditorWindow.FSMSystem.Data.Save.FsmAnimatorSaveData.html">FsmAnimatorSaveData</a></dt>
+    <dd><p>The animator save data to set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_SetErrorStyle_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_SetErrorStyle_UnityEngine_Color_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetErrorStyle(UnityEngine.Color)">
+  SetErrorStyle(Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the error style of the main container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetErrorStyle(Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd><p>The color to set as the background color.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_SetHitNodeSaveData_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_SetHitNodeSaveData_EditorWindow_FSMSystem_Data_Save_FsmHitNodeSaveData_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetHitNodeSaveData(EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData)">
+  SetHitNodeSaveData(FsmHitNodeSaveData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L523"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the hit node save data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHitNodeSaveData(FsmHitNodeSaveData animatorSaveData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animatorSaveData</code> <a class="xref" href="EditorWindow.FSMSystem.Data.Save.FsmHitNodeSaveData.html">FsmHitNodeSaveData</a></dt>
+    <dd><p>The hit node save data to set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_SetPortColor_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_SetPortColor_UnityEngine_Color_UnityEditor_Experimental_GraphView_Direction_System_String_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetPortColor(UnityEngine.Color,UnityEditor.Experimental.GraphView.Direction,System.String)">
+  SetPortColor(Color, Direction, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the color of a port based on its direction (input or output).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPortColor(Color color, Direction direction, string portName = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd><p>The color to set.</p>
+</dd>
+    <dt><code>direction</code> <span class="xref">Direction</span></dt>
+    <dd><p>The direction of the port (input or output).</p>
+</dd>
+    <dt><code>portName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the port.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_SetStateName_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetStateName*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_SetStateName_System_String_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.SetStateName(System.String)">
+  SetStateName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the name of the state and updates the displayed state name field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetStateName(string stateName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stateName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The new name of the state.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_ShowAnimatorParameterDropdown_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_ShowAnimatorParameterDropdown_UnityEngine_UIElements_Toggle_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.ShowAnimatorParameterDropdown(UnityEngine.UIElements.Toggle)">
+  ShowAnimatorParameterDropdown(Toggle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shows a dropdown menu for selecting an animator parameter and provides fields for configuring its value based on the parameter type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ShowAnimatorParameterDropdown(Toggle toggle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toggle</code> <span class="xref">Toggle</span></dt>
+    <dd><p>The toggle representing the state of showing the dropdown.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_ShowHitStateOverrideToggle_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_ShowHitStateOverrideToggle_UnityEngine_UIElements_Toggle_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.ShowHitStateOverrideToggle(UnityEngine.UIElements.Toggle)">
+  ShowHitStateOverrideToggle(Toggle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L431"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>If enabled adds the parameters to be able to override the hit values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ShowHitStateOverrideToggle(Toggle toggle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toggle</code> <span class="xref">Toggle</span></dt>
+    <dd><p>The toggle to show override hit parameters.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_UpdateHitEnable_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_UpdateHitEnable_System_Boolean_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.UpdateHitEnable(System.Boolean)">
+  UpdateHitEnable(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UpdateHitEnable(bool canGetHit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>canGetHit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Elements_FsmNode_UpdateNameStyle_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Elements_FsmNode_UpdateNameStyle_System_String_" data-uid="EditorWindow.FSMSystem.Elements.FsmNode.UpdateNameStyle(System.String)">
+  UpdateNameStyle(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the naming style of a string from camel case to a readable format with spaces between words.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string UpdateNameStyle(string newName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string to be formatted.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The formatted string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Elements/FsmNode.cs/#L20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Enemy
+  commentId: N:FSM.Enemy
+  id: FSM.Enemy
+  children:
+  - FSM.Enemy.EnemyHealthBar
+  - FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: FSM.Enemy
+  nameWithType: FSM.Enemy
+  fullName: FSM.Enemy
+  type: Namespace
+  assemblies:
+  - FSM
+references:
+- uid: FSM.Enemy.EnemyHealthBar
+  commentId: T:FSM.Enemy.EnemyHealthBar
+  href: FSM.Enemy.EnemyHealthBar.html
+  name: EnemyHealthBar
+  nameWithType: EnemyHealthBar
+  fullName: FSM.Enemy.EnemyHealthBar
+- uid: FSM.Enemy.EnemyHealthSystem
+  commentId: T:FSM.Enemy.EnemyHealthSystem
+  parent: FSM.Enemy
+  href: FSM.Enemy.EnemyHealthSystem.html
+  name: EnemyHealthSystem
+  nameWithType: EnemyHealthSystem
+  fullName: FSM.Enemy.EnemyHealthSystem
+- uid: FSM.Enemy
+  commentId: N:FSM.Enemy
+  href: FSM.html
+  name: FSM.Enemy
+  nameWithType: FSM.Enemy
+  fullName: FSM.Enemy
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enemy
+    name: Enemy
+    href: FSM.Enemy.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enemy
+    name: Enemy
+    href: FSM.Enemy.html

@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FsmIOUtility | FSM Unity Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FsmIOUtility | FSM Unity Framework ">
+      
+      <meta name="description" content="Utility class for saving and loading FSM graphs and associated data.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/acarbonellb33/Unity_FSM_ToolKit/new/main/apiSpec/new?filename=EditorWindow_FSMSystem_Utilities_FsmIOUtility.md&amp;value=---%0Auid%3A%20EditorWindow.FSMSystem.Utilities.FsmIOUtility%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility">
+
+
+
+  <h1 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility" class="text-break">
+Class FsmIOUtility  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="EditorWindow.html">EditorWindow</a>.<a class="xref" href="EditorWindow.FSMSystem.html">FSMSystem</a>.<a class="xref" href="EditorWindow.FSMSystem.Utilities.html">Utilities</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>EditorWindow.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Utility class for saving and loading FSM graphs and associated data.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class FsmIOUtility</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FsmIOUtility</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_CreateFolder_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_CreateFolder_System_String_System_String_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder(System.String,System.String)">
+  CreateFolder(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a folder in the specified path if it doesn't already exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateFolder(string path, string folderName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path where the folder should be created.</p>
+</dd>
+    <dt><code>folderName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the folder to create.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_CreateJson_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_CreateJson_FSM_Nodes_States_StateScript_System_String_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson(FSM.Nodes.States.StateScript,System.String)">
+  CreateJson(StateScript, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a JSON file for the specified state script.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateJson(StateScript stateScript, string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stateScript</code> <a class="xref" href="FSM.Nodes.States.StateScript.html">StateScript</a></dt>
+    <dd><p>State script to serialize.</p>
+</dd>
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the class associated with the state script.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_FindGameObjectWithId_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_FindGameObjectWithId__1_System_String_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId``1(System.String)">
+  FindGameObjectWithId&lt;T&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L620"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds a GameObject with a specified ID in its IDGenerator component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject FindGameObjectWithId&lt;T&gt;(string id) where T : MonoBehaviour</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ID to search for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>The GameObject with the specified ID, if found; otherwise, null.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of MonoBehaviour to search for.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_Initialize_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_Initialize_System_String_EditorWindow_FSMSystem_Windows_FsmGraphView_System_String_EditorWindow_FSMSystem_Data_Save_FsmHitSaveData_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)">
+  Initialize(string, FsmGraphView, string, FsmHitSaveData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes the FSM IO utility with necessary parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Initialize(string graphName, FsmGraphView fsmGraphView, string initialState, FsmHitSaveData hitData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>graphName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the FSM graph.</p>
+</dd>
+    <dt><code>fsmGraphView</code> <a class="xref" href="EditorWindow.FSMSystem.Windows.FsmGraphView.html">FsmGraphView</a></dt>
+    <dd><p>Reference to the FSM graph view.</p>
+</dd>
+    <dt><code>initialState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the initial state.</p>
+</dd>
+    <dt><code>hitData</code> <a class="xref" href="EditorWindow.FSMSystem.Data.Save.FsmHitSaveData.html">FsmHitSaveData</a></dt>
+    <dd><p>Hit data associated with the FSM.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_Load_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_Load" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load">
+  Load()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads the FSM graph and associated data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_LoadNode_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_LoadNode_EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_System_String_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode(EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData,System.String)">
+  LoadNode(FsmNodeSaveData, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads a node from its saved data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FsmNode LoadNode(FsmNodeSaveData nodeData, string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nodeData</code> <a class="xref" href="EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html">FsmNodeSaveData</a></dt>
+    <dd><p>Node save data object.</p>
+</dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the file.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EditorWindow.FSMSystem.Elements.FsmNode.html">FsmNode</a></dt>
+    <dd><p>The loaded FSM node.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_Save_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_Save" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save">
+  Save()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Saves the FSM graph and associated data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Save()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if saving was successful, false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_UpdateHitEnableOverrides_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides*"></a>
+
+  <h3 id="EditorWindow_FSMSystem_Utilities_FsmIOUtility_UpdateHitEnableOverrides_System_Boolean_" data-uid="EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides(System.Boolean)">
+  UpdateHitEnableOverrides(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L634"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateHitEnableOverrides(bool enableHitState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enableHitState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/acarbonellb33/Unity_FSM_ToolKit/blob/main/Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs/#L24" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

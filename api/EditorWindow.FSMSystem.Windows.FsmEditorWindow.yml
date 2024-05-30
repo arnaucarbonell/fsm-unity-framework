@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  id: FsmEditorWindow
+  parent: EditorWindow.FSMSystem.Windows
+  children:
+  - EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving
+  - EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving
+  - EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup
+  - EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow
+  - EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  - EditorWindow.FSMSystem.Windows.FsmEditorWindow.initialState
+  langs:
+  - csharp
+  - vb
+  name: FsmEditorWindow
+  nameWithType: FsmEditorWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmEditorWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    startLine: 15
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Represents an editor window for managing finite state machines. This window contains a graph view for creating and editing FSMs. The window also contains a toolbar with buttons for saving, reloading, clearing, and toggling the minimap.
+  example: []
+  syntax:
+    content: 'public class FsmEditorWindow : EditorWindow'
+    content.vb: Public Class FsmEditorWindow Inherits EditorWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.initialState
+  commentId: F:EditorWindow.FSMSystem.Windows.FsmEditorWindow.initialState
+  id: initialState
+  parent: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: initialState
+  nameWithType: FsmEditorWindow.initialState
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.initialState
+  type: Field
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: initialState
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    startLine: 26
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public string initialState
+    return:
+      type: System.String
+    content.vb: Public initialState As String
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  id: OpenWithSaveData(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  parent: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: OpenWithSaveData(FsmGraphSaveData)
+  nameWithType: FsmEditorWindow.OpenWithSaveData(FsmGraphSaveData)
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData(EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OpenWithSaveData
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    startLine: 34
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Opens the FSM editor window with the provided save data.
+  example: []
+  syntax:
+    content: public static void OpenWithSaveData(FsmGraphSaveData saveData)
+    parameters:
+    - id: saveData
+      type: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+      description: The save data containing information about the FSM graph.
+    content.vb: Public Shared Sub OpenWithSaveData(saveData As FsmGraphSaveData)
+  overload: EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData*
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving
+  id: EnableSaving
+  parent: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: EnableSaving()
+  nameWithType: FsmEditorWindow.EnableSaving()
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: EnableSaving
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    startLine: 203
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public void EnableSaving()
+    content.vb: Public Sub EnableSaving()
+  overload: EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving*
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving
+  id: DisableSaving
+  parent: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: DisableSaving()
+  nameWithType: FsmEditorWindow.DisableSaving()
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: DisableSaving
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    startLine: 207
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public void DisableSaving()
+    content.vb: Public Sub DisableSaving()
+  overload: EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving*
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup
+  id: GetHitStatePopup
+  parent: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: GetHitStatePopup()
+  nameWithType: FsmEditorWindow.GetHitStatePopup()
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetHitStatePopup
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    startLine: 211
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public FsmHitStatePopup GetHitStatePopup()
+    return:
+      type: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+    content.vb: Public Function GetHitStatePopup() As FsmHitStatePopup
+  overload: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup*
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow
+  id: GetWindow
+  parent: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: GetWindow()
+  nameWithType: FsmEditorWindow.GetWindow()
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmEditorWindow.cs
+    startLine: 215
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  syntax:
+    content: public static FsmEditorWindow GetWindow()
+    return:
+      type: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+    content.vb: Public Shared Function GetWindow() As FsmEditorWindow
+  overload: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow*
+references:
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData
+  href: EditorWindow.FSMSystem.Windows.FsmEditorWindow.html#EditorWindow_FSMSystem_Windows_FsmEditorWindow_OpenWithSaveData_EditorWindow_FSMSystem_Data_Save_FsmGraphSaveData_
+  name: OpenWithSaveData
+  nameWithType: FsmEditorWindow.OpenWithSaveData
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.OpenWithSaveData
+- uid: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData.html
+  name: FsmGraphSaveData
+  nameWithType: FsmGraphSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmGraphSaveData
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving
+  href: EditorWindow.FSMSystem.Windows.FsmEditorWindow.html#EditorWindow_FSMSystem_Windows_FsmEditorWindow_EnableSaving
+  name: EnableSaving
+  nameWithType: FsmEditorWindow.EnableSaving
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.EnableSaving
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving
+  href: EditorWindow.FSMSystem.Windows.FsmEditorWindow.html#EditorWindow_FSMSystem_Windows_FsmEditorWindow_DisableSaving
+  name: DisableSaving
+  nameWithType: FsmEditorWindow.DisableSaving
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.DisableSaving
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup
+  href: EditorWindow.FSMSystem.Windows.FsmEditorWindow.html#EditorWindow_FSMSystem_Windows_FsmEditorWindow_GetHitStatePopup
+  name: GetHitStatePopup
+  nameWithType: FsmEditorWindow.GetHitStatePopup
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetHitStatePopup
+- uid: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+  parent: EditorWindow.FSMSystem.Windows
+  href: EditorWindow.FSMSystem.Windows.FsmHitStatePopup.html
+  name: FsmHitStatePopup
+  nameWithType: FsmHitStatePopup
+  fullName: EditorWindow.FSMSystem.Windows.FsmHitStatePopup
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow
+  href: EditorWindow.FSMSystem.Windows.FsmEditorWindow.html#EditorWindow_FSMSystem_Windows_FsmEditorWindow_GetWindow
+  name: GetWindow
+  nameWithType: FsmEditorWindow.GetWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow.GetWindow
+- uid: EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmEditorWindow
+  parent: EditorWindow.FSMSystem.Windows
+  href: EditorWindow.FSMSystem.Windows.FsmEditorWindow.html
+  name: FsmEditorWindow
+  nameWithType: FsmEditorWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmEditorWindow

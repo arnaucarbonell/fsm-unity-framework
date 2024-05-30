@@ -1,0 +1,389 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Windows.FsmSearchWindow
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmSearchWindow
+  id: FsmSearchWindow
+  parent: EditorWindow.FSMSystem.Windows
+  children:
+  - EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree(UnityEditor.Experimental.GraphView.SearchWindowContext)
+  - EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize(EditorWindow.FSMSystem.Windows.FsmGraphView)
+  - EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry(UnityEditor.Experimental.GraphView.SearchTreeEntry,UnityEditor.Experimental.GraphView.SearchWindowContext)
+  langs:
+  - csharp
+  - vb
+  name: FsmSearchWindow
+  nameWithType: FsmSearchWindow
+  fullName: EditorWindow.FSMSystem.Windows.FsmSearchWindow
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmSearchWindow
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    startLine: 11
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: ScriptableObject used to create the search window for adding nodes to the FSM graph.
+  example: []
+  syntax:
+    content: 'public class FsmSearchWindow : ScriptableObject'
+    content.vb: Public Class FsmSearchWindow Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+- uid: EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize(EditorWindow.FSMSystem.Windows.FsmGraphView)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize(EditorWindow.FSMSystem.Windows.FsmGraphView)
+  id: Initialize(EditorWindow.FSMSystem.Windows.FsmGraphView)
+  parent: EditorWindow.FSMSystem.Windows.FsmSearchWindow
+  langs:
+  - csharp
+  - vb
+  name: Initialize(FsmGraphView)
+  nameWithType: FsmSearchWindow.Initialize(FsmGraphView)
+  fullName: EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize(EditorWindow.FSMSystem.Windows.FsmGraphView)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Initialize
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    startLine: 19
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Initializes the search window with the specified FSM graph view.
+  example: []
+  syntax:
+    content: public void Initialize(FsmGraphView graphView)
+    parameters:
+    - id: graphView
+      type: EditorWindow.FSMSystem.Windows.FsmGraphView
+      description: The FSM graph view to initialize the search window with.
+    content.vb: Public Sub Initialize(graphView As FsmGraphView)
+  overload: EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize*
+- uid: EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree(UnityEditor.Experimental.GraphView.SearchWindowContext)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree(UnityEditor.Experimental.GraphView.SearchWindowContext)
+  id: CreateSearchTree(UnityEditor.Experimental.GraphView.SearchWindowContext)
+  parent: EditorWindow.FSMSystem.Windows.FsmSearchWindow
+  langs:
+  - csharp
+  - vb
+  name: CreateSearchTree(SearchWindowContext)
+  nameWithType: FsmSearchWindow.CreateSearchTree(SearchWindowContext)
+  fullName: EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree(UnityEditor.Experimental.GraphView.SearchWindowContext)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateSearchTree
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    startLine: 31
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Creates the search tree for the search window.
+  example: []
+  syntax:
+    content: public List<SearchTreeEntry> CreateSearchTree(SearchWindowContext context)
+    parameters:
+    - id: context
+      type: UnityEditor.Experimental.GraphView.SearchWindowContext
+      description: The search window context.
+    return:
+      type: System.Collections.Generic.List{UnityEditor.Experimental.GraphView.SearchTreeEntry}
+      description: The search tree entries.
+    content.vb: Public Function CreateSearchTree(context As SearchWindowContext) As List(Of SearchTreeEntry)
+  overload: EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree*
+- uid: EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry(UnityEditor.Experimental.GraphView.SearchTreeEntry,UnityEditor.Experimental.GraphView.SearchWindowContext)
+  commentId: M:EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry(UnityEditor.Experimental.GraphView.SearchTreeEntry,UnityEditor.Experimental.GraphView.SearchWindowContext)
+  id: OnSelectEntry(UnityEditor.Experimental.GraphView.SearchTreeEntry,UnityEditor.Experimental.GraphView.SearchWindowContext)
+  parent: EditorWindow.FSMSystem.Windows.FsmSearchWindow
+  langs:
+  - csharp
+  - vb
+  name: OnSelectEntry(SearchTreeEntry, SearchWindowContext)
+  nameWithType: FsmSearchWindow.OnSelectEntry(SearchTreeEntry, SearchWindowContext)
+  fullName: EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry(UnityEditor.Experimental.GraphView.SearchTreeEntry, UnityEditor.Experimental.GraphView.SearchWindowContext)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: OnSelectEntry
+    path: Assets/EditorWindow/FSMSystem/Windows/FsmSearchWindow.cs
+    startLine: 144
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Windows
+  summary: Handles the selection of an entry in the search window. Creating a node based on the selected entry.
+  example: []
+  syntax:
+    content: public bool OnSelectEntry(SearchTreeEntry searchTreeEntry, SearchWindowContext context)
+    parameters:
+    - id: searchTreeEntry
+      type: UnityEditor.Experimental.GraphView.SearchTreeEntry
+      description: The selected search tree entry.
+    - id: context
+      type: UnityEditor.Experimental.GraphView.SearchWindowContext
+      description: The search window context.
+    return:
+      type: System.Boolean
+      description: True if the entry was successfully selected, otherwise false.
+    content.vb: Public Function OnSelectEntry(searchTreeEntry As SearchTreeEntry, context As SearchWindowContext) As Boolean
+  overload: EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry*
+references:
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize
+  href: EditorWindow.FSMSystem.Windows.FsmSearchWindow.html#EditorWindow_FSMSystem_Windows_FsmSearchWindow_Initialize_EditorWindow_FSMSystem_Windows_FsmGraphView_
+  name: Initialize
+  nameWithType: FsmSearchWindow.Initialize
+  fullName: EditorWindow.FSMSystem.Windows.FsmSearchWindow.Initialize
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmGraphView
+  parent: EditorWindow.FSMSystem.Windows
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html
+  name: FsmGraphView
+  nameWithType: FsmGraphView
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView
+- uid: EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree
+  href: EditorWindow.FSMSystem.Windows.FsmSearchWindow.html#EditorWindow_FSMSystem_Windows_FsmSearchWindow_CreateSearchTree_UnityEditor_Experimental_GraphView_SearchWindowContext_
+  name: CreateSearchTree
+  nameWithType: FsmSearchWindow.CreateSearchTree
+  fullName: EditorWindow.FSMSystem.Windows.FsmSearchWindow.CreateSearchTree
+- uid: UnityEditor.Experimental.GraphView.SearchWindowContext
+  commentId: T:UnityEditor.Experimental.GraphView.SearchWindowContext
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: SearchWindowContext
+  nameWithType: SearchWindowContext
+  fullName: UnityEditor.Experimental.GraphView.SearchWindowContext
+- uid: System.Collections.Generic.List{UnityEditor.Experimental.GraphView.SearchTreeEntry}
+  commentId: T:System.Collections.Generic.List{UnityEditor.Experimental.GraphView.SearchTreeEntry}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<SearchTreeEntry>
+  nameWithType: List<SearchTreeEntry>
+  fullName: System.Collections.Generic.List<UnityEditor.Experimental.GraphView.SearchTreeEntry>
+  nameWithType.vb: List(Of SearchTreeEntry)
+  fullName.vb: System.Collections.Generic.List(Of UnityEditor.Experimental.GraphView.SearchTreeEntry)
+  name.vb: List(Of SearchTreeEntry)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: UnityEditor.Experimental.GraphView.SearchTreeEntry
+    name: SearchTreeEntry
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEditor.Experimental.GraphView.SearchTreeEntry
+    name: SearchTreeEntry
+    isExternal: true
+  - name: )
+- uid: UnityEditor.Experimental.GraphView
+  commentId: N:UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: UnityEditor.Experimental.GraphView
+  nameWithType: UnityEditor.Experimental.GraphView
+  fullName: UnityEditor.Experimental.GraphView
+  spec.csharp:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Experimental.GraphView
+    name: GraphView
+    isExternal: true
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry*
+  commentId: Overload:EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry
+  href: EditorWindow.FSMSystem.Windows.FsmSearchWindow.html#EditorWindow_FSMSystem_Windows_FsmSearchWindow_OnSelectEntry_UnityEditor_Experimental_GraphView_SearchTreeEntry_UnityEditor_Experimental_GraphView_SearchWindowContext_
+  name: OnSelectEntry
+  nameWithType: FsmSearchWindow.OnSelectEntry
+  fullName: EditorWindow.FSMSystem.Windows.FsmSearchWindow.OnSelectEntry
+- uid: UnityEditor.Experimental.GraphView.SearchTreeEntry
+  commentId: T:UnityEditor.Experimental.GraphView.SearchTreeEntry
+  parent: UnityEditor.Experimental.GraphView
+  isExternal: true
+  name: SearchTreeEntry
+  nameWithType: SearchTreeEntry
+  fullName: UnityEditor.Experimental.GraphView.SearchTreeEntry
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

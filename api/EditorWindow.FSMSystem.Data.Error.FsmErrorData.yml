@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  commentId: T:EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  id: FsmErrorData
+  parent: EditorWindow.FSMSystem.Data.Error
+  children:
+  - EditorWindow.FSMSystem.Data.Error.FsmErrorData.#ctor
+  - EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color
+  langs:
+  - csharp
+  - vb
+  name: FsmErrorData
+  nameWithType: FsmErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Error/FsmErrorData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmErrorData
+    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmErrorData.cs
+    startLine: 8
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Error
+  summary: Represents data for FSM errors.
+  example: []
+  syntax:
+    content: public class FsmErrorData
+    content.vb: Public Class FsmErrorData
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color
+  commentId: P:EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color
+  id: Color
+  parent: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: FsmErrorData.Color
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color
+  type: Property
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Error/FsmErrorData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Color
+    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmErrorData.cs
+    startLine: 13
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Error
+  summary: Gets the color associated with the FSM error.
+  example: []
+  syntax:
+    content: public Color Color { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Property Color As Color
+  overload: EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color*
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData.#ctor
+  commentId: M:EditorWindow.FSMSystem.Data.Error.FsmErrorData.#ctor
+  id: '#ctor'
+  parent: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  langs:
+  - csharp
+  - vb
+  name: FsmErrorData()
+  nameWithType: FsmErrorData.FsmErrorData()
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData.FsmErrorData()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Data/Error/FsmErrorData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/EditorWindow/FSMSystem/Data/Error/FsmErrorData.cs
+    startLine: 18
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Data.Error
+  summary: Initializes a new instance of the <xref href="EditorWindow.FSMSystem.Data.Error.FsmErrorData" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public FsmErrorData()
+    content.vb: Public Sub New()
+  overload: EditorWindow.FSMSystem.Data.Error.FsmErrorData.#ctor*
+  nameWithType.vb: FsmErrorData.New()
+  fullName.vb: EditorWindow.FSMSystem.Data.Error.FsmErrorData.New()
+  name.vb: New()
+references:
+- uid: EditorWindow.FSMSystem.Data.Error
+  commentId: N:EditorWindow.FSMSystem.Data.Error
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Error
+  nameWithType: EditorWindow.FSMSystem.Data.Error
+  fullName: EditorWindow.FSMSystem.Data.Error
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Error
+    name: Error
+    href: EditorWindow.FSMSystem.Data.Error.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Error
+    name: Error
+    href: EditorWindow.FSMSystem.Data.Error.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color
+  href: EditorWindow.FSMSystem.Data.Error.FsmErrorData.html#EditorWindow_FSMSystem_Data_Error_FsmErrorData_Color
+  name: Color
+  nameWithType: FsmErrorData.Color
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData.Color
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  commentId: T:EditorWindow.FSMSystem.Data.Error.FsmErrorData
+  parent: EditorWindow.FSMSystem.Data.Error
+  href: EditorWindow.FSMSystem.Data.Error.FsmErrorData.html
+  name: FsmErrorData
+  nameWithType: FsmErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData
+- uid: EditorWindow.FSMSystem.Data.Error.FsmErrorData.#ctor*
+  commentId: Overload:EditorWindow.FSMSystem.Data.Error.FsmErrorData.#ctor
+  href: EditorWindow.FSMSystem.Data.Error.FsmErrorData.html#EditorWindow_FSMSystem_Data_Error_FsmErrorData__ctor
+  name: FsmErrorData
+  nameWithType: FsmErrorData.FsmErrorData
+  fullName: EditorWindow.FSMSystem.Data.Error.FsmErrorData.FsmErrorData
+  nameWithType.vb: FsmErrorData.New
+  fullName.vb: EditorWindow.FSMSystem.Data.Error.FsmErrorData.New
+  name.vb: New

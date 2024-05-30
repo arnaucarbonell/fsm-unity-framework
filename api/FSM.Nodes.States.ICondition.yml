@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.States.ICondition
+  commentId: T:FSM.Nodes.States.ICondition
+  id: ICondition
+  parent: FSM.Nodes.States
+  children:
+  - FSM.Nodes.States.ICondition.Condition
+  langs:
+  - csharp
+  - vb
+  name: ICondition
+  nameWithType: ICondition
+  fullName: FSM.Nodes.States.ICondition
+  type: Interface
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/ICondition.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: ICondition
+    path: Assets/FSM/Nodes/States/ICondition.cs
+    startLine: 5
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Interface for defining conditions.
+  example: []
+  syntax:
+    content: public interface ICondition
+    content.vb: Public Interface ICondition
+- uid: FSM.Nodes.States.ICondition.Condition
+  commentId: M:FSM.Nodes.States.ICondition.Condition
+  id: Condition
+  parent: FSM.Nodes.States.ICondition
+  langs:
+  - csharp
+  - vb
+  name: Condition()
+  nameWithType: ICondition.Condition()
+  fullName: FSM.Nodes.States.ICondition.Condition()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/ICondition.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Condition
+    path: Assets/FSM/Nodes/States/ICondition.cs
+    startLine: 11
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States
+  summary: Evaluates the condition.
+  example: []
+  syntax:
+    content: bool Condition()
+    return:
+      type: System.Boolean
+      description: True if the condition is met, otherwise false.
+    content.vb: Function Condition() As Boolean
+  overload: FSM.Nodes.States.ICondition.Condition*
+references:
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: FSM.Nodes.States.ICondition.Condition*
+  commentId: Overload:FSM.Nodes.States.ICondition.Condition
+  href: FSM.Nodes.States.ICondition.html#FSM_Nodes_States_ICondition_Condition
+  name: Condition
+  nameWithType: ICondition.Condition
+  fullName: FSM.Nodes.States.ICondition.Condition
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

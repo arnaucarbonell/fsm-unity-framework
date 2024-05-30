@@ -1,0 +1,668 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript
+  commentId: T:FSM.Nodes.States.StateScripts.PatrolStateScript
+  id: PatrolStateScript
+  parent: FSM.Nodes.States.StateScripts
+  children:
+  - FSM.Nodes.States.StateScripts.PatrolStateScript.#ctor
+  - FSM.Nodes.States.StateScripts.PatrolStateScript.Execute
+  - FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId``1(System.String)
+  - FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint(System.String)
+  - FSM.Nodes.States.StateScripts.PatrolStateScript.patrolPoints
+  langs:
+  - csharp
+  - vb
+  name: PatrolStateScript
+  nameWithType: PatrolStateScript
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: PatrolStateScript
+    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    startLine: 6
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StateScripts
+  syntax:
+    content: 'public class PatrolStateScript : StateScript, IAction'
+    content.vb: Public Class PatrolStateScript Inherits StateScript Implements IAction
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - FSM.Nodes.States.StateScript
+  implements:
+  - FSM.Nodes.States.IAction
+  inheritedMembers:
+  - FSM.Nodes.States.StateScript.Player
+  - FSM.Nodes.States.StateScript.Agent
+  - FSM.Nodes.States.StateScript.InspectVariables
+  - FSM.Nodes.States.StateScript.GetVariables
+  - FSM.Nodes.States.StateScript.SetVariableValue(System.String,System.Object)
+  - FSM.Nodes.States.StateScript.SetStateName(System.String)
+  - FSM.Nodes.States.StateScript.GetStateName
+  - FSM.Nodes.States.StateScript.HideFlagsInspector
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.patrolPoints
+  commentId: F:FSM.Nodes.States.StateScripts.PatrolStateScript.patrolPoints
+  id: patrolPoints
+  parent: FSM.Nodes.States.StateScripts.PatrolStateScript
+  langs:
+  - csharp
+  - vb
+  name: patrolPoints
+  nameWithType: PatrolStateScript.patrolPoints
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.patrolPoints
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: patrolPoints
+    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StateScripts
+  syntax:
+    content: public List<string> patrolPoints
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public patrolPoints As List(Of String)
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.#ctor
+  commentId: M:FSM.Nodes.States.StateScripts.PatrolStateScript.#ctor
+  id: '#ctor'
+  parent: FSM.Nodes.States.StateScripts.PatrolStateScript
+  langs:
+  - csharp
+  - vb
+  name: PatrolStateScript()
+  nameWithType: PatrolStateScript.PatrolStateScript()
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.PatrolStateScript()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    startLine: 12
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StateScripts
+  syntax:
+    content: public PatrolStateScript()
+    content.vb: Public Sub New()
+  overload: FSM.Nodes.States.StateScripts.PatrolStateScript.#ctor*
+  nameWithType.vb: PatrolStateScript.New()
+  fullName.vb: FSM.Nodes.States.StateScripts.PatrolStateScript.New()
+  name.vb: New()
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.Execute
+  commentId: M:FSM.Nodes.States.StateScripts.PatrolStateScript.Execute
+  id: Execute
+  parent: FSM.Nodes.States.StateScripts.PatrolStateScript
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: PatrolStateScript.Execute()
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.Execute()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Execute
+    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    startLine: 21
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StateScripts
+  summary: Executes the action.
+  example: []
+  syntax:
+    content: public void Execute()
+    content.vb: Public Sub Execute()
+  overload: FSM.Nodes.States.StateScripts.PatrolStateScript.Execute*
+  implements:
+  - FSM.Nodes.States.IAction.Execute
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint(System.String)
+  commentId: M:FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint(System.String)
+  id: RemovePatrolPoint(System.String)
+  parent: FSM.Nodes.States.StateScripts.PatrolStateScript
+  langs:
+  - csharp
+  - vb
+  name: RemovePatrolPoint(string)
+  nameWithType: PatrolStateScript.RemovePatrolPoint(string)
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: RemovePatrolPoint
+    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    startLine: 55
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StateScripts
+  syntax:
+    content: public void RemovePatrolPoint(string patrolPoint)
+    parameters:
+    - id: patrolPoint
+      type: System.String
+    content.vb: Public Sub RemovePatrolPoint(patrolPoint As String)
+  overload: FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint*
+  nameWithType.vb: PatrolStateScript.RemovePatrolPoint(String)
+  fullName.vb: FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint(String)
+  name.vb: RemovePatrolPoint(String)
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId``1(System.String)
+  commentId: M:FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId``1(System.String)
+  id: FindGameObjectWithId``1(System.String)
+  parent: FSM.Nodes.States.StateScripts.PatrolStateScript
+  langs:
+  - csharp
+  - vb
+  name: FindGameObjectWithId<T>(string)
+  nameWithType: PatrolStateScript.FindGameObjectWithId<T>(string)
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId<T>(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FindGameObjectWithId
+    path: Assets/FSM/Nodes/States/StateScripts/PatrolStateScript.cs
+    startLine: 60
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StateScripts
+  syntax:
+    content: 'public GameObject FindGameObjectWithId<T>(string id) where T : MonoBehaviour'
+    parameters:
+    - id: id
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function FindGameObjectWithId(Of T As MonoBehaviour)(id As String) As GameObject
+  overload: FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId*
+  nameWithType.vb: PatrolStateScript.FindGameObjectWithId(Of T)(String)
+  fullName.vb: FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId(Of T)(String)
+  name.vb: FindGameObjectWithId(Of T)(String)
+references:
+- uid: FSM.Nodes.States.StateScripts
+  commentId: N:FSM.Nodes.States.StateScripts
+  href: FSM.html
+  name: FSM.Nodes.States.StateScripts
+  nameWithType: FSM.Nodes.States.StateScripts
+  fullName: FSM.Nodes.States.StateScripts
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StateScripts
+    name: StateScripts
+    href: FSM.Nodes.States.StateScripts.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StateScripts
+    name: StateScripts
+    href: FSM.Nodes.States.StateScripts.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: FSM.Nodes.States.StateScript
+  commentId: T:FSM.Nodes.States.StateScript
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.StateScript.html
+  name: StateScript
+  nameWithType: StateScript
+  fullName: FSM.Nodes.States.StateScript
+- uid: FSM.Nodes.States.IAction
+  commentId: T:FSM.Nodes.States.IAction
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.IAction.html
+  name: IAction
+  nameWithType: IAction
+  fullName: FSM.Nodes.States.IAction
+- uid: FSM.Nodes.States.StateScript.Player
+  commentId: F:FSM.Nodes.States.StateScript.Player
+  parent: FSM.Nodes.States.StateScript
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_Player
+  name: Player
+  nameWithType: StateScript.Player
+  fullName: FSM.Nodes.States.StateScript.Player
+- uid: FSM.Nodes.States.StateScript.Agent
+  commentId: F:FSM.Nodes.States.StateScript.Agent
+  parent: FSM.Nodes.States.StateScript
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_Agent
+  name: Agent
+  nameWithType: StateScript.Agent
+  fullName: FSM.Nodes.States.StateScript.Agent
+- uid: FSM.Nodes.States.StateScript.InspectVariables
+  commentId: M:FSM.Nodes.States.StateScript.InspectVariables
+  parent: FSM.Nodes.States.StateScript
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_InspectVariables
+  name: InspectVariables()
+  nameWithType: StateScript.InspectVariables()
+  fullName: FSM.Nodes.States.StateScript.InspectVariables()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScript.InspectVariables
+    name: InspectVariables
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_InspectVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScript.InspectVariables
+    name: InspectVariables
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_InspectVariables
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScript.GetVariables
+  commentId: M:FSM.Nodes.States.StateScript.GetVariables
+  parent: FSM.Nodes.States.StateScript
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_GetVariables
+  name: GetVariables()
+  nameWithType: StateScript.GetVariables()
+  fullName: FSM.Nodes.States.StateScript.GetVariables()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScript.GetVariables
+    name: GetVariables
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_GetVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScript.GetVariables
+    name: GetVariables
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_GetVariables
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScript.SetVariableValue(System.String,System.Object)
+  commentId: M:FSM.Nodes.States.StateScript.SetVariableValue(System.String,System.Object)
+  parent: FSM.Nodes.States.StateScript
+  isExternal: true
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_SetVariableValue_System_String_System_Object_
+  name: SetVariableValue(string, object)
+  nameWithType: StateScript.SetVariableValue(string, object)
+  fullName: FSM.Nodes.States.StateScript.SetVariableValue(string, object)
+  nameWithType.vb: StateScript.SetVariableValue(String, Object)
+  fullName.vb: FSM.Nodes.States.StateScript.SetVariableValue(String, Object)
+  name.vb: SetVariableValue(String, Object)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScript.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScript.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: FSM.Nodes.States.StateScript.SetStateName(System.String)
+  commentId: M:FSM.Nodes.States.StateScript.SetStateName(System.String)
+  parent: FSM.Nodes.States.StateScript
+  isExternal: true
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_SetStateName_System_String_
+  name: SetStateName(string)
+  nameWithType: StateScript.SetStateName(string)
+  fullName: FSM.Nodes.States.StateScript.SetStateName(string)
+  nameWithType.vb: StateScript.SetStateName(String)
+  fullName.vb: FSM.Nodes.States.StateScript.SetStateName(String)
+  name.vb: SetStateName(String)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScript.SetStateName(System.String)
+    name: SetStateName
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_SetStateName_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScript.SetStateName(System.String)
+    name: SetStateName
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_SetStateName_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: FSM.Nodes.States.StateScript.GetStateName
+  commentId: M:FSM.Nodes.States.StateScript.GetStateName
+  parent: FSM.Nodes.States.StateScript
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_GetStateName
+  name: GetStateName()
+  nameWithType: StateScript.GetStateName()
+  fullName: FSM.Nodes.States.StateScript.GetStateName()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScript.GetStateName
+    name: GetStateName
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_GetStateName
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScript.GetStateName
+    name: GetStateName
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_GetStateName
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScript.HideFlagsInspector
+  commentId: M:FSM.Nodes.States.StateScript.HideFlagsInspector
+  parent: FSM.Nodes.States.StateScript
+  href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_HideFlagsInspector
+  name: HideFlagsInspector()
+  nameWithType: StateScript.HideFlagsInspector()
+  fullName: FSM.Nodes.States.StateScript.HideFlagsInspector()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScript.HideFlagsInspector
+    name: HideFlagsInspector
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_HideFlagsInspector
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScript.HideFlagsInspector
+    name: HideFlagsInspector
+    href: FSM.Nodes.States.StateScript.html#FSM_Nodes_States_StateScript_HideFlagsInspector
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.#ctor*
+  commentId: Overload:FSM.Nodes.States.StateScripts.PatrolStateScript.#ctor
+  href: FSM.Nodes.States.StateScripts.PatrolStateScript.html#FSM_Nodes_States_StateScripts_PatrolStateScript__ctor
+  name: PatrolStateScript
+  nameWithType: PatrolStateScript.PatrolStateScript
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.PatrolStateScript
+  nameWithType.vb: PatrolStateScript.New
+  fullName.vb: FSM.Nodes.States.StateScripts.PatrolStateScript.New
+  name.vb: New
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.Execute*
+  commentId: Overload:FSM.Nodes.States.StateScripts.PatrolStateScript.Execute
+  href: FSM.Nodes.States.StateScripts.PatrolStateScript.html#FSM_Nodes_States_StateScripts_PatrolStateScript_Execute
+  name: Execute
+  nameWithType: PatrolStateScript.Execute
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.Execute
+- uid: FSM.Nodes.States.IAction.Execute
+  commentId: M:FSM.Nodes.States.IAction.Execute
+  parent: FSM.Nodes.States.IAction
+  href: FSM.Nodes.States.IAction.html#FSM_Nodes_States_IAction_Execute
+  name: Execute()
+  nameWithType: IAction.Execute()
+  fullName: FSM.Nodes.States.IAction.Execute()
+  spec.csharp:
+  - uid: FSM.Nodes.States.IAction.Execute
+    name: Execute
+    href: FSM.Nodes.States.IAction.html#FSM_Nodes_States_IAction_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.IAction.Execute
+    name: Execute
+    href: FSM.Nodes.States.IAction.html#FSM_Nodes_States_IAction_Execute
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint*
+  commentId: Overload:FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint
+  href: FSM.Nodes.States.StateScripts.PatrolStateScript.html#FSM_Nodes_States_StateScripts_PatrolStateScript_RemovePatrolPoint_System_String_
+  name: RemovePatrolPoint
+  nameWithType: PatrolStateScript.RemovePatrolPoint
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.RemovePatrolPoint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId*
+  commentId: Overload:FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId
+  href: FSM.Nodes.States.StateScripts.PatrolStateScript.html#FSM_Nodes_States_StateScripts_PatrolStateScript_FindGameObjectWithId__1_System_String_
+  name: FindGameObjectWithId
+  nameWithType: PatrolStateScript.FindGameObjectWithId
+  fullName: FSM.Nodes.States.StateScripts.PatrolStateScript.FindGameObjectWithId
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject

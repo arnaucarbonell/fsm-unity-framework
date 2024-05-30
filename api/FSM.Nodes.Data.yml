@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.Data
+  commentId: N:FSM.Nodes.Data
+  id: FSM.Nodes.Data
+  children:
+  - FSM.Nodes.Data.FsmNodeConnectionData
+  langs:
+  - csharp
+  - vb
+  name: FSM.Nodes.Data
+  nameWithType: FSM.Nodes.Data
+  fullName: FSM.Nodes.Data
+  type: Namespace
+  assemblies:
+  - FSM
+references:
+- uid: FSM.Nodes.Data.FsmNodeConnectionData
+  commentId: T:FSM.Nodes.Data.FsmNodeConnectionData
+  href: FSM.Nodes.Data.FsmNodeConnectionData.html
+  name: FsmNodeConnectionData
+  nameWithType: FsmNodeConnectionData
+  fullName: FSM.Nodes.Data.FsmNodeConnectionData

@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.Data.FsmNodeConnectionData
+  commentId: T:FSM.Nodes.Data.FsmNodeConnectionData
+  id: FsmNodeConnectionData
+  parent: FSM.Nodes.Data
+  children:
+  - FSM.Nodes.Data.FsmNodeConnectionData.NextNode
+  - FSM.Nodes.Data.FsmNodeConnectionData.Text
+  langs:
+  - csharp
+  - vb
+  name: FsmNodeConnectionData
+  nameWithType: FsmNodeConnectionData
+  fullName: FSM.Nodes.Data.FsmNodeConnectionData
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Nodes/Data/FsmNodeConnectionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmNodeConnectionData
+    path: Assets/FSM/Nodes/Data/FsmNodeConnectionData.cs
+    startLine: 8
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.Data
+  summary: Data class representing a connection between FSM nodes.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class FsmNodeConnectionData
+    content.vb: >-
+      <Serializable>
+
+      Public Class FsmNodeConnectionData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: FSM.Nodes.Data.FsmNodeConnectionData.Text
+  commentId: P:FSM.Nodes.Data.FsmNodeConnectionData.Text
+  id: Text
+  parent: FSM.Nodes.Data.FsmNodeConnectionData
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: FsmNodeConnectionData.Text
+  fullName: FSM.Nodes.Data.FsmNodeConnectionData.Text
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Nodes/Data/FsmNodeConnectionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Text
+    path: Assets/FSM/Nodes/Data/FsmNodeConnectionData.cs
+    startLine: 14
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.Data
+  summary: The text associated with the connection.
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: FSM.Nodes.Data.FsmNodeConnectionData.Text*
+- uid: FSM.Nodes.Data.FsmNodeConnectionData.NextNode
+  commentId: P:FSM.Nodes.Data.FsmNodeConnectionData.NextNode
+  id: NextNode
+  parent: FSM.Nodes.Data.FsmNodeConnectionData
+  langs:
+  - csharp
+  - vb
+  name: NextNode
+  nameWithType: FsmNodeConnectionData.NextNode
+  fullName: FSM.Nodes.Data.FsmNodeConnectionData.NextNode
+  type: Property
+  source:
+    remote:
+      path: Assets/FSM/Nodes/Data/FsmNodeConnectionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: NextNode
+    path: Assets/FSM/Nodes/Data/FsmNodeConnectionData.cs
+    startLine: 18
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.Data
+  summary: The next node connected to this connection.
+  example: []
+  syntax:
+    content: public FsmNodeSo NextNode { get; set; }
+    parameters: []
+    return:
+      type: FSM.Nodes.ScriptableObjects.FsmNodeSo
+    content.vb: Public Property NextNode As FsmNodeSo
+  overload: FSM.Nodes.Data.FsmNodeConnectionData.NextNode*
+references:
+- uid: FSM.Nodes.Data
+  commentId: N:FSM.Nodes.Data
+  href: FSM.html
+  name: FSM.Nodes.Data
+  nameWithType: FSM.Nodes.Data
+  fullName: FSM.Nodes.Data
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.Data
+    name: Data
+    href: FSM.Nodes.Data.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.Data
+    name: Data
+    href: FSM.Nodes.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FSM.Nodes.Data.FsmNodeConnectionData.Text*
+  commentId: Overload:FSM.Nodes.Data.FsmNodeConnectionData.Text
+  href: FSM.Nodes.Data.FsmNodeConnectionData.html#FSM_Nodes_Data_FsmNodeConnectionData_Text
+  name: Text
+  nameWithType: FsmNodeConnectionData.Text
+  fullName: FSM.Nodes.Data.FsmNodeConnectionData.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FSM.Nodes.Data.FsmNodeConnectionData.NextNode*
+  commentId: Overload:FSM.Nodes.Data.FsmNodeConnectionData.NextNode
+  href: FSM.Nodes.Data.FsmNodeConnectionData.html#FSM_Nodes_Data_FsmNodeConnectionData_NextNode
+  name: NextNode
+  nameWithType: FsmNodeConnectionData.NextNode
+  fullName: FSM.Nodes.Data.FsmNodeConnectionData.NextNode
+- uid: FSM.Nodes.ScriptableObjects.FsmNodeSo
+  commentId: T:FSM.Nodes.ScriptableObjects.FsmNodeSo
+  parent: FSM.Nodes.ScriptableObjects
+  href: FSM.Nodes.ScriptableObjects.FsmNodeSo.html
+  name: FsmNodeSo
+  nameWithType: FsmNodeSo
+  fullName: FSM.Nodes.ScriptableObjects.FsmNodeSo
+- uid: FSM.Nodes.ScriptableObjects
+  commentId: N:FSM.Nodes.ScriptableObjects
+  href: FSM.html
+  name: FSM.Nodes.ScriptableObjects
+  nameWithType: FSM.Nodes.ScriptableObjects
+  fullName: FSM.Nodes.ScriptableObjects
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.ScriptableObjects
+    name: ScriptableObjects
+    href: FSM.Nodes.ScriptableObjects.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.ScriptableObjects
+    name: ScriptableObjects
+    href: FSM.Nodes.ScriptableObjects.html

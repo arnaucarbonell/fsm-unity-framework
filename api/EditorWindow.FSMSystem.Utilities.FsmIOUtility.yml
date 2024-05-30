@@ -1,0 +1,628 @@
+### YamlMime:ManagedReference
+items:
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  id: FsmIOUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  children:
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder(System.String,System.String)
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson(FSM.Nodes.States.StateScript,System.String)
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId``1(System.String)
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode(EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData,System.String)
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save
+  - EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: FsmIOUtility
+  nameWithType: FsmIOUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  type: Class
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmIOUtility
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 23
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Utility class for saving and loading FSM graphs and associated data.
+  example: []
+  syntax:
+    content: public static class FsmIOUtility
+    content.vb: Public Module FsmIOUtility
+  inheritance:
+  - System.Object
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  id: Initialize(System.String,EditorWindow.FSMSystem.Windows.FsmGraphView,System.String,EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: Initialize(string, FsmGraphView, string, FsmHitSaveData)
+  nameWithType: FsmIOUtility.Initialize(string, FsmGraphView, string, FsmHitSaveData)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize(string, EditorWindow.FSMSystem.Windows.FsmGraphView, string, EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Initialize
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 43
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Initializes the FSM IO utility with necessary parameters.
+  example: []
+  syntax:
+    content: public static void Initialize(string graphName, FsmGraphView fsmGraphView, string initialState, FsmHitSaveData hitData)
+    parameters:
+    - id: graphName
+      type: System.String
+      description: Name of the FSM graph.
+    - id: fsmGraphView
+      type: EditorWindow.FSMSystem.Windows.FsmGraphView
+      description: Reference to the FSM graph view.
+    - id: initialState
+      type: System.String
+      description: Name of the initial state.
+    - id: hitData
+      type: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+      description: Hit data associated with the FSM.
+    content.vb: Public Shared Sub Initialize(graphName As String, fsmGraphView As FsmGraphView, initialState As String, hitData As FsmHitSaveData)
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize*
+  nameWithType.vb: FsmIOUtility.Initialize(String, FsmGraphView, String, FsmHitSaveData)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize(String, EditorWindow.FSMSystem.Windows.FsmGraphView, String, EditorWindow.FSMSystem.Data.Save.FsmHitSaveData)
+  name.vb: Initialize(String, FsmGraphView, String, FsmHitSaveData)
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save
+  id: Save
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: FsmIOUtility.Save()
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Save
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 62
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Saves the FSM graph and associated data.
+  example: []
+  syntax:
+    content: public static bool Save()
+    return:
+      type: System.Boolean
+      description: True if saving was successful, false otherwise.
+    content.vb: Public Shared Function Save() As Boolean
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save*
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load
+  id: Load
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: Load()
+  nameWithType: FsmIOUtility.Load()
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load()
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Load
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 193
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Loads the FSM graph and associated data.
+  example: []
+  syntax:
+    content: public static void Load()
+    content.vb: Public Shared Sub Load()
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load*
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode(EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData,System.String)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode(EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData,System.String)
+  id: LoadNode(EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData,System.String)
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadNode(FsmNodeSaveData, string)
+  nameWithType: FsmIOUtility.LoadNode(FsmNodeSaveData, string)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode(EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: LoadNode
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 240
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Loads a node from its saved data.
+  example: []
+  syntax:
+    content: public static FsmNode LoadNode(FsmNodeSaveData nodeData, string fileName)
+    parameters:
+    - id: nodeData
+      type: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+      description: Node save data object.
+    - id: fileName
+      type: System.String
+      description: Name of the file.
+    return:
+      type: EditorWindow.FSMSystem.Elements.FsmNode
+      description: The loaded FSM node.
+    content.vb: Public Shared Function LoadNode(nodeData As FsmNodeSaveData, fileName As String) As FsmNode
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode*
+  nameWithType.vb: FsmIOUtility.LoadNode(FsmNodeSaveData, String)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode(EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData, String)
+  name.vb: LoadNode(FsmNodeSaveData, String)
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson(FSM.Nodes.States.StateScript,System.String)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson(FSM.Nodes.States.StateScript,System.String)
+  id: CreateJson(FSM.Nodes.States.StateScript,System.String)
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateJson(StateScript, string)
+  nameWithType: FsmIOUtility.CreateJson(StateScript, string)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson(FSM.Nodes.States.StateScript, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateJson
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 491
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a JSON file for the specified state script.
+  example: []
+  syntax:
+    content: public static void CreateJson(StateScript stateScript, string className)
+    parameters:
+    - id: stateScript
+      type: FSM.Nodes.States.StateScript
+      description: State script to serialize.
+    - id: className
+      type: System.String
+      description: Name of the class associated with the state script.
+    content.vb: Public Shared Sub CreateJson(stateScript As StateScript, className As String)
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson*
+  nameWithType.vb: FsmIOUtility.CreateJson(StateScript, String)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson(FSM.Nodes.States.StateScript, String)
+  name.vb: CreateJson(StateScript, String)
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder(System.String,System.String)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder(System.String,System.String)
+  id: CreateFolder(System.String,System.String)
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateFolder(string, string)
+  nameWithType: FsmIOUtility.CreateFolder(string, string)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder(string, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CreateFolder
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 529
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Creates a folder in the specified path if it doesn't already exist.
+  example: []
+  syntax:
+    content: public static void CreateFolder(string path, string folderName)
+    parameters:
+    - id: path
+      type: System.String
+      description: Path where the folder should be created.
+    - id: folderName
+      type: System.String
+      description: Name of the folder to create.
+    content.vb: Public Shared Sub CreateFolder(path As String, folderName As String)
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder*
+  nameWithType.vb: FsmIOUtility.CreateFolder(String, String)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder(String, String)
+  name.vb: CreateFolder(String, String)
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId``1(System.String)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId``1(System.String)
+  id: FindGameObjectWithId``1(System.String)
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: FindGameObjectWithId<T>(string)
+  nameWithType: FsmIOUtility.FindGameObjectWithId<T>(string)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId<T>(string)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FindGameObjectWithId
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 619
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  summary: Finds a GameObject with a specified ID in its IDGenerator component.
+  example: []
+  syntax:
+    content: 'public static GameObject FindGameObjectWithId<T>(string id) where T : MonoBehaviour'
+    parameters:
+    - id: id
+      type: System.String
+      description: The ID to search for.
+    typeParameters:
+    - id: T
+      description: Type of MonoBehaviour to search for.
+    return:
+      type: UnityEngine.GameObject
+      description: The GameObject with the specified ID, if found; otherwise, null.
+    content.vb: Public Shared Function FindGameObjectWithId(Of T As MonoBehaviour)(id As String) As GameObject
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId*
+  nameWithType.vb: FsmIOUtility.FindGameObjectWithId(Of T)(String)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId(Of T)(String)
+  name.vb: FindGameObjectWithId(Of T)(String)
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides(System.Boolean)
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides(System.Boolean)
+  id: UpdateHitEnableOverrides(System.Boolean)
+  parent: EditorWindow.FSMSystem.Utilities.FsmIOUtility
+  langs:
+  - csharp
+  - vb
+  name: UpdateHitEnableOverrides(bool)
+  nameWithType: FsmIOUtility.UpdateHitEnableOverrides(bool)
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides(bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: UpdateHitEnableOverrides
+    path: Assets/EditorWindow/FSMSystem/Utilities/FsmIOUtility.cs
+    startLine: 633
+  assemblies:
+  - EditorWindow
+  namespace: EditorWindow.FSMSystem.Utilities
+  syntax:
+    content: public static void UpdateHitEnableOverrides(bool enableHitState)
+    parameters:
+    - id: enableHitState
+      type: System.Boolean
+    content.vb: Public Shared Sub UpdateHitEnableOverrides(enableHitState As Boolean)
+  overload: EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides*
+  nameWithType.vb: FsmIOUtility.UpdateHitEnableOverrides(Boolean)
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides(Boolean)
+  name.vb: UpdateHitEnableOverrides(Boolean)
+references:
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_Initialize_System_String_EditorWindow_FSMSystem_Windows_FsmGraphView_System_String_EditorWindow_FSMSystem_Data_Save_FsmHitSaveData_
+  name: Initialize
+  nameWithType: FsmIOUtility.Initialize
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Initialize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EditorWindow.FSMSystem.Windows.FsmGraphView
+  commentId: T:EditorWindow.FSMSystem.Windows.FsmGraphView
+  parent: EditorWindow.FSMSystem.Windows
+  href: EditorWindow.FSMSystem.Windows.FsmGraphView.html
+  name: FsmGraphView
+  nameWithType: FsmGraphView
+  fullName: EditorWindow.FSMSystem.Windows.FsmGraphView
+- uid: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData.html
+  name: FsmHitSaveData
+  nameWithType: FsmHitSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmHitSaveData
+- uid: EditorWindow.FSMSystem.Windows
+  commentId: N:EditorWindow.FSMSystem.Windows
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Windows
+  nameWithType: EditorWindow.FSMSystem.Windows
+  fullName: EditorWindow.FSMSystem.Windows
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Windows
+    name: Windows
+    href: EditorWindow.FSMSystem.Windows.html
+- uid: EditorWindow.FSMSystem.Data.Save
+  commentId: N:EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Data.Save
+  nameWithType: EditorWindow.FSMSystem.Data.Save
+  fullName: EditorWindow.FSMSystem.Data.Save
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data
+    name: Data
+    href: EditorWindow.FSMSystem.Data.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Data.Save
+    name: Save
+    href: EditorWindow.FSMSystem.Data.Save.html
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_Save
+  name: Save
+  nameWithType: FsmIOUtility.Save
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Save
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_Load
+  name: Load
+  nameWithType: FsmIOUtility.Load
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.Load
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_LoadNode_EditorWindow_FSMSystem_Data_Save_FsmNodeSaveData_System_String_
+  name: LoadNode
+  nameWithType: FsmIOUtility.LoadNode
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.LoadNode
+- uid: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  commentId: T:EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+  parent: EditorWindow.FSMSystem.Data.Save
+  href: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData.html
+  name: FsmNodeSaveData
+  nameWithType: FsmNodeSaveData
+  fullName: EditorWindow.FSMSystem.Data.Save.FsmNodeSaveData
+- uid: EditorWindow.FSMSystem.Elements.FsmNode
+  commentId: T:EditorWindow.FSMSystem.Elements.FsmNode
+  parent: EditorWindow.FSMSystem.Elements
+  href: EditorWindow.FSMSystem.Elements.FsmNode.html
+  name: FsmNode
+  nameWithType: FsmNode
+  fullName: EditorWindow.FSMSystem.Elements.FsmNode
+- uid: EditorWindow.FSMSystem.Elements
+  commentId: N:EditorWindow.FSMSystem.Elements
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Elements
+  nameWithType: EditorWindow.FSMSystem.Elements
+  fullName: EditorWindow.FSMSystem.Elements
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Elements
+    name: Elements
+    href: EditorWindow.FSMSystem.Elements.html
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_CreateJson_FSM_Nodes_States_StateScript_System_String_
+  name: CreateJson
+  nameWithType: FsmIOUtility.CreateJson
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateJson
+- uid: FSM.Nodes.States.StateScript
+  commentId: T:FSM.Nodes.States.StateScript
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.StateScript.html
+  name: StateScript
+  nameWithType: StateScript
+  fullName: FSM.Nodes.States.StateScript
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_CreateFolder_System_String_System_String_
+  name: CreateFolder
+  nameWithType: FsmIOUtility.CreateFolder
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.CreateFolder
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_FindGameObjectWithId__1_System_String_
+  name: FindGameObjectWithId
+  nameWithType: FsmIOUtility.FindGameObjectWithId
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.FindGameObjectWithId
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides*
+  commentId: Overload:EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides
+  href: EditorWindow.FSMSystem.Utilities.FsmIOUtility.html#EditorWindow_FSMSystem_Utilities_FsmIOUtility_UpdateHitEnableOverrides_System_Boolean_
+  name: UpdateHitEnableOverrides
+  nameWithType: FsmIOUtility.UpdateHitEnableOverrides
+  fullName: EditorWindow.FSMSystem.Utilities.FsmIOUtility.UpdateHitEnableOverrides

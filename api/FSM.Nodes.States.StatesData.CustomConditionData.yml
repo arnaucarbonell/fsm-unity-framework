@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Nodes.States.StatesData.CustomConditionData
+  commentId: T:FSM.Nodes.States.StatesData.CustomConditionData
+  id: CustomConditionData
+  parent: FSM.Nodes.States.StatesData
+  children:
+  - FSM.Nodes.States.StatesData.CustomConditionData.#ctor
+  - FSM.Nodes.States.StatesData.CustomConditionData.selectedComponent
+  - FSM.Nodes.States.StatesData.CustomConditionData.selectedFunction
+  - FSM.Nodes.States.StatesData.CustomConditionData.selectedGameObject
+  langs:
+  - csharp
+  - vb
+  name: CustomConditionData
+  nameWithType: CustomConditionData
+  fullName: FSM.Nodes.States.StatesData.CustomConditionData
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CustomConditionData
+    path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+    startLine: 2
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: 'public class CustomConditionData : StateScriptData'
+    content.vb: Public Class CustomConditionData Inherits StateScriptData
+  inheritance:
+  - System.Object
+  - FSM.Nodes.States.StateScriptData
+  inheritedMembers:
+  - FSM.Nodes.States.StateScriptData.InspectVariables
+  - FSM.Nodes.States.StateScriptData.GetVariables
+  - FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  - FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  - FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  - FSM.Nodes.States.StateScriptData.GetStateName
+- uid: FSM.Nodes.States.StatesData.CustomConditionData.selectedGameObject
+  commentId: F:FSM.Nodes.States.StatesData.CustomConditionData.selectedGameObject
+  id: selectedGameObject
+  parent: FSM.Nodes.States.StatesData.CustomConditionData
+  langs:
+  - csharp
+  - vb
+  name: selectedGameObject
+  nameWithType: CustomConditionData.selectedGameObject
+  fullName: FSM.Nodes.States.StatesData.CustomConditionData.selectedGameObject
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: selectedGameObject
+    path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+    startLine: 4
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: public string selectedGameObject
+    return:
+      type: System.String
+    content.vb: Public selectedGameObject As String
+- uid: FSM.Nodes.States.StatesData.CustomConditionData.selectedComponent
+  commentId: F:FSM.Nodes.States.StatesData.CustomConditionData.selectedComponent
+  id: selectedComponent
+  parent: FSM.Nodes.States.StatesData.CustomConditionData
+  langs:
+  - csharp
+  - vb
+  name: selectedComponent
+  nameWithType: CustomConditionData.selectedComponent
+  fullName: FSM.Nodes.States.StatesData.CustomConditionData.selectedComponent
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: selectedComponent
+    path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+    startLine: 5
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: public string selectedComponent
+    return:
+      type: System.String
+    content.vb: Public selectedComponent As String
+- uid: FSM.Nodes.States.StatesData.CustomConditionData.selectedFunction
+  commentId: F:FSM.Nodes.States.StatesData.CustomConditionData.selectedFunction
+  id: selectedFunction
+  parent: FSM.Nodes.States.StatesData.CustomConditionData
+  langs:
+  - csharp
+  - vb
+  name: selectedFunction
+  nameWithType: CustomConditionData.selectedFunction
+  fullName: FSM.Nodes.States.StatesData.CustomConditionData.selectedFunction
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: selectedFunction
+    path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+    startLine: 6
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: public string selectedFunction
+    return:
+      type: System.String
+    content.vb: Public selectedFunction As String
+- uid: FSM.Nodes.States.StatesData.CustomConditionData.#ctor
+  commentId: M:FSM.Nodes.States.StatesData.CustomConditionData.#ctor
+  id: '#ctor'
+  parent: FSM.Nodes.States.StatesData.CustomConditionData
+  langs:
+  - csharp
+  - vb
+  name: CustomConditionData()
+  nameWithType: CustomConditionData.CustomConditionData()
+  fullName: FSM.Nodes.States.StatesData.CustomConditionData.CustomConditionData()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/FSM/Nodes/States/StatesData/CustomConditionData.cs
+    startLine: 8
+  assemblies:
+  - FSM
+  namespace: FSM.Nodes.States.StatesData
+  syntax:
+    content: public CustomConditionData()
+    content.vb: Public Sub New()
+  overload: FSM.Nodes.States.StatesData.CustomConditionData.#ctor*
+  nameWithType.vb: CustomConditionData.New()
+  fullName.vb: FSM.Nodes.States.StatesData.CustomConditionData.New()
+  name.vb: New()
+references:
+- uid: FSM.Nodes.States.StatesData
+  commentId: N:FSM.Nodes.States.StatesData
+  href: FSM.html
+  name: FSM.Nodes.States.StatesData
+  nameWithType: FSM.Nodes.States.StatesData
+  fullName: FSM.Nodes.States.StatesData
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StatesData
+    name: StatesData
+    href: FSM.Nodes.States.StatesData.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  - name: .
+  - uid: FSM.Nodes.States.StatesData
+    name: StatesData
+    href: FSM.Nodes.States.StatesData.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: FSM.Nodes.States.StateScriptData
+  commentId: T:FSM.Nodes.States.StateScriptData
+  parent: FSM.Nodes.States
+  href: FSM.Nodes.States.StateScriptData.html
+  name: StateScriptData
+  nameWithType: StateScriptData
+  fullName: FSM.Nodes.States.StateScriptData
+- uid: FSM.Nodes.States.StateScriptData.InspectVariables
+  commentId: M:FSM.Nodes.States.StateScriptData.InspectVariables
+  parent: FSM.Nodes.States.StateScriptData
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_InspectVariables
+  name: InspectVariables()
+  nameWithType: StateScriptData.InspectVariables()
+  fullName: FSM.Nodes.States.StateScriptData.InspectVariables()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.InspectVariables
+    name: InspectVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_InspectVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.InspectVariables
+    name: InspectVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_InspectVariables
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.GetVariables
+  commentId: M:FSM.Nodes.States.StateScriptData.GetVariables
+  parent: FSM.Nodes.States.StateScriptData
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetVariables
+  name: GetVariables()
+  nameWithType: StateScriptData.GetVariables()
+  fullName: FSM.Nodes.States.StateScriptData.GetVariables()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.GetVariables
+    name: GetVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.GetVariables
+    name: GetVariables
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetVariables
+  - name: (
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  commentId: M:FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+  parent: FSM.Nodes.States.StateScriptData
+  isExternal: true
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetVariableValue_System_String_System_Object_
+  name: SetVariableValue(string, object)
+  nameWithType: StateScriptData.SetVariableValue(string, object)
+  fullName: FSM.Nodes.States.StateScriptData.SetVariableValue(string, object)
+  nameWithType.vb: StateScriptData.SetVariableValue(String, Object)
+  fullName.vb: FSM.Nodes.States.StateScriptData.SetVariableValue(String, Object)
+  name.vb: SetVariableValue(String, Object)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.SetVariableValue(System.String,System.Object)
+    name: SetVariableValue
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetVariableValue_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  commentId: M:FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+  parent: FSM.Nodes.States.StateScriptData
+  isExternal: true
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_RemoveVariable_System_String_System_Object_
+  name: RemoveVariable(string, object)
+  nameWithType: StateScriptData.RemoveVariable(string, object)
+  fullName: FSM.Nodes.States.StateScriptData.RemoveVariable(string, object)
+  nameWithType.vb: StateScriptData.RemoveVariable(String, Object)
+  fullName.vb: FSM.Nodes.States.StateScriptData.RemoveVariable(String, Object)
+  name.vb: RemoveVariable(String, Object)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+    name: RemoveVariable
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_RemoveVariable_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.RemoveVariable(System.String,System.Object)
+    name: RemoveVariable
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_RemoveVariable_System_String_System_Object_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  commentId: M:FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+  parent: FSM.Nodes.States.StateScriptData
+  isExternal: true
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetStateName_System_String_
+  name: SetStateName(string)
+  nameWithType: StateScriptData.SetStateName(string)
+  fullName: FSM.Nodes.States.StateScriptData.SetStateName(string)
+  nameWithType.vb: StateScriptData.SetStateName(String)
+  fullName.vb: FSM.Nodes.States.StateScriptData.SetStateName(String)
+  name.vb: SetStateName(String)
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+    name: SetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetStateName_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.SetStateName(System.String)
+    name: SetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_SetStateName_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: FSM.Nodes.States.StateScriptData.GetStateName
+  commentId: M:FSM.Nodes.States.StateScriptData.GetStateName
+  parent: FSM.Nodes.States.StateScriptData
+  href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetStateName
+  name: GetStateName()
+  nameWithType: StateScriptData.GetStateName()
+  fullName: FSM.Nodes.States.StateScriptData.GetStateName()
+  spec.csharp:
+  - uid: FSM.Nodes.States.StateScriptData.GetStateName
+    name: GetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetStateName
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: FSM.Nodes.States.StateScriptData.GetStateName
+    name: GetStateName
+    href: FSM.Nodes.States.StateScriptData.html#FSM_Nodes_States_StateScriptData_GetStateName
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FSM.Nodes.States
+  commentId: N:FSM.Nodes.States
+  href: FSM.html
+  name: FSM.Nodes.States
+  nameWithType: FSM.Nodes.States
+  fullName: FSM.Nodes.States
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Nodes
+    name: Nodes
+    href: FSM.Nodes.html
+  - name: .
+  - uid: FSM.Nodes.States
+    name: States
+    href: FSM.Nodes.States.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: FSM.Nodes.States.StatesData.CustomConditionData.#ctor*
+  commentId: Overload:FSM.Nodes.States.StatesData.CustomConditionData.#ctor
+  href: FSM.Nodes.States.StatesData.CustomConditionData.html#FSM_Nodes_States_StatesData_CustomConditionData__ctor
+  name: CustomConditionData
+  nameWithType: CustomConditionData.CustomConditionData
+  fullName: FSM.Nodes.States.StatesData.CustomConditionData.CustomConditionData
+  nameWithType.vb: CustomConditionData.New
+  fullName.vb: FSM.Nodes.States.StatesData.CustomConditionData.New
+  name.vb: New

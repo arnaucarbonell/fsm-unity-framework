@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities.CustomObjectField
+  commentId: T:FSM.Utilities.CustomObjectField
+  id: CustomObjectField
+  parent: FSM.Utilities
+  children:
+  - FSM.Utilities.CustomObjectField.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectField
+  nameWithType: CustomObjectField
+  fullName: FSM.Utilities.CustomObjectField
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Utilities/CustomObjectField.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: CustomObjectField
+    path: Assets/FSM/Utilities/CustomObjectField.cs
+    startLine: 10
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Custom ObjectField class to display object thumbnails.
+  example: []
+  syntax:
+    content: 'public class CustomObjectField : ObjectField'
+    content.vb: Public Class CustomObjectField Inherits ObjectField
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  - UnityEngine.UIElements.BindableElement
+  - UnityEngine.UIElements.BaseField{UnityEngine.Object}
+  - UnityEditor.UIElements.ObjectField
+  extensionMethods:
+  - UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(System.String[])
+  - UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(System.String[])
+- uid: FSM.Utilities.CustomObjectField.#ctor(System.String)
+  commentId: M:FSM.Utilities.CustomObjectField.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: FSM.Utilities.CustomObjectField
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectField(string)
+  nameWithType: CustomObjectField.CustomObjectField(string)
+  fullName: FSM.Utilities.CustomObjectField.CustomObjectField(string)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/FSM/Utilities/CustomObjectField.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/FSM/Utilities/CustomObjectField.cs
+    startLine: 17
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Constructor to initialize the custom object field.
+  example: []
+  syntax:
+    content: public CustomObjectField(string label)
+    parameters:
+    - id: label
+      type: System.String
+      description: Label for the object field.
+    content.vb: Public Sub New(label As String)
+  overload: FSM.Utilities.CustomObjectField.#ctor*
+  nameWithType.vb: CustomObjectField.New(String)
+  fullName.vb: FSM.Utilities.CustomObjectField.New(String)
+  name.vb: New(String)
+references:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements.BindableElement
+  commentId: T:UnityEngine.UIElements.BindableElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: BindableElement
+  nameWithType: BindableElement
+  fullName: UnityEngine.UIElements.BindableElement
+- uid: UnityEngine.UIElements.BaseField{UnityEngine.Object}
+  commentId: T:UnityEngine.UIElements.BaseField{UnityEngine.Object}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.BaseField`1
+  name: BaseField<Object>
+  nameWithType: BaseField<Object>
+  fullName: UnityEngine.UIElements.BaseField<UnityEngine.Object>
+  nameWithType.vb: BaseField(Of Object)
+  fullName.vb: UnityEngine.UIElements.BaseField(Of UnityEngine.Object)
+  name.vb: BaseField(Of Object)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: UnityEditor.UIElements.ObjectField
+  commentId: T:UnityEditor.UIElements.ObjectField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ObjectField
+  nameWithType: ObjectField
+  fullName: UnityEditor.UIElements.ObjectField
+- uid: UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  definition: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: UnityEngine.UIElements.VisualElement.EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  parent: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  definition: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEngine.UIElements.BaseField`1
+  commentId: T:UnityEngine.UIElements.BaseField`1
+  isExternal: true
+  name: BaseField<TValueType>
+  nameWithType: BaseField<TValueType>
+  fullName: UnityEngine.UIElements.BaseField<TValueType>
+  nameWithType.vb: BaseField(Of TValueType)
+  fullName.vb: UnityEngine.UIElements.BaseField(Of TValueType)
+  name.vb: BaseField(Of TValueType)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    isExternal: true
+  - name: <
+  - name: TValueType
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: UnityEditor.UIElements
+  commentId: N:UnityEditor.UIElements
+  isExternal: true
+  name: UnityEditor.UIElements
+  nameWithType: UnityEditor.UIElements
+  fullName: UnityEditor.UIElements
+  spec.csharp:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.UIElements
+    name: UIElements
+    isExternal: true
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+  isExternal: true
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddClasses(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddClasses
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddClasses_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  commentId: T:EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+  parent: EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html
+  name: FsmStyleUtility
+  nameWithType: FsmStyleUtility
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility
+- uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+  isExternal: true
+  href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: FsmStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, params string[])
+  nameWithType.vb: FsmStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+  spec.csharp:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.AddStyleSheets(UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddStyleSheets
+    href: EditorWindow.FSMSystem.Utilities.FsmStyleUtility.html#EditorWindow_FSMSystem_Utilities_FsmStyleUtility_AddStyleSheets_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: EditorWindow.FSMSystem.Utilities
+  commentId: N:EditorWindow.FSMSystem.Utilities
+  href: EditorWindow.html
+  name: EditorWindow.FSMSystem.Utilities
+  nameWithType: EditorWindow.FSMSystem.Utilities
+  fullName: EditorWindow.FSMSystem.Utilities
+  spec.csharp:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+  spec.vb:
+  - uid: EditorWindow
+    name: EditorWindow
+    href: EditorWindow.html
+  - name: .
+  - uid: EditorWindow.FSMSystem
+    name: FSMSystem
+    href: EditorWindow.FSMSystem.html
+  - name: .
+  - uid: EditorWindow.FSMSystem.Utilities
+    name: Utilities
+    href: EditorWindow.FSMSystem.Utilities.html
+- uid: FSM.Utilities.CustomObjectField.#ctor*
+  commentId: Overload:FSM.Utilities.CustomObjectField.#ctor
+  href: FSM.Utilities.CustomObjectField.html#FSM_Utilities_CustomObjectField__ctor_System_String_
+  name: CustomObjectField
+  nameWithType: CustomObjectField.CustomObjectField
+  fullName: FSM.Utilities.CustomObjectField.CustomObjectField
+  nameWithType.vb: CustomObjectField.New
+  fullName.vb: FSM.Utilities.CustomObjectField.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities.SerializableDictionary
+  commentId: T:FSM.Utilities.SerializableDictionary
+  id: SerializableDictionary
+  parent: FSM.Utilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary
+  nameWithType: SerializableDictionary
+  fullName: FSM.Utilities.SerializableDictionary
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SerializableDictionary
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 10
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  summary: Base class for serializable dictionaries.
+  example: []
+  syntax:
+    content: public class SerializableDictionary
+    content.vb: Public Class SerializableDictionary
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - FSM.Utilities.SerializableDictionary`2
+references:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

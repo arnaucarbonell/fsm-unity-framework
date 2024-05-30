@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  id: FSM.Utilities
+  children:
+  - FSM.Utilities.CustomObjectField
+  - FSM.Utilities.HierarchyChecker
+  - FSM.Utilities.IDGenerator
+  - FSM.Utilities.SerializableDictionary
+  - FSM.Utilities.SerializableDictionary`2
+  - FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  type: Namespace
+  assemblies:
+  - FSM
+references:
+- uid: FSM.Utilities.IDGenerator
+  commentId: T:FSM.Utilities.IDGenerator
+  href: FSM.Utilities.IDGenerator.html
+  name: IDGenerator
+  nameWithType: IDGenerator
+  fullName: FSM.Utilities.IDGenerator
+- uid: FSM.Utilities.SerializableDictionary
+  commentId: T:FSM.Utilities.SerializableDictionary
+  parent: FSM.Utilities
+  href: FSM.Utilities.SerializableDictionary.html
+  name: SerializableDictionary
+  nameWithType: SerializableDictionary
+  fullName: FSM.Utilities.SerializableDictionary
+- uid: FSM.Utilities.SerializableDictionary`2
+  commentId: T:FSM.Utilities.SerializableDictionary`2
+  href: FSM.Utilities.SerializableDictionary-2.html
+  name: SerializableDictionary<TKey, TValue>
+  nameWithType: SerializableDictionary<TKey, TValue>
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue)
+  name.vb: SerializableDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: FSM.Utilities.SerializableDictionary`2
+    name: SerializableDictionary
+    href: FSM.Utilities.SerializableDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: FSM.Utilities.SerializableDictionary`2
+    name: SerializableDictionary
+    href: FSM.Utilities.SerializableDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  commentId: T:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  href: FSM.Utilities.SerializableDictionary-2.html
+  name: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  name.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  spec.csharp:
+  - uid: FSM.Utilities.SerializableDictionary`2
+    name: SerializableDictionary
+    href: FSM.Utilities.SerializableDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: .
+  - uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+    name: SerializableKeyValuePair
+    href: FSM.Utilities.SerializableDictionary-2.SerializableKeyValuePair.html
+  spec.vb:
+  - uid: FSM.Utilities.SerializableDictionary`2
+    name: SerializableDictionary
+    href: FSM.Utilities.SerializableDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: .
+  - uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+    name: SerializableKeyValuePair
+    href: FSM.Utilities.SerializableDictionary-2.SerializableKeyValuePair.html
+- uid: FSM.Utilities.HierarchyChecker
+  commentId: T:FSM.Utilities.HierarchyChecker
+  href: FSM.Utilities.HierarchyChecker.html
+  name: HierarchyChecker
+  nameWithType: HierarchyChecker
+  fullName: FSM.Utilities.HierarchyChecker
+- uid: FSM.Utilities.CustomObjectField
+  commentId: T:FSM.Utilities.CustomObjectField
+  parent: FSM.Utilities
+  href: FSM.Utilities.CustomObjectField.html
+  name: CustomObjectField
+  nameWithType: CustomObjectField
+  fullName: FSM.Utilities.CustomObjectField
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html

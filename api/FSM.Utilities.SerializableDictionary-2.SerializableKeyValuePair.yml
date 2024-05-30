@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  commentId: T:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  id: SerializableDictionary`2.SerializableKeyValuePair
+  parent: FSM.Utilities
+  children:
+  - FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.#ctor(`0,`1)
+  - FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.Key
+  - FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.SetValue(`1)
+  - FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.Value
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  type: Struct
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SerializableKeyValuePair
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 24
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+    content.vb: >-
+      <Serializable>
+
+      Public Structure SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  name.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.Key
+  commentId: F:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.Key
+  id: Key
+  parent: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Key
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Key
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Key
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 27
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: public TKey Key
+    return:
+      type: '{TKey}'
+    content.vb: Public Key As TKey
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Key
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Key
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.Value
+  commentId: F:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.Value
+  id: Value
+  parent: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Value
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Value
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Value
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 28
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: public TValue Value
+    return:
+      type: '{TValue}'
+    content.vb: Public Value As TValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Value
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Value
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.#ctor(`0,`1)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.#ctor(`0,`1)
+  id: '#ctor(`0,`1)'
+  parent: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: SerializableKeyValuePair(TKey, TValue)
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair(TKey, TValue)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair(TKey, TValue)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: .ctor
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 30
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: public SerializableKeyValuePair(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    - id: value
+      type: '{TValue}'
+    content.vb: Public Sub New(key As TKey, value As TValue)
+  overload: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.#ctor*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New(TKey, TValue)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New(TKey, TValue)
+  name.vb: New(TKey, TValue)
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.SetValue(`1)
+  commentId: M:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.SetValue(`1)
+  id: SetValue(`1)
+  parent: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: SetValue(TValue)
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue(TValue)
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue(TValue)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Utilities/SerializableDictionary.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetValue
+    path: Assets/FSM/Utilities/SerializableDictionary.cs
+    startLine: 36
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: public void SetValue(TValue value)
+    parameters:
+    - id: value
+      type: '{TValue}'
+    content.vb: Public Sub SetValue(value As TValue)
+  overload: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.SetValue*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue(TValue)
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue(TValue)
+references:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.#ctor*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.#ctor
+  href: FSM.Utilities.SerializableDictionary-2.SerializableKeyValuePair.html#FSM_Utilities_SerializableDictionary_2_SerializableKeyValuePair__ctor__0__1_
+  name: SerializableKeyValuePair
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New
+  name.vb: New
+- uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.SetValue*
+  commentId: Overload:FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair.SetValue
+  href: FSM.Utilities.SerializableDictionary-2.SerializableKeyValuePair.html#FSM_Utilities_SerializableDictionary_2_SerializableKeyValuePair_SetValue__1_
+  name: SetValue
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue
+  fullName: FSM.Utilities.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue
+  fullName.vb: FSM.Utilities.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue

@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Enemy.EnemyHealthSystem
+  commentId: T:FSM.Enemy.EnemyHealthSystem
+  id: EnemyHealthSystem
+  parent: FSM.Enemy
+  children:
+  - FSM.Enemy.EnemyHealthSystem.Die
+  - FSM.Enemy.EnemyHealthSystem.GetCurrentHealth
+  - FSM.Enemy.EnemyHealthSystem.GetMaxHealth
+  - FSM.Enemy.EnemyHealthSystem.GetPreviousHealth
+  - FSM.Enemy.EnemyHealthSystem.SetPreviousHealth(System.Single)
+  - FSM.Enemy.EnemyHealthSystem.TakeDamage(System.Single)
+  - FSM.Enemy.EnemyHealthSystem.maxHealth
+  langs:
+  - csharp
+  - vb
+  name: EnemyHealthSystem
+  nameWithType: EnemyHealthSystem
+  fullName: FSM.Enemy.EnemyHealthSystem
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: EnemyHealthSystem
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 7
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Class responsible for managing the health of an enemy.
+  example: []
+  syntax:
+    content: 'public class EnemyHealthSystem : MonoBehaviour'
+    content.vb: Public Class EnemyHealthSystem Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: FSM.Enemy.EnemyHealthSystem.maxHealth
+  commentId: F:FSM.Enemy.EnemyHealthSystem.maxHealth
+  id: maxHealth
+  parent: FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: maxHealth
+  nameWithType: EnemyHealthSystem.maxHealth
+  fullName: FSM.Enemy.EnemyHealthSystem.maxHealth
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: maxHealth
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  syntax:
+    content: public float maxHealth
+    return:
+      type: System.Single
+    content.vb: Public maxHealth As Single
+- uid: FSM.Enemy.EnemyHealthSystem.TakeDamage(System.Single)
+  commentId: M:FSM.Enemy.EnemyHealthSystem.TakeDamage(System.Single)
+  id: TakeDamage(System.Single)
+  parent: FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: TakeDamage(float)
+  nameWithType: EnemyHealthSystem.TakeDamage(float)
+  fullName: FSM.Enemy.EnemyHealthSystem.TakeDamage(float)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: TakeDamage
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 30
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Inflicts damage to the enemy and updates the health bar.
+  example: []
+  syntax:
+    content: public void TakeDamage(float amount)
+    parameters:
+    - id: amount
+      type: System.Single
+      description: Amount of damage to inflict.
+    content.vb: Public Sub TakeDamage(amount As Single)
+  overload: FSM.Enemy.EnemyHealthSystem.TakeDamage*
+  nameWithType.vb: EnemyHealthSystem.TakeDamage(Single)
+  fullName.vb: FSM.Enemy.EnemyHealthSystem.TakeDamage(Single)
+  name.vb: TakeDamage(Single)
+- uid: FSM.Enemy.EnemyHealthSystem.Die
+  commentId: M:FSM.Enemy.EnemyHealthSystem.Die
+  id: Die
+  parent: FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: Die()
+  nameWithType: EnemyHealthSystem.Die()
+  fullName: FSM.Enemy.EnemyHealthSystem.Die()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: Die
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 40
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Destroys the enemy GameObject.
+  example: []
+  syntax:
+    content: public void Die()
+    content.vb: Public Sub Die()
+  overload: FSM.Enemy.EnemyHealthSystem.Die*
+- uid: FSM.Enemy.EnemyHealthSystem.GetCurrentHealth
+  commentId: M:FSM.Enemy.EnemyHealthSystem.GetCurrentHealth
+  id: GetCurrentHealth
+  parent: FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentHealth()
+  nameWithType: EnemyHealthSystem.GetCurrentHealth()
+  fullName: FSM.Enemy.EnemyHealthSystem.GetCurrentHealth()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetCurrentHealth
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 48
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Returns the current health of the enemy.
+  example: []
+  syntax:
+    content: public float GetCurrentHealth()
+    return:
+      type: System.Single
+    content.vb: Public Function GetCurrentHealth() As Single
+  overload: FSM.Enemy.EnemyHealthSystem.GetCurrentHealth*
+- uid: FSM.Enemy.EnemyHealthSystem.GetPreviousHealth
+  commentId: M:FSM.Enemy.EnemyHealthSystem.GetPreviousHealth
+  id: GetPreviousHealth
+  parent: FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: GetPreviousHealth()
+  nameWithType: EnemyHealthSystem.GetPreviousHealth()
+  fullName: FSM.Enemy.EnemyHealthSystem.GetPreviousHealth()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetPreviousHealth
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 56
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Returns the previous health of the enemy.
+  example: []
+  syntax:
+    content: public float GetPreviousHealth()
+    return:
+      type: System.Single
+    content.vb: Public Function GetPreviousHealth() As Single
+  overload: FSM.Enemy.EnemyHealthSystem.GetPreviousHealth*
+- uid: FSM.Enemy.EnemyHealthSystem.SetPreviousHealth(System.Single)
+  commentId: M:FSM.Enemy.EnemyHealthSystem.SetPreviousHealth(System.Single)
+  id: SetPreviousHealth(System.Single)
+  parent: FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: SetPreviousHealth(float)
+  nameWithType: EnemyHealthSystem.SetPreviousHealth(float)
+  fullName: FSM.Enemy.EnemyHealthSystem.SetPreviousHealth(float)
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: SetPreviousHealth
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 65
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Sets the previous health of the enemy.
+  example: []
+  syntax:
+    content: public void SetPreviousHealth(float health)
+    parameters:
+    - id: health
+      type: System.Single
+      description: The previous health value to set.
+    content.vb: Public Sub SetPreviousHealth(health As Single)
+  overload: FSM.Enemy.EnemyHealthSystem.SetPreviousHealth*
+  nameWithType.vb: EnemyHealthSystem.SetPreviousHealth(Single)
+  fullName.vb: FSM.Enemy.EnemyHealthSystem.SetPreviousHealth(Single)
+  name.vb: SetPreviousHealth(Single)
+- uid: FSM.Enemy.EnemyHealthSystem.GetMaxHealth
+  commentId: M:FSM.Enemy.EnemyHealthSystem.GetMaxHealth
+  id: GetMaxHealth
+  parent: FSM.Enemy.EnemyHealthSystem
+  langs:
+  - csharp
+  - vb
+  name: GetMaxHealth()
+  nameWithType: EnemyHealthSystem.GetMaxHealth()
+  fullName: FSM.Enemy.EnemyHealthSystem.GetMaxHealth()
+  type: Method
+  source:
+    remote:
+      path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: GetMaxHealth
+    path: Assets/FSM/Enemy/EnemyHealthSystem.cs
+    startLine: 73
+  assemblies:
+  - FSM
+  namespace: FSM.Enemy
+  summary: Returns the maximum health of the enemy.
+  example: []
+  syntax:
+    content: public float GetMaxHealth()
+    return:
+      type: System.Single
+    content.vb: Public Function GetMaxHealth() As Single
+  overload: FSM.Enemy.EnemyHealthSystem.GetMaxHealth*
+references:
+- uid: FSM.Enemy
+  commentId: N:FSM.Enemy
+  href: FSM.html
+  name: FSM.Enemy
+  nameWithType: FSM.Enemy
+  fullName: FSM.Enemy
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enemy
+    name: Enemy
+    href: FSM.Enemy.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enemy
+    name: Enemy
+    href: FSM.Enemy.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: FSM.Enemy.EnemyHealthSystem.TakeDamage*
+  commentId: Overload:FSM.Enemy.EnemyHealthSystem.TakeDamage
+  href: FSM.Enemy.EnemyHealthSystem.html#FSM_Enemy_EnemyHealthSystem_TakeDamage_System_Single_
+  name: TakeDamage
+  nameWithType: EnemyHealthSystem.TakeDamage
+  fullName: FSM.Enemy.EnemyHealthSystem.TakeDamage
+- uid: FSM.Enemy.EnemyHealthSystem.Die*
+  commentId: Overload:FSM.Enemy.EnemyHealthSystem.Die
+  href: FSM.Enemy.EnemyHealthSystem.html#FSM_Enemy_EnemyHealthSystem_Die
+  name: Die
+  nameWithType: EnemyHealthSystem.Die
+  fullName: FSM.Enemy.EnemyHealthSystem.Die
+- uid: FSM.Enemy.EnemyHealthSystem.GetCurrentHealth*
+  commentId: Overload:FSM.Enemy.EnemyHealthSystem.GetCurrentHealth
+  href: FSM.Enemy.EnemyHealthSystem.html#FSM_Enemy_EnemyHealthSystem_GetCurrentHealth
+  name: GetCurrentHealth
+  nameWithType: EnemyHealthSystem.GetCurrentHealth
+  fullName: FSM.Enemy.EnemyHealthSystem.GetCurrentHealth
+- uid: FSM.Enemy.EnemyHealthSystem.GetPreviousHealth*
+  commentId: Overload:FSM.Enemy.EnemyHealthSystem.GetPreviousHealth
+  href: FSM.Enemy.EnemyHealthSystem.html#FSM_Enemy_EnemyHealthSystem_GetPreviousHealth
+  name: GetPreviousHealth
+  nameWithType: EnemyHealthSystem.GetPreviousHealth
+  fullName: FSM.Enemy.EnemyHealthSystem.GetPreviousHealth
+- uid: FSM.Enemy.EnemyHealthSystem.SetPreviousHealth*
+  commentId: Overload:FSM.Enemy.EnemyHealthSystem.SetPreviousHealth
+  href: FSM.Enemy.EnemyHealthSystem.html#FSM_Enemy_EnemyHealthSystem_SetPreviousHealth_System_Single_
+  name: SetPreviousHealth
+  nameWithType: EnemyHealthSystem.SetPreviousHealth
+  fullName: FSM.Enemy.EnemyHealthSystem.SetPreviousHealth
+- uid: FSM.Enemy.EnemyHealthSystem.GetMaxHealth*
+  commentId: Overload:FSM.Enemy.EnemyHealthSystem.GetMaxHealth
+  href: FSM.Enemy.EnemyHealthSystem.html#FSM_Enemy_EnemyHealthSystem_GetMaxHealth
+  name: GetMaxHealth
+  nameWithType: EnemyHealthSystem.GetMaxHealth
+  fullName: FSM.Enemy.EnemyHealthSystem.GetMaxHealth

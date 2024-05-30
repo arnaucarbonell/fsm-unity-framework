@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  id: FSM.Enumerations
+  children:
+  - FSM.Enumerations.FsmNodeType
+  - FSM.Enumerations.FsmOperands
+  - FSM.Enumerations.FsmStates
+  langs:
+  - csharp
+  - vb
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  type: Namespace
+  assemblies:
+  - FSM
+references:
+- uid: FSM.Enumerations.FsmStates
+  commentId: T:FSM.Enumerations.FsmStates
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmStates.html
+  name: FsmStates
+  nameWithType: FsmStates
+  fullName: FSM.Enumerations.FsmStates
+- uid: FSM.Enumerations.FsmNodeType
+  commentId: T:FSM.Enumerations.FsmNodeType
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmNodeType.html
+  name: FsmNodeType
+  nameWithType: FsmNodeType
+  fullName: FSM.Enumerations.FsmNodeType
+- uid: FSM.Enumerations.FsmOperands
+  commentId: T:FSM.Enumerations.FsmOperands
+  parent: FSM.Enumerations
+  href: FSM.Enumerations.FsmOperands.html
+  name: FsmOperands
+  nameWithType: FsmOperands
+  fullName: FSM.Enumerations.FsmOperands
+- uid: FSM.Enumerations
+  commentId: N:FSM.Enumerations
+  href: FSM.html
+  name: FSM.Enumerations
+  nameWithType: FSM.Enumerations
+  fullName: FSM.Enumerations
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Enumerations
+    name: Enumerations
+    href: FSM.Enumerations.html
