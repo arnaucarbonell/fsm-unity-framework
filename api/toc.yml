@@ -197,11 +197,15 @@ items:
     name: MouseLook
   - uid: FSM.Player.PlayerMovement
     name: PlayerMovement
+  - uid: FSM.Player.RespawnSystem
+    name: RespawnSystem
 - uid: FSM.Utilities
   name: FSM.Utilities
   items:
   - uid: FSM.Utilities.CustomObjectField
     name: CustomObjectField
+  - uid: FSM.Utilities.FsmTagLayerSetUp
+    name: FsmTagLayerSetUp
   - uid: FSM.Utilities.HierarchyChecker
     name: HierarchyChecker
   - uid: FSM.Utilities.IDGenerator

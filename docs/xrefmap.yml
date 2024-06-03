@@ -4440,6 +4440,12 @@ references:
   commentId: F:FSM.Player.HealthSystem.maxHealth
   fullName: FSM.Player.HealthSystem.maxHealth
   nameWithType: HealthSystem.maxHealth
+- uid: FSM.Player.HealthSystem.respawnSystem
+  name: respawnSystem
+  href: api/FSM.Player.HealthSystem.html#FSM_Player_HealthSystem_respawnSystem
+  commentId: F:FSM.Player.HealthSystem.respawnSystem
+  fullName: FSM.Player.HealthSystem.respawnSystem
+  nameWithType: HealthSystem.respawnSystem
 - uid: FSM.Player.MouseLook
   name: MouseLook
   href: api/FSM.Player.MouseLook.html
@@ -4458,6 +4464,37 @@ references:
   commentId: F:FSM.Player.PlayerMovement.speed
   fullName: FSM.Player.PlayerMovement.speed
   nameWithType: PlayerMovement.speed
+- uid: FSM.Player.RespawnSystem
+  name: RespawnSystem
+  href: api/FSM.Player.RespawnSystem.html
+  commentId: T:FSM.Player.RespawnSystem
+  fullName: FSM.Player.RespawnSystem
+  nameWithType: RespawnSystem
+- uid: FSM.Player.RespawnSystem.ShowDeathScreen
+  name: ShowDeathScreen()
+  href: api/FSM.Player.RespawnSystem.html#FSM_Player_RespawnSystem_ShowDeathScreen
+  commentId: M:FSM.Player.RespawnSystem.ShowDeathScreen
+  fullName: FSM.Player.RespawnSystem.ShowDeathScreen()
+  nameWithType: RespawnSystem.ShowDeathScreen()
+- uid: FSM.Player.RespawnSystem.ShowDeathScreen*
+  name: ShowDeathScreen
+  href: api/FSM.Player.RespawnSystem.html#FSM_Player_RespawnSystem_ShowDeathScreen_
+  commentId: Overload:FSM.Player.RespawnSystem.ShowDeathScreen
+  isSpec: "True"
+  fullName: FSM.Player.RespawnSystem.ShowDeathScreen
+  nameWithType: RespawnSystem.ShowDeathScreen
+- uid: FSM.Player.RespawnSystem.deathScreen
+  name: deathScreen
+  href: api/FSM.Player.RespawnSystem.html#FSM_Player_RespawnSystem_deathScreen
+  commentId: F:FSM.Player.RespawnSystem.deathScreen
+  fullName: FSM.Player.RespawnSystem.deathScreen
+  nameWithType: RespawnSystem.deathScreen
+- uid: FSM.Player.RespawnSystem.player
+  name: player
+  href: api/FSM.Player.RespawnSystem.html#FSM_Player_RespawnSystem_player
+  commentId: F:FSM.Player.RespawnSystem.player
+  fullName: FSM.Player.RespawnSystem.player
+  nameWithType: RespawnSystem.player
 - uid: FSM.Utilities
   name: FSM.Utilities
   href: api/FSM.Utilities.html
@@ -4489,6 +4526,12 @@ references:
   fullName.vb: FSM.Utilities.CustomObjectField.New
   nameWithType: CustomObjectField.CustomObjectField
   nameWithType.vb: CustomObjectField.New
+- uid: FSM.Utilities.FsmTagLayerSetUp
+  name: FsmTagLayerSetUp
+  href: api/FSM.Utilities.FsmTagLayerSetUp.html
+  commentId: T:FSM.Utilities.FsmTagLayerSetUp
+  fullName: FSM.Utilities.FsmTagLayerSetUp
+  nameWithType: FsmTagLayerSetUp
 - uid: FSM.Utilities.HierarchyChecker
   name: HierarchyChecker
   href: api/FSM.Utilities.HierarchyChecker.html

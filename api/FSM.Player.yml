@@ -8,6 +8,7 @@ items:
   - FSM.Player.HealthSystem
   - FSM.Player.MouseLook
   - FSM.Player.PlayerMovement
+  - FSM.Player.RespawnSystem
   langs:
   - csharp
   - vb
@@ -42,3 +43,32 @@ references:
   name: HealthSystem
   nameWithType: HealthSystem
   fullName: FSM.Player.HealthSystem
+- uid: FSM.Player.RespawnSystem
+  commentId: T:FSM.Player.RespawnSystem
+  parent: FSM.Player
+  href: FSM.Player.RespawnSystem.html
+  name: RespawnSystem
+  nameWithType: RespawnSystem
+  fullName: FSM.Player.RespawnSystem
+- uid: FSM.Player
+  commentId: N:FSM.Player
+  href: FSM.html
+  name: FSM.Player
+  nameWithType: FSM.Player
+  fullName: FSM.Player
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Player
+    name: Player
+    href: FSM.Player.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Player
+    name: Player
+    href: FSM.Player.html

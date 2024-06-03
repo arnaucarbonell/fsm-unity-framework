@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: FSM.Utilities.FsmTagLayerSetUp
+  commentId: T:FSM.Utilities.FsmTagLayerSetUp
+  id: FsmTagLayerSetUp
+  parent: FSM.Utilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FsmTagLayerSetUp
+  nameWithType: FsmTagLayerSetUp
+  fullName: FSM.Utilities.FsmTagLayerSetUp
+  type: Class
+  source:
+    remote:
+      path: Assets/FSM/Utilities/FsmTagLayerSetUp.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: FsmTagLayerSetUp
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Utilities/FsmTagLayerSetUp.cs
+    startLine: 4
+  assemblies:
+  - FSM
+  namespace: FSM.Utilities
+  syntax:
+    content: >-
+      [InitializeOnLoad]
+
+      public class FsmTagLayerSetUp
+    content.vb: >-
+      <InitializeOnLoad>
+
+      Public Class FsmTagLayerSetUp
+  inheritance:
+  - System.Object
+  attributes:
+  - type: UnityEditor.InitializeOnLoadAttribute
+    ctor: UnityEditor.InitializeOnLoadAttribute.#ctor
+    arguments: []
+references:
+- uid: FSM.Utilities
+  commentId: N:FSM.Utilities
+  href: FSM.html
+  name: FSM.Utilities
+  nameWithType: FSM.Utilities
+  fullName: FSM.Utilities
+  spec.csharp:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+  spec.vb:
+  - uid: FSM
+    name: FSM
+    href: FSM.html
+  - name: .
+  - uid: FSM.Utilities
+    name: Utilities
+    href: FSM.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

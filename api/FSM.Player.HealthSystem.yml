@@ -10,6 +10,7 @@ items:
   - FSM.Player.HealthSystem.Heal
   - FSM.Player.HealthSystem.TakeDamage(System.Single)
   - FSM.Player.HealthSystem.maxHealth
+  - FSM.Player.HealthSystem.respawnSystem
   langs:
   - csharp
   - vb
@@ -66,6 +67,33 @@ items:
     return:
       type: System.Single
     content.vb: Public maxHealth As Single
+- uid: FSM.Player.HealthSystem.respawnSystem
+  commentId: F:FSM.Player.HealthSystem.respawnSystem
+  id: respawnSystem
+  parent: FSM.Player.HealthSystem
+  langs:
+  - csharp
+  - vb
+  name: respawnSystem
+  nameWithType: HealthSystem.respawnSystem
+  fullName: FSM.Player.HealthSystem.respawnSystem
+  type: Field
+  source:
+    remote:
+      path: Assets/FSM/Player/HealthSystem.cs
+      branch: main
+      repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
+    id: respawnSystem
+    path: ../Unity_FSM_ToolKit/Assets/FSM/Player/HealthSystem.cs
+    startLine: 9
+  assemblies:
+  - FSM
+  namespace: FSM.Player
+  syntax:
+    content: public RespawnSystem respawnSystem
+    return:
+      type: FSM.Player.RespawnSystem
+    content.vb: Public respawnSystem As RespawnSystem
 - uid: FSM.Player.HealthSystem.TakeDamage(System.Single)
   commentId: M:FSM.Player.HealthSystem.TakeDamage(System.Single)
   id: TakeDamage(System.Single)
@@ -84,7 +112,7 @@ items:
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: TakeDamage
     path: ../Unity_FSM_ToolKit/Assets/FSM/Player/HealthSystem.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - FSM
   namespace: FSM.Player
@@ -119,7 +147,7 @@ items:
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: Heal
     path: ../Unity_FSM_ToolKit/Assets/FSM/Player/HealthSystem.cs
-    startLine: 31
+    startLine: 32
   assemblies:
   - FSM
   namespace: FSM.Player
@@ -147,7 +175,7 @@ items:
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetMaxHealth
     path: ../Unity_FSM_ToolKit/Assets/FSM/Player/HealthSystem.cs
-    startLine: 45
+    startLine: 49
   assemblies:
   - FSM
   namespace: FSM.Player
@@ -177,7 +205,7 @@ items:
       repo: https://github.com/acarbonellb33/Unity_FSM_ToolKit.git
     id: GetCurrentHealth
     path: ../Unity_FSM_ToolKit/Assets/FSM/Player/HealthSystem.cs
-    startLine: 52
+    startLine: 56
   assemblies:
   - FSM
   namespace: FSM.Player
@@ -275,6 +303,13 @@ references:
   nameWithType.vb: Single
   fullName.vb: Single
   name.vb: Single
+- uid: FSM.Player.RespawnSystem
+  commentId: T:FSM.Player.RespawnSystem
+  parent: FSM.Player
+  href: FSM.Player.RespawnSystem.html
+  name: RespawnSystem
+  nameWithType: RespawnSystem
+  fullName: FSM.Player.RespawnSystem
 - uid: FSM.Player.HealthSystem.TakeDamage*
   commentId: Overload:FSM.Player.HealthSystem.TakeDamage
   href: FSM.Player.HealthSystem.html#FSM_Player_HealthSystem_TakeDamage_System_Single_

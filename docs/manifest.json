@@ -1002,6 +1002,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FSM.Player.RespawnSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FSM.Player.RespawnSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FSM.Player.yml",
       "output": {
         ".html": {
@@ -1016,6 +1026,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FSM.Utilities.CustomObjectField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FSM.Utilities.FsmTagLayerSetUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FSM.Utilities.FsmTagLayerSetUp.html"
         }
       },
       "version": ""
@@ -1149,6 +1169,26 @@
       "output": {
         "resource": {
           "relative_path": "images/render.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/thumbnail.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/thumbnail.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/tutorial_video.mp4",
+      "output": {
+        "resource": {
+          "relative_path": "images/tutorial_video.mp4"
         }
       },
       "version": ""

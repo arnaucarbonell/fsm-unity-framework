@@ -5,6 +5,7 @@ items:
   id: FSM.Utilities
   children:
   - FSM.Utilities.CustomObjectField
+  - FSM.Utilities.FsmTagLayerSetUp
   - FSM.Utilities.HierarchyChecker
   - FSM.Utilities.IDGenerator
   - FSM.Utilities.SerializableDictionary
@@ -103,6 +104,12 @@ references:
   - uid: FSM.Utilities.SerializableDictionary`2.SerializableKeyValuePair
     name: SerializableKeyValuePair
     href: FSM.Utilities.SerializableDictionary-2.SerializableKeyValuePair.html
+- uid: FSM.Utilities.FsmTagLayerSetUp
+  commentId: T:FSM.Utilities.FsmTagLayerSetUp
+  href: FSM.Utilities.FsmTagLayerSetUp.html
+  name: FsmTagLayerSetUp
+  nameWithType: FsmTagLayerSetUp
+  fullName: FSM.Utilities.FsmTagLayerSetUp
 - uid: FSM.Utilities.HierarchyChecker
   commentId: T:FSM.Utilities.HierarchyChecker
   href: FSM.Utilities.HierarchyChecker.html

@@ -4,20 +4,51 @@ Welcome to the FSM Unity Framework! This framework is designed to help developer
 
 ## Installation Process
 
-For the installations process you have to follow this steps:
+To install the FSM Unity Framework, follow these steps:
 
-In this GitHubRepository you will find the lates release of the package. You just need to download the file called FsmUnityFramework.unitypackage.
-
-**Go to this GitHub Repository**: https://github.com/arnaucarbonell/fsm-unity-framework/releases
+1. **Download the Package:**
+   - Visit the [GitHub Repository](https://github.com/arnaucarbonell/fsm-unity-framework/releases) to find the latest release of the package.
+   - Download the file called `FsmUnityFramework.unitypackage`.
 
 ![Downloading](images/downloading.gif)
 
-Once this is done open your unity project. Next, you have to execute the unitypackage by double clicking the downloaded element. In you Unity project, a new package will appear with all the folders inside the package and select all the components you want to import.
+2. **Import the Package:**
+   - Open your Unity project.
+   - Double-click the downloaded `FsmUnityFramework.unitypackage` file.
+   - In your Unity project, a new package will appear with all the folders inside. Select all the components you want to import.
 
 ![Import your project](images/import.gif)
 
-The final step is to install URP to your Unity project and add the _URP render pipeline. If your project already has URP, you can skip this last step.
+3. **Install URP (Optional):** Universal Render Pipeline (URP) is a Unity library that provides a scalable and highly efficient rendering pipeline. In this project, URP has been exclusively used to enhance the visual quality of the test scene with materials that require this rendering pipeline. If your project does not have URP configured or if you want to use the test scene along with the materials and characters, follow these steps:
+   - Open the Unity Editor.
+   - Go to Window -> Package Manager.
+   - Select the "Unity Registry" tab.
+   - Search for "Universal RP" or "Universal Render Pipeline".
+   - Click on the package and then click the "Install" button at the bottom right.
+   - Once installed, configure URP in your project by going to Edit -> Project Settings -> Graphics and dragging the `_URP` asset imported from the tool package into the "Scriptable Render Pipeline Settings" section.
 
 ![Render pipeline](images/render.gif)
 
-Now you have the FSM Unity Framework imported!!!
+4. **Install AI Navigation:**
+   - AI Navigation is an essential library for enemy navigation and behavior within the game.
+   - Follow the installation process provided below:
+     - **Step 1:** Create or Open a Unity Project.
+     - **Step 2:** Install the AI Navigation Package.
+       - Open the Unity Editor.
+       - Go to Window -> Package Manager.
+       - Select the "Unity Registry" tab.
+       - Search for "AI Navigation" or "AI Pathfinding".
+       - Click on the package and then click the "Install" button at the bottom right.
+
+5. **Install ProBuild:**
+   - ProBuild is a library used for level construction and management in your game.
+   - Follow the installation process provided below:
+     - **Step 1:** Create or Open a Unity Project.
+     - **Step 2:** Install the ProBuild Package.
+       - Open the Unity Editor.
+       - Go to Window -> Package Manager.
+       - Select the "Unity Registry" tab.
+       - Search for "ProBuild" or "Level Management".
+       - Click on the package and then click the "Install" button at the bottom right.
+
+Once you have completed these steps, the FSM Unity Framework will be successfully imported into your Unity project, and you can start using it to create and manage finite state machines!

@@ -75,15 +75,80 @@
 
 <p>Welcome to the FSM Unity Framework! This framework is designed to help developers implement finite state machines in their Unity projects efficiently. With a user-friendly interface and powerful features, you can easily manage complex game states and transitions.</p>
 <h2 id="installation-process">Installation Process</h2>
-<p>For the installations process you have to follow this steps:</p>
-<p>In this GitHubRepository you will find the lates release of the package. You just need to download the file called FsmUnityFramework.unitypackage.</p>
-<p><strong>Go to this GitHub Repository</strong>: <a href="https://github.com/arnaucarbonell/fsm-unity-framework/releases">https://github.com/arnaucarbonell/fsm-unity-framework/releases</a></p>
+<p>To install the FSM Unity Framework, follow these steps:</p>
+<ol>
+<li><strong>Download the Package:</strong>
+<ul>
+<li>Visit the <a href="https://github.com/arnaucarbonell/fsm-unity-framework/releases">GitHub Repository</a> to find the latest release of the package.</li>
+<li>Download the file called <code>FsmUnityFramework.unitypackage</code>.</li>
+</ul>
+</li>
+</ol>
 <p><img src="images/downloading.gif" alt="Downloading"></p>
-<p>Once this is done open your unity project. Next, you have to execute the unitypackage by double clicking the downloaded element. In you Unity project, a new package will appear with all the folders inside the package and select all the components you want to import.</p>
+<ol start="2">
+<li><strong>Import the Package:</strong>
+<ul>
+<li>Open your Unity project.</li>
+<li>Double-click the downloaded <code>FsmUnityFramework.unitypackage</code> file.</li>
+<li>In your Unity project, a new package will appear with all the folders inside. Select all the components you want to import.</li>
+</ul>
+</li>
+</ol>
 <p><img src="images/import.gif" alt="Import your project"></p>
-<p>The final step is to install URP to your Unity project and add the _URP render pipeline. If your project already has URP, you can skip this last step.</p>
+<ol start="3">
+<li><strong>Install URP (Optional):</strong> Universal Render Pipeline (URP) is a Unity library that provides a scalable and highly efficient rendering pipeline. In this project, URP has been exclusively used to enhance the visual quality of the test scene with materials that require this rendering pipeline. If your project does not have URP configured or if you want to use the test scene along with the materials and characters, follow these steps:
+<ul>
+<li>Open the Unity Editor.</li>
+<li>Go to Window -&gt; Package Manager.</li>
+<li>Select the &quot;Unity Registry&quot; tab.</li>
+<li>Search for &quot;Universal RP&quot; or &quot;Universal Render Pipeline&quot;.</li>
+<li>Click on the package and then click the &quot;Install&quot; button at the bottom right.</li>
+<li>Once installed, configure URP in your project by going to Edit -&gt; Project Settings -&gt; Graphics and dragging the <code>_URP</code> asset imported from the tool package into the &quot;Scriptable Render Pipeline Settings&quot; section.</li>
+</ul>
+</li>
+</ol>
 <p><img src="images/render.gif" alt="Render pipeline"></p>
-<p>Now you have the FSM Unity Framework imported!!!</p>
+<ol start="4">
+<li><p><strong>Install AI Navigation:</strong></p>
+<ul>
+<li>AI Navigation is an essential library for enemy navigation and behavior within the game.</li>
+<li>Follow the installation process provided below:
+<ul>
+<li><strong>Step 1:</strong> Create or Open a Unity Project.</li>
+<li><strong>Step 2:</strong> Install the AI Navigation Package.
+<ul>
+<li>Open the Unity Editor.</li>
+<li>Go to Window -&gt; Package Manager.</li>
+<li>Select the &quot;Unity Registry&quot; tab.</li>
+<li>Search for &quot;AI Navigation&quot; or &quot;AI Pathfinding&quot;.</li>
+<li>Click on the package and then click the &quot;Install&quot; button at the bottom right.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Install ProBuild:</strong></p>
+<ul>
+<li>ProBuild is a library used for level construction and management in your game.</li>
+<li>Follow the installation process provided below:
+<ul>
+<li><strong>Step 1:</strong> Create or Open a Unity Project.</li>
+<li><strong>Step 2:</strong> Install the ProBuild Package.
+<ul>
+<li>Open the Unity Editor.</li>
+<li>Go to Window -&gt; Package Manager.</li>
+<li>Select the &quot;Unity Registry&quot; tab.</li>
+<li>Search for &quot;ProBuild&quot; or &quot;Level Management&quot;.</li>
+<li>Click on the package and then click the &quot;Install&quot; button at the bottom right.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Once you have completed these steps, the FSM Unity Framework will be successfully imported into your Unity project, and you can start using it to create and manage finite state machines!</p>
 
 </article>
 
